@@ -1,0 +1,50 @@
+[
+  {
+    "fixture_id": 1035037,
+    "league": "Premier League",
+    "competition_key": "premier_league",
+    "season": 2023,
+    "minute": 4,
+    "extra_time": null,
+    "team": "Manchester City",
+    "player": "E. Haaland",
+    "assist": "Rodri",
+    "goal_type": "Normal Goal",
+    "home_team": "Burnley",
+    "away_team": "Manchester City",
+    "home_goals": 0,
+    "away_goals": 3
+  },
+  {
+    "fixture_id": 1035037,
+    "league": "Premier League",
+    "competition_key": "premier_league",
+    "season": 2023,
+    "minute": 36,
+    "extra_time": null,
+    "team": "Manchester City",
+    "player": "E. Haaland",
+    "assist": "J. \u00c1lvarez",
+    "goal_type": "Normal Goal",
+    "home_team": "Burnley",
+    "away_team": "Manchester City",
+    "home_goals": 0,
+    "away_goals": 3
+  },
+  {
+    "fixture_id": 1035037,
+    "league": "Premier League",
+    "competition_key": "premier_league",
+    "season": 2023,
+    "minute": 75,
+    "extra_time": null,
+    "team": "Manchester City",
+    "player": "Rodri",
+    "assist": null,
+    "goal_type": "Normal Goal",
+    "home_team": "Burnley",
+    "away_team": "Manchester City",
+    "home_goals": 0,
+    "away_goals": 3
+  }
+]
