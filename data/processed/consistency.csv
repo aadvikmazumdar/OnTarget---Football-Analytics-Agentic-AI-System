@@ -1,0 +1,133 @@
+team_name,league,seasons_played,seasons_clinical,seasons_solid_defence,avg_xGD_attack,avg_xGD_defence,avg_clinical_rate,avg_heist_rate,avg_robbery_rate,total_heists,total_grand_heists,total_robberies,total_gk_worldies,best_xGD_attack_season,worst_xGD_attack_season,attack_verdict,defence_verdict
+AC Milan,serie_a,5,2,3,-1.9304,-2.3162,0.46840000000000004,0.0842,0.057999999999999996,16,0,11,5,4.144,-8.51,inconsistent,inconsistent_defence
+Ajaccio,ligue_1,1,0,0,-8.06,17.873,0.105,0.105,0.079,4,2,3,2,-8.06,-8.06,systematic_underperformer,systematic_defensive_underperformer
+Alaves,la_liga,4,0,2,-8.73075,-0.6717499999999998,0.30274999999999996,0.066,0.112,10,1,17,9,-3.113,-15.968,systematic_underperformer,inconsistent_defence
+Almeria,la_liga,2,1,1,-1.9945,-0.5569999999999999,0.3815,0.066,0.092,5,1,7,4,2.907,-6.896,inconsistent,inconsistent_defence
+Angers,ligue_1,4,1,1,-4.193,2.94925,0.33,0.0335,0.05325,5,1,8,4,0.083,-8.042,inconsistent,inconsistent_defence
+Arminia Bielefeld,bundesliga,2,0,2,-2.682,-11.824,0.2945,0.0735,0.044,5,2,3,10,-0.224,-5.14,systematic_underperformer,systematic_defensive_overperformer
+Arsenal,premier_league,5,3,5,2.7774,-3.1094,0.484,0.0632,0.0738,12,3,14,12,11.488,-4.57,inconsistent,systematic_defensive_overperformer
+Aston Villa,premier_league,5,3,4,1.6703999999999997,-4.4758000000000004,0.458,0.0844,0.0844,16,5,16,15,8.87,-8.385,inconsistent,systematic_defensive_overperformer
+Atalanta,serie_a,5,3,2,2.2887999999999997,0.7632000000000001,0.5105999999999999,0.0316,0.08399999999999999,6,1,16,15,7.993,-3.722,inconsistent,inconsistent_defence
+Athletic Club,la_liga,5,1,3,-5.3274,-2.5316,0.3946,0.0634,0.07880000000000001,12,3,15,5,2.936,-14.014,systematic_underperformer,inconsistent_defence
+Atletico Madrid,la_liga,5,4,4,2.4108,-4.5294,0.4896,0.1002,0.0896,19,3,17,8,9.336,-4.322,systematic_overperformer,systematic_defensive_overperformer
+Augsburg,bundesliga,5,3,5,0.5528000000000001,-3.5728,0.44719999999999993,0.10600000000000001,0.07039999999999999,18,3,12,13,5.974,-4.128,inconsistent,systematic_defensive_overperformer
+Auxerre,ligue_1,2,1,2,0.0040000000000000036,-6.9270000000000005,0.4375,0.054,0.041,4,0,3,7,5.22,-5.212,inconsistent,systematic_defensive_overperformer
+Barcelona,la_liga,5,2,4,-2.9036,-3.7537999999999996,0.4314,0.06860000000000001,0.08940000000000001,13,2,17,4,2.535,-12.793,inconsistent,systematic_defensive_overperformer
+Bayer Leverkusen,bundesliga,5,5,2,7.7354,-0.8132000000000001,0.5412,0.0764,0.0588,13,3,10,5,13.688,3.316,systematic_overperformer,inconsistent_defence
+Bayern Munich,bundesliga,5,3,1,6.1252,3.6596,0.5294000000000001,0.023399999999999997,0.07039999999999999,4,1,12,2,23.068,-2.906,inconsistent,systematic_defensive_underperformer
+Benevento,serie_a,1,1,0,1.347,4.523,0.395,0.132,0.105,5,2,4,3,1.347,1.347,systematic_overperformer,systematic_defensive_underperformer
+Bochum,bundesliga,4,0,2,-7.5920000000000005,-1.4045,0.29425,0.08825,0.07325,12,5,10,15,-0.077,-14.068,systematic_underperformer,inconsistent_defence
+Bologna,serie_a,5,1,4,-0.11600000000000008,-2.8518,0.4264,0.06839999999999999,0.0738,13,3,14,9,7.714,-6.533,systematic_underperformer,systematic_defensive_overperformer
+Bordeaux,ligue_1,2,1,0,2.0845000000000002,11.152,0.5,0.0525,0.0525,4,1,4,4,5.719,-1.55,inconsistent,systematic_defensive_underperformer
+Borussia Dortmund,bundesliga,5,4,1,6.105600000000001,0.4128000000000001,0.5824,0.0824,0.0824,14,1,14,6,19.354,-3.164,systematic_overperformer,systematic_defensive_underperformer
+Borussia M.Gladbach,bundesliga,5,3,2,1.7730000000000001,0.3110000000000003,0.4532,0.06459999999999999,0.0408,11,3,7,11,9.891,-5.922,inconsistent,inconsistent_defence
+Bournemouth,premier_league,3,0,1,-9.153333333333334,-1.0346666666666664,0.3156666666666667,0.06133333333333333,0.07033333333333333,7,2,8,5,-3.084,-14.621,systematic_underperformer,inconsistent_defence
+Brentford,premier_league,4,0,2,-3.88225,0.48024999999999984,0.42100000000000004,0.06575,0.09225,10,0,14,5,-1.12,-8.292,systematic_underperformer,inconsistent_defence
+Brest,ligue_1,5,4,4,2.249,-2.7218000000000004,0.43439999999999995,0.1326,0.059199999999999996,24,5,11,13,4.229,-0.78,systematic_overperformer,systematic_defensive_overperformer
+Brighton,premier_league,5,1,2,-6.6592,1.3332000000000002,0.41580000000000006,0.074,0.095,14,2,18,4,0.723,-13.819,systematic_underperformer,inconsistent_defence
+Burnley,premier_league,3,0,2,-4.892,-2.999333333333334,0.29833333333333334,0.07033333333333334,0.08766666666666667,8,2,10,11,-2.442,-7.106,systematic_underperformer,inconsistent_defence
+Cadiz,la_liga,4,0,4,-8.04025,-5.81925,0.26975,0.04625,0.02625,7,2,4,13,-0.7,-12.684,systematic_underperformer,systematic_defensive_overperformer
+Cagliari,serie_a,4,0,3,-5.3782499999999995,-1.998,0.38825,0.04575,0.06575,7,1,10,7,-2.601,-8.732,systematic_underperformer,inconsistent_defence
+Celta Vigo,la_liga,5,3,2,-1.4696000000000002,2.1912,0.40519999999999995,0.09480000000000001,0.11059999999999999,18,7,21,5,3.677,-10.39,inconsistent,inconsistent_defence
+Chelsea,premier_league,5,1,3,-6.1694,-2.981,0.39980000000000004,0.0948,0.0842,18,4,16,6,6.703,-13.895,systematic_underperformer,inconsistent_defence
+Clermont Foot,ligue_1,3,0,2,-6.1370000000000005,-1.8153333333333332,0.371,0.09866666666666667,0.03733333333333333,11,2,4,11,-4.074,-9.689,systematic_underperformer,inconsistent_defence
+Como,serie_a,1,0,0,-0.756,1.892,0.342,0.079,0.105,3,1,4,1,-0.756,-0.756,systematic_underperformer,systematic_defensive_underperformer
+Cremonese,serie_a,1,0,1,-0.592,-0.551,0.368,0.053,0.079,2,1,3,2,-0.592,-0.592,systematic_underperformer,systematic_defensive_overperformer
+Crotone,serie_a,1,1,0,5.36,14.517,0.447,0.053,0.053,2,0,2,0,5.36,5.36,systematic_overperformer,systematic_defensive_underperformer
+Crystal Palace,premier_league,5,3,2,-1.5139999999999998,-0.3472000000000001,0.3578,0.0528,0.0632,10,2,12,14,5.713,-16.781,inconsistent,inconsistent_defence
+Darmstadt,bundesliga,1,0,0,-4.563,4.884,0.353,0.0,0.088,0,0,3,2,-4.563,-4.563,systematic_underperformer,systematic_defensive_underperformer
+Dijon,ligue_1,1,0,1,-6.852,-3.122,0.263,0.053,0.053,2,1,2,4,-6.852,-6.852,systematic_underperformer,systematic_defensive_overperformer
+Eibar,la_liga,1,0,0,-13.454,3.164,0.237,0.026,0.211,1,1,8,1,-13.454,-13.454,systematic_underperformer,systematic_defensive_underperformer
+Eintracht Frankfurt,bundesliga,5,3,3,2.2288,-0.9745999999999999,0.4766,0.08839999999999999,0.053000000000000005,15,4,9,8,8.475,-4.845,inconsistent,inconsistent_defence
+Elche,la_liga,3,2,3,-1.1696666666666662,-8.464666666666666,0.3333333333333333,0.08766666666666667,0.05266666666666667,10,3,6,8,3.596,-10.29,inconsistent,systematic_defensive_overperformer
+Empoli,serie_a,4,1,3,-3.5359999999999996,-4.5649999999999995,0.34199999999999997,0.079,0.0725,12,3,11,14,4.483,-9.061,inconsistent,inconsistent_defence
+Espanyol,la_liga,3,3,2,1.1273333333333333,-2.3553333333333337,0.4123333333333334,0.14933333333333335,0.09666666666666668,17,3,11,8,1.323,0.959,systematic_overperformer,inconsistent_defence
+Everton,premier_league,5,0,4,-8.796000000000001,-5.4722,0.305,0.0948,0.0948,18,1,18,14,-1.47,-20.754,systematic_underperformer,systematic_defensive_overperformer
+FC Cologne,bundesliga,4,0,2,-6.07975,0.7109999999999999,0.33099999999999996,0.0515,0.0735,7,3,10,10,-0.3,-16.337,systematic_underperformer,inconsistent_defence
+FC Heidenheim,bundesliga,2,1,2,0.7295000000000003,-5.715999999999999,0.471,0.1025,0.044,7,4,3,7,7.421,-5.962,inconsistent,systematic_defensive_overperformer
+Fiorentina,serie_a,5,3,4,0.5277999999999999,-3.5822000000000003,0.4,0.11599999999999999,0.058199999999999995,22,5,11,8,5.89,-3.904,inconsistent,systematic_defensive_overperformer
+Freiburg,bundesliga,5,3,4,-1.0286,-1.0153999999999999,0.3532,0.0766,0.040999999999999995,13,3,7,10,6.886,-7.5,inconsistent,systematic_defensive_overperformer
+Frosinone,serie_a,1,0,0,-6.202,3.952,0.421,0.079,0.053,3,1,2,2,-6.202,-6.202,systematic_underperformer,systematic_defensive_underperformer
+Fulham,premier_league,4,2,3,-2.213,-6.066,0.41425,0.09875,0.08549999999999999,15,4,13,9,7.015,-14.055,inconsistent,inconsistent_defence
+Genoa,serie_a,4,2,4,-0.489,-3.0010000000000003,0.32225000000000004,0.0855,0.079,13,1,12,5,6.307,-11.534,inconsistent,systematic_defensive_overperformer
+Getafe,la_liga,5,1,4,-5.3473999999999995,-3.7474,0.32080000000000003,0.08420000000000001,0.0842,16,2,16,8,1.446,-8.277,systematic_underperformer,systematic_defensive_overperformer
+Girona,la_liga,3,2,1,2.6306666666666665,-4.0089999999999995,0.42100000000000004,0.07933333333333333,0.06133333333333333,9,3,7,8,6.951,-2.261,inconsistent,inconsistent_defence
+Granada,la_liga,3,2,1,1.0226666666666666,3.259,0.36833333333333335,0.05266666666666667,0.09666666666666668,6,1,11,2,5.949,-5.583,inconsistent,inconsistent_defence
+Greuther Fuerth,bundesliga,1,0,0,-2.636,21.456,0.265,0.059,0.059,2,1,2,2,-2.636,-2.636,systematic_underperformer,systematic_defensive_underperformer
+Hertha Berlin,bundesliga,3,2,0,-0.015666666666666645,8.031666666666666,0.38199999999999995,0.029,0.07866666666666666,3,1,8,8,0.562,-0.895,inconsistent,systematic_defensive_underperformer
+Hoffenheim,bundesliga,5,3,1,1.8859999999999997,2.3408,0.4766,0.06459999999999999,0.0706,11,2,12,8,9.751,-1.766,inconsistent,systematic_defensive_underperformer
+Holstein Kiel,bundesliga,1,1,0,5.432,9.413,0.471,0.059,0.059,2,1,2,1,5.432,5.432,systematic_overperformer,systematic_defensive_underperformer
+Inter,serie_a,5,3,4,1.7451999999999999,-5.2684,0.5104,0.0578,0.07919999999999999,11,2,15,10,10.654,-6.384,inconsistent,systematic_defensive_overperformer
+Ipswich,premier_league,1,0,1,-4.421,-1.733,0.368,0.053,0.053,2,0,2,6,-4.421,-4.421,systematic_underperformer,systematic_defensive_overperformer
+Juventus,serie_a,5,0,5,-4.7398,-2.5759999999999996,0.4422,0.0422,0.0686,8,1,13,4,-0.118,-9.482,systematic_underperformer,systematic_defensive_overperformer
+Las Palmas,la_liga,2,1,2,-0.942,-12.783999999999999,0.40800000000000003,0.14500000000000002,0.0655,11,5,5,10,0.939,-2.823,inconsistent,systematic_defensive_overperformer
+Lazio,serie_a,5,3,2,3.7995999999999994,0.13260000000000022,0.46320000000000006,0.0896,0.0792,17,3,15,7,17.709,-4.319,inconsistent,inconsistent_defence
+Le Havre,ligue_1,2,0,1,-5.201499999999999,-4.126,0.353,0.044,0.103,3,1,7,4,-5.053,-5.35,systematic_underperformer,inconsistent_defence
+Lecce,serie_a,3,0,2,-9.848333333333334,-5.166333333333333,0.30666666666666664,0.06133333333333333,0.07033333333333333,7,4,8,9,-3.935,-15.623,systematic_underperformer,inconsistent_defence
+Leeds,premier_league,3,2,1,-2.0803333333333334,2.3623333333333334,0.37733333333333335,0.08800000000000001,0.079,10,2,9,8,2.741,-9.186,inconsistent,inconsistent_defence
+Leganes,la_liga,1,1,1,0.436,-9.355,0.368,0.079,0.0,3,2,0,4,0.436,0.436,systematic_overperformer,systematic_defensive_overperformer
+Leicester,premier_league,4,3,2,4.666499999999999,-0.4619999999999995,0.5,0.112,0.079,17,3,12,11,12.511,-5.058,inconsistent,inconsistent_defence
+Lens,ligue_1,5,1,3,-5.469200000000001,-4.998399999999999,0.4124,0.07680000000000001,0.0938,14,2,17,11,9.764,-17.082,systematic_underperformer,inconsistent_defence
+Levante,la_liga,2,1,0,-0.7454999999999998,7.6315,0.434,0.0925,0.1185,7,1,9,4,5.073,-6.564,inconsistent,systematic_defensive_underperformer
+Lille,ligue_1,5,1,3,-2.6906,-1.1936000000000004,0.45339999999999997,0.078,0.0986,14,3,18,8,15.926,-9.234,systematic_underperformer,inconsistent_defence
+Liverpool,premier_league,5,1,5,-5.0052,-5.7058,0.4316,0.0422,0.0528,8,0,10,10,0.978,-8.785,systematic_underperformer,systematic_defensive_overperformer
+Lorient,ligue_1,4,3,1,1.5555,5.26125,0.40549999999999997,0.106,0.07400000000000001,16,4,11,3,4.654,-4.318,inconsistent,inconsistent_defence
+Luton,premier_league,1,1,1,2.128,-6.648,0.447,0.079,0.132,3,2,5,6,2.128,2.128,systematic_overperformer,systematic_defensive_overperformer
+Lyon,ligue_1,5,1,4,-3.9480000000000004,-1.036,0.42300000000000004,0.0786,0.10500000000000001,14,1,19,8,0.018,-7.32,systematic_underperformer,systematic_defensive_overperformer
+Mainz 05,bundesliga,5,1,1,-4.3062000000000005,-0.4263999999999998,0.3472,0.0588,0.0882,10,5,15,7,3.512,-12.678,systematic_underperformer,systematic_defensive_underperformer
+Mallorca,la_liga,4,0,3,-6.3185,-2.625,0.3155,0.09874999999999999,0.066,15,6,10,9,-2.561,-9.402,systematic_underperformer,inconsistent_defence
+Manchester City,premier_league,5,4,3,5.1732,-2.2414,0.5105999999999999,0.047599999999999996,0.0422,9,3,8,6,9.678,-1.148,systematic_overperformer,inconsistent_defence
+Manchester United,premier_league,5,1,3,-4.1058,-5.7094,0.40519999999999995,0.095,0.05800000000000001,18,1,11,15,9.828,-13.901,systematic_underperformer,inconsistent_defence
+Marseille,ligue_1,5,3,3,-0.19620000000000015,-2.1346000000000003,0.4114,0.1042,0.08080000000000001,19,3,15,11,5.156,-8.034,inconsistent,inconsistent_defence
+Metz,ligue_1,3,3,3,2.407,-1.305,0.42766666666666664,0.09066666666666667,0.10166666666666667,10,1,11,6,4.854,0.631,systematic_overperformer,systematic_defensive_overperformer
+Monaco,ligue_1,5,4,2,0.14399999999999977,1.1487999999999998,0.4328,0.0774,0.0736,14,1,13,5,5.646,-13.925,systematic_overperformer,inconsistent_defence
+Montpellier,ligue_1,5,3,3,0.7271999999999998,-2.127,0.4018,0.0754,0.0504,14,4,9,12,12.445,-15.452,inconsistent,inconsistent_defence
+Monza,serie_a,3,1,2,-2.494666666666667,-4.104666666666667,0.32466666666666666,0.06133333333333333,0.044000000000000004,7,2,5,7,3.194,-6.554,inconsistent,inconsistent_defence
+Nantes,ligue_1,5,1,4,-3.0008000000000004,-4.4702,0.356,0.094,0.0506,17,2,9,13,9.231,-9.442,systematic_underperformer,systematic_defensive_overperformer
+Napoli,serie_a,5,4,4,3.0232,-1.337,0.47379999999999994,0.041999999999999996,0.0842,8,3,16,4,11.021,-13.489,systematic_overperformer,systematic_defensive_overperformer
+Newcastle United,premier_league,5,3,4,-1.4846000000000001,-3.0048000000000004,0.3842,0.0632,0.06839999999999999,12,2,13,8,2.473,-8.977,inconsistent,systematic_defensive_overperformer
+Nice,ligue_1,5,1,5,-6.17,-6.1542,0.3668,0.0814,0.1,15,3,18,11,3.632,-14.815,systematic_underperformer,systematic_defensive_overperformer
+Nimes,ligue_1,1,0,0,-1.393,6.829,0.421,0.105,0.105,4,0,4,1,-1.393,-1.393,systematic_underperformer,systematic_defensive_underperformer
+Norwich,premier_league,1,0,0,-8.512,3.925,0.263,0.079,0.053,3,1,2,3,-8.512,-8.512,systematic_underperformer,systematic_defensive_underperformer
+Nottingham Forest,premier_league,3,1,2,0.17333333333333348,0.12400000000000055,0.42966666666666664,0.09666666666666668,0.12266666666666669,11,4,14,9,5.251,-3.157,inconsistent,inconsistent_defence
+Osasuna,la_liga,5,0,4,-2.8552,-3.7754000000000003,0.3738,0.095,0.0368,18,5,7,9,-0.787,-5.027,systematic_underperformer,systematic_defensive_overperformer
+Paris Saint Germain,ligue_1,5,4,5,1.8228000000000002,-6.414,0.49720000000000003,0.07339999999999999,0.0434,13,1,8,11,8.118,-11.633,systematic_overperformer,systematic_defensive_overperformer
+Parma Calcio 1913,serie_a,2,0,1,-3.965,4.1499999999999995,0.36850000000000005,0.0525,0.079,4,2,6,1,-3.95,-3.98,systematic_underperformer,inconsistent_defence
+RasenBallsport Leipzig,bundesliga,5,3,3,-0.4688,-4.2454,0.4766,0.053000000000000005,0.0764,9,2,13,6,4.604,-7.143,inconsistent,inconsistent_defence
+Rayo Vallecano,la_liga,4,1,3,-7.9855,-3.1205,0.33525,0.08549999999999999,0.112,13,3,17,10,2.463,-17.401,inconsistent,inconsistent_defence
+Real Betis,la_liga,5,2,4,-2.2958000000000003,-4.8149999999999995,0.41559999999999997,0.063,0.0634,12,1,12,8,6.096,-9.098,inconsistent,systematic_defensive_overperformer
+Real Madrid,la_liga,5,2,5,-1.3321999999999998,-10.0574,0.47379999999999994,0.0842,0.0422,16,2,8,7,6.118,-10.096,inconsistent,systematic_defensive_overperformer
+Real Sociedad,la_liga,5,1,5,-8.5732,-3.4665999999999997,0.3262,0.0526,0.0736,10,0,14,7,1.836,-16.085,systematic_underperformer,systematic_defensive_overperformer
+Real Valladolid,la_liga,3,0,1,-6.9526666666666666,3.360333333333333,0.333,0.043666666666666666,0.07933333333333333,5,1,9,5,-3.917,-10.082,systematic_underperformer,inconsistent_defence
+Reims,ligue_1,5,2,5,-3.4734000000000003,-8.9516,0.3476,0.08280000000000001,0.06620000000000001,15,2,12,15,8.77,-14.523,inconsistent,systematic_defensive_overperformer
+Rennes,ligue_1,5,3,3,3.5936,-0.5900000000000001,0.48,0.0598,0.11080000000000001,11,2,20,6,13.759,-3.003,inconsistent,inconsistent_defence
+Roma,serie_a,5,1,2,-4.7824,-0.6738,0.3894,0.0316,0.057999999999999996,6,0,11,5,8.084,-14.017,systematic_underperformer,inconsistent_defence
+SD Huesca,la_liga,1,0,0,-3.976,4.364,0.289,0.026,0.132,1,0,5,3,-3.976,-3.976,systematic_underperformer,systematic_defensive_underperformer
+Saint-Etienne,ligue_1,3,1,1,-1.6516666666666666,3.3556666666666666,0.33499999999999996,0.06433333333333334,0.07033333333333334,7,2,8,9,1.817,-5.28,inconsistent,inconsistent_defence
+Salernitana,serie_a,3,2,1,2.2066666666666666,-0.6876666666666669,0.43,0.079,0.026333333333333334,9,2,3,7,12.557,-6.49,inconsistent,inconsistent_defence
+Sampdoria,serie_a,3,2,1,0.3689999999999998,-0.8836666666666667,0.4126666666666667,0.079,0.06999999999999999,9,2,8,8,6.91,-11.102,inconsistent,inconsistent_defence
+Sassuolo,serie_a,4,2,1,0.49950000000000017,3.58875,0.388,0.10525000000000001,0.07225000000000001,16,3,11,8,4.64,-4.504,inconsistent,inconsistent_defence
+Schalke 04,bundesliga,2,0,0,-4.102,12.4025,0.27949999999999997,0.059,0.0735,4,0,5,3,-2.66,-5.544,systematic_underperformer,systematic_defensive_underperformer
+Sevilla,la_liga,5,1,4,-1.8105999999999998,-4.139,0.39459999999999995,0.0896,0.0894,17,4,17,13,6.147,-5.534,systematic_underperformer,systematic_defensive_overperformer
+Sheffield United,premier_league,2,0,1,-9.7325,7.592499999999999,0.32899999999999996,0.079,0.079,6,1,6,4,-6.306,-13.159,systematic_underperformer,inconsistent_defence
+Southampton,premier_league,4,1,1,-4.63225,2.4117499999999996,0.37475,0.079,0.09875,12,2,15,11,1.715,-12.631,inconsistent,inconsistent_defence
+Spezia,serie_a,3,1,1,-2.061666666666667,0.35000000000000003,0.36833333333333335,0.09633333333333333,0.06133333333333333,11,7,7,10,4.101,-9.637,inconsistent,inconsistent_defence
+St. Pauli,bundesliga,1,0,1,-11.474,-12.496,0.235,0.0,0.059,0,0,2,4,-11.474,-11.474,systematic_underperformer,systematic_defensive_overperformer
+Strasbourg,ligue_1,5,1,3,-1.8546,-1.9649999999999999,0.44480000000000003,0.0686,0.0854,12,3,16,6,2.186,-4.692,systematic_underperformer,inconsistent_defence
+Torino,serie_a,5,2,3,-3.6519999999999997,-1.7759999999999998,0.36819999999999997,0.0738,0.0422,14,2,8,8,1.707,-7.754,inconsistent,inconsistent_defence
+Tottenham,premier_league,5,4,4,4.764799999999999,-2.0416,0.4524,0.0738,0.079,14,1,15,10,12.166,-1.363,systematic_overperformer,systematic_defensive_overperformer
+Toulouse,ligue_1,3,0,2,-7.499,-0.6426666666666666,0.3786666666666667,0.048999999999999995,0.17200000000000001,5,0,18,4,-2.845,-10.886,systematic_underperformer,inconsistent_defence
+Troyes,ligue_1,2,1,1,2.815,-1.3920000000000001,0.434,0.0265,0.066,2,0,5,6,8.289,-2.659,inconsistent,inconsistent_defence
+Udinese,serie_a,5,1,3,-2.8701999999999996,-0.15180000000000007,0.3788,0.0792,0.0896,15,1,17,13,3.829,-7.881,systematic_underperformer,inconsistent_defence
+Union Berlin,bundesliga,5,2,3,-0.8058000000000002,-0.19140000000000001,0.4354,0.094,0.0648,16,2,11,9,15.926,-11.742,inconsistent,inconsistent_defence
+Valencia,la_liga,5,2,4,-1.17,-3.6800000000000006,0.3788,0.079,0.0736,15,3,14,8,8.111,-11.64,inconsistent,systematic_defensive_overperformer
+Venezia,serie_a,2,0,2,-5.8915,-8.639,0.263,0.026,0.079,2,1,6,7,-2.158,-9.625,systematic_underperformer,systematic_defensive_overperformer
+Verona,serie_a,5,1,2,-1.2814,1.3232000000000002,0.3894,0.0896,0.0844,17,3,16,8,8.615,-6.272,systematic_underperformer,inconsistent_defence
+VfB Stuttgart,bundesliga,5,1,1,-3.082,2.0264,0.38239999999999996,0.0588,0.12940000000000002,10,1,22,9,3.822,-7.186,systematic_underperformer,systematic_defensive_underperformer
+Villarreal,la_liga,5,2,4,-1.922,-4.6648000000000005,0.39980000000000004,0.079,0.0896,15,1,17,9,5.193,-7.332,inconsistent,systematic_defensive_overperformer
+Watford,premier_league,1,0,0,-5.34,9.466,0.316,0.0,0.184,0,0,7,2,-5.34,-5.34,systematic_underperformer,systematic_defensive_underperformer
+Werder Bremen,bundesliga,4,3,1,2.55275,1.00975,0.4415,0.0885,0.08825,12,3,12,6,8.086,-2.262,inconsistent,inconsistent_defence
+West Bromwich Albion,premier_league,1,1,0,0.029,1.961,0.289,0.079,0.053,3,3,2,4,0.029,0.029,systematic_overperformer,systematic_defensive_underperformer
+West Ham,premier_league,5,3,5,-0.3304000000000002,-3.2094,0.41559999999999997,0.0896,0.07880000000000001,17,3,15,12,5.47,-9.211,inconsistent,systematic_defensive_overperformer
+Wolfsburg,bundesliga,5,3,3,1.7082000000000002,-0.7308,0.42940000000000006,0.11159999999999999,0.0764,19,6,13,8,9.406,-6.274,inconsistent,inconsistent_defence
+Wolverhampton Wanderers,premier_league,5,1,4,0.03760000000000012,-4.8074,0.4368,0.13720000000000002,0.0738,26,3,14,9,8.629,-4.127,systematic_underperformer,systematic_defensive_overperformer
