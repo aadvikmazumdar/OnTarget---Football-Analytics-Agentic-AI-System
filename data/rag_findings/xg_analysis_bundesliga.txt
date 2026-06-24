@@ -21,6 +21,10 @@ Z-SCORES: xGD_attack=-0.54σ | heist_rate=+0.04σ | xGD_defence=-1.93σ
 SEASON_PROGRESSION (xGD_attack): 2020: -5.1 → 2021: -0.2
 PEAK: best season 2021 (-0.22 xGD attack) | worst season 2020 (-5.14 xGD attack)
 GAME TAGS: heists=5 (rate=7.3%) | grand_heists=2 | robberies=3 | gk_worldies=10
+TOP GAME TAGS: Normal: 16 | Wasteful: 15 | Clinical: 14 | GK Worldie: 8 | Robbery: 3
+STORY TAGS: Fatigue Heist: 3 | Absolute Chaos: 1 | Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=7 | avg_xGD_fatigue=-0.18 | avg_xGD_normal=-0.07
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Arminia Bielefeld are a defensively elite side in Bundesliga — averaging -2.68 xGD attack (-0.5σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -34,6 +38,10 @@ Z-SCORES: xGD_attack=+0.07σ | heist_rate=+0.92σ | xGD_defence=-0.60σ
 SEASON_PROGRESSION (xGD_attack): 2020: 0.0 → 2021: +0.0 → 2022: +6.0 → 2023: +0.9 → 2024: -4.1
 PEAK: best season 2022 (+5.97 xGD attack) | worst season 2024 (-4.13 xGD attack)
 GAME TAGS: heists=18 (rate=10.6%) | grand_heists=3 | robberies=12 | gk_worldies=13
+TOP GAME TAGS: Clinical: 41 | Wasteful: 36 | Normal: 26 | Heist: 15 | GK Nightmare: 10
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 2 | Carried and Won: 2 | Nothing Game: 1 | The Heist of Heists: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.36 | avg_xGD_normal=+0.05
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Augsburg are a defensively elite side in Bundesliga — averaging +0.55 xGD attack (+0.1σ vs league), solid in defence 5/5 seasons. Declining trend since 2022 peak.
 ---
@@ -47,6 +55,10 @@ Z-SCORES: xGD_attack=+1.12σ | heist_rate=+0.12σ | xGD_defence=-0.21σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.7 → 2021: +13.7 → 2022: +3.3 → 2023: +7.0 → 2024: +9.0
 PEAK: best season 2021 (+13.69 xGD attack) | worst season 2022 (+3.32 xGD attack)
 GAME TAGS: heists=13 (rate=7.6%) | grand_heists=3 | robberies=10 | gk_worldies=5
+TOP GAME TAGS: Clinical: 30 | Wasteful: 30 | Dominant Win: 29 | Ultra Clinical: 22 | Normal: 10
+STORY TAGS: Absolute Chaos: 4 | Nothing Game: 3 | Game of the Season: 1 | Fatigue Heist: 1 | Total Domination: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=+0.25 | avg_xGD_normal=+0.23
 VERDICT: attack=systematic_overperformer | defence=inconsistent_defence
 INSIGHT: Bayer Leverkusen are a consistently clinical finishers side in Bundesliga — averaging +7.74 xGD attack (+1.1σ vs league), solid in defence 2/5 seasons. Declining trend since 2021 peak.
 ---
@@ -60,6 +72,10 @@ Z-SCORES: xGD_attack=+0.86σ | heist_rate=-1.13σ | xGD_defence=+0.53σ
 SEASON_PROGRESSION (xGD_attack): 2020: +23.1 → 2021: -2.9 → 2022: +6.9 → 2023: -0.4 → 2024: +4.0
 PEAK: best season 2020 (+23.07 xGD attack) | worst season 2021 (-2.91 xGD attack)
 GAME TAGS: heists=4 (rate=2.3%) | grand_heists=1 | robberies=12 | gk_worldies=2
+TOP GAME TAGS: Dominant Win: 64 | Wasteful: 24 | Clinical: 22 | Ultra Clinical: 19 | Home Bottled: 11
+STORY TAGS: Game of the Season: 2 | The Horror Show: 2 | Absolute Chaos: 1 | Fatigue Heist: 1 | Derby Robbery: 1
+DERBY: Der Klassiker | W6 D3 L1 | avg_xGD: +0.36
+FATIGUE: fatigue_games=14 | avg_xGD_fatigue=-0.11 | avg_xGD_normal=+0.21
 VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
 INSIGHT: Bayern Munich are a balanced side in Bundesliga — averaging +6.13 xGD attack (+0.9σ vs league), solid in defence 1/5 seasons. Declining trend since 2020 peak.
 ---
@@ -73,6 +89,10 @@ Z-SCORES: xGD_attack=-1.12σ | heist_rate=+0.45σ | xGD_defence=-0.09σ
 SEASON_PROGRESSION (xGD_attack): 2021: -6.8 → 2022: -0.1 → 2023: -9.4 → 2024: -14.1
 PEAK: best season 2022 (-0.08 xGD attack) | worst season 2024 (-14.07 xGD attack)
 GAME TAGS: heists=12 (rate=8.8%) | grand_heists=5 | robberies=10 | gk_worldies=15
+TOP GAME TAGS: Wasteful: 43 | Clinical: 17 | Normal: 13 | GK Worldie: 12 | GK Nightmare: 12
+STORY TAGS: Absolute Chaos: 3 | Perfect Storm: 1 | Bottle Job: 1 | Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=6 | avg_xGD_fatigue=-0.05 | avg_xGD_normal=-0.23
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Bochum are a balanced side in Bundesliga — averaging -7.59 xGD attack (-1.1σ vs league), solid in defence 2/4 seasons. Declining trend since 2022 peak.
 ---
@@ -86,6 +106,10 @@ Z-SCORES: xGD_attack=+0.89σ | heist_rate=+0.20σ | xGD_defence=+0.00σ
 SEASON_PROGRESSION (xGD_attack): 2020: +6.0 → 2021: +19.4 → 2022: +6.0 → 2023: -3.2 → 2024: +2.3
 PEAK: best season 2021 (+19.35 xGD attack) | worst season 2023 (-3.16 xGD attack)
 GAME TAGS: heists=14 (rate=8.2%) | grand_heists=1 | robberies=14 | gk_worldies=6
+TOP GAME TAGS: Dominant Win: 39 | Clinical: 35 | Wasteful: 25 | Ultra Clinical: 17 | Heist: 13
+STORY TAGS: Absolute Chaos: 5 | Fatigue Heist: 2 | Derby Robbery: 1 | The Horror Show: 1
+DERBY: Revierderby | W4 D4 L6 | avg_xGD: +0.38
+FATIGUE: fatigue_games=15 | avg_xGD_fatigue=-0.42 | avg_xGD_normal=+0.24
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
 INSIGHT: Borussia Dortmund are a consistently clinical finishers side in Bundesliga — averaging +6.11 xGD attack (+0.9σ vs league), solid in defence 1/5 seasons. Declining trend since 2021 peak.
 ---
@@ -99,6 +123,10 @@ Z-SCORES: xGD_attack=+0.18σ | heist_rate=-0.06σ | xGD_defence=+0.03σ
 SEASON_PROGRESSION (xGD_attack): 2020: +9.9 → 2021: -5.9 → 2022: -0.8 → 2023: +4.2 → 2024: +1.5
 PEAK: best season 2020 (+9.89 xGD attack) | worst season 2021 (-5.92 xGD attack)
 GAME TAGS: heists=11 (rate=6.5%) | grand_heists=3 | robberies=7 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 47 | Clinical: 33 | Dominant Win: 17 | Home Bottled: 11 | Ultra Clinical: 11
+STORY TAGS: Absolute Chaos: 4 | Fatigue Heist: 3 | The Horror Show: 1 | The Heist of Heists: 1 | Game of the Season: 1 | Bottle Job: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=11 | avg_xGD_fatigue=+0.64 | avg_xGD_normal=+0.01
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Borussia M.Gladbach are a balanced side in Bundesliga — averaging +1.77 xGD attack (+0.2σ vs league), solid in defence 2/5 seasons. Recovering since 2021 trough.
 ---
@@ -112,6 +140,10 @@ Z-SCORES: xGD_attack=-0.35σ | heist_rate=-1.12σ | xGD_defence=+1.06σ
 SEASON_PROGRESSION (xGD_attack): 2023: -4.6
 PEAK: best season 2023 (-4.56 xGD attack) | worst season 2023 (-4.56 xGD attack)
 GAME TAGS: heists=0 (rate=0.0%) | grand_heists=0 | robberies=3 | gk_worldies=2
+TOP GAME TAGS: Wasteful: 8 | Clinical: 7 | Normal: 6 | GK Nightmare: 4 | Robbery: 3
+STORY TAGS: Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=1 | avg_xGD_fatigue=+2.05 | avg_xGD_normal=-0.20
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Darmstadt are a balanced side in Bundesliga — averaging -4.56 xGD attack (-0.3σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -125,6 +157,10 @@ Z-SCORES: xGD_attack=+0.28σ | heist_rate=+0.52σ | xGD_defence=-0.09σ
 SEASON_PROGRESSION (xGD_attack): 2020: +8.5 → 2021: +3.4 → 2022: +4.8 → 2023: -0.6 → 2024: -4.8
 PEAK: best season 2020 (+8.47 xGD attack) | worst season 2024 (-4.84 xGD attack)
 GAME TAGS: heists=15 (rate=8.8%) | grand_heists=4 | robberies=9 | gk_worldies=8
+TOP GAME TAGS: Clinical: 36 | Wasteful: 34 | Home Bottled: 24 | Dominant Win: 17 | Heist: 11
+STORY TAGS: Absolute Chaos: 2 | Fatigue Heist: 1 | Perfect Storm: 1 | Game of the Season: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=+0.37 | avg_xGD_normal=+0.04
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Eintracht Frankfurt are a balanced side in Bundesliga — averaging +2.23 xGD attack (+0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
 ---
@@ -138,6 +174,10 @@ Z-SCORES: xGD_attack=-0.99σ | heist_rate=-0.30σ | xGD_defence=+0.13σ
 SEASON_PROGRESSION (xGD_attack): 2020: -5.6 → 2021: -0.3 → 2022: -2.0 → 2023: -16.3
 PEAK: best season 2021 (-0.30 xGD attack) | worst season 2023 (-16.34 xGD attack)
 GAME TAGS: heists=7 (rate=5.1%) | grand_heists=3 | robberies=10 | gk_worldies=10
+TOP GAME TAGS: Wasteful: 49 | Clinical: 18 | Normal: 11 | GK Nightmare: 9 | Dominant Win: 9
+STORY TAGS: Absolute Chaos: 2 | Fatigue Heist: 2 | Perfect Storm: 1 | Nothing Game: 1 | The Heist of Heists: 1 | Game of the Season: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=8 | avg_xGD_fatigue=-0.36 | avg_xGD_normal=-0.17
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: FC Cologne are a balanced side in Bundesliga — averaging -6.08 xGD attack (-1.0σ vs league), solid in defence 2/4 seasons. Declining trend since 2021 peak.
 ---
@@ -151,6 +191,10 @@ Z-SCORES: xGD_attack=+0.32σ | heist_rate=+0.63σ | xGD_defence=-0.56σ
 SEASON_PROGRESSION (xGD_attack): 2023: +7.4 → 2024: -6.0
 PEAK: best season 2023 (+7.42 xGD attack) | worst season 2024 (-5.96 xGD attack)
 GAME TAGS: heists=7 (rate=10.2%) | grand_heists=4 | robberies=3 | gk_worldies=7
+TOP GAME TAGS: Clinical: 21 | Wasteful: 20 | GK Nightmare: 4 | Home Bottled: 4 | Heist: 3
+STORY TAGS: Nothing Game: 1 | Absolute Chaos: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=1 | avg_xGD_fatigue=-0.92 | avg_xGD_normal=+0.04
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: FC Heidenheim are a defensively elite side in Bundesliga — averaging +0.73 xGD attack (+0.3σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -164,6 +208,10 @@ Z-SCORES: xGD_attack=-0.22σ | heist_rate=+0.11σ | xGD_defence=-0.27σ
 SEASON_PROGRESSION (xGD_attack): 2020: +6.9 → 2021: +0.3 → 2022: +0.8 → 2023: -7.5 → 2024: -5.6
 PEAK: best season 2020 (+6.89 xGD attack) | worst season 2023 (-7.50 xGD attack)
 GAME TAGS: heists=13 (rate=7.7%) | grand_heists=3 | robberies=7 | gk_worldies=10
+TOP GAME TAGS: Wasteful: 44 | Clinical: 31 | Normal: 17 | Dominant Win: 16 | GK Nightmare: 13
+STORY TAGS: Absolute Chaos: 5 | Fatigue Heist: 2 | Total Domination: 1 | Nothing Game: 1 | Perfect Storm: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=11 | avg_xGD_fatigue=+0.72 | avg_xGD_normal=-0.08
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Freiburg are a balanced side in Bundesliga — averaging -1.03 xGD attack (-0.2σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
 ---
@@ -177,6 +225,10 @@ Z-SCORES: xGD_attack=-0.38σ | heist_rate=-0.16σ | xGD_defence=+2.58σ
 SEASON_PROGRESSION (xGD_attack): 2021: -2.6
 PEAK: best season 2021 (-2.64 xGD attack) | worst season 2021 (-2.64 xGD attack)
 GAME TAGS: heists=2 (rate=5.9%) | grand_heists=1 | robberies=2 | gk_worldies=2
+TOP GAME TAGS: Normal: 8 | GK Nightmare: 8 | Wasteful: 6 | Clinical: 4 | Home Bottled: 2
+STORY TAGS: Absolute Chaos: 3
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=2 | avg_xGD_fatigue=-0.23 | avg_xGD_normal=-0.07
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Greuther Fuerth are a balanced side in Bundesliga — averaging -2.64 xGD attack (-0.4σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -190,6 +242,10 @@ Z-SCORES: xGD_attack=-0.28σ | heist_rate=-1.17σ | xGD_defence=+0.90σ
 SEASON_PROGRESSION (xGD_attack): 2020: +0.3 → 2021: -0.9 → 2022: +0.6
 PEAK: best season 2022 (+0.56 xGD attack) | worst season 2021 (-0.90 xGD attack)
 GAME TAGS: heists=3 (rate=2.9%) | grand_heists=1 | robberies=8 | gk_worldies=8
+TOP GAME TAGS: Clinical: 21 | Wasteful: 20 | Normal: 14 | GK Nightmare: 12 | Robbery: 8
+STORY TAGS: Absolute Chaos: 3 | Nothing Game: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.19 | avg_xGD_normal=+0.03
 VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
 INSIGHT: Hertha Berlin are a balanced side in Bundesliga — averaging -0.02 xGD attack (-0.3σ vs league), solid in defence 0/3 seasons. Recovering since 2021 trough.
 ---
@@ -203,6 +259,10 @@ Z-SCORES: xGD_attack=+0.21σ | heist_rate=-0.15σ | xGD_defence=+0.30σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.7 → 2021: -1.8 → 2022: +0.7 → 2023: +9.8 → 2024: -0.9
 PEAK: best season 2023 (+9.75 xGD attack) | worst season 2021 (-1.77 xGD attack)
 GAME TAGS: heists=11 (rate=6.5%) | grand_heists=2 | robberies=12 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 42 | Clinical: 36 | Dominant Win: 13 | Normal: 13 | GK Nightmare: 12
+STORY TAGS: Absolute Chaos: 5 | Fatigue Heist: 2 | Nothing Game: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=10 | avg_xGD_fatigue=+0.02 | avg_xGD_normal=+0.06
 VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
 INSIGHT: Hoffenheim are a balanced side in Bundesliga — averaging +1.89 xGD attack (+0.2σ vs league), solid in defence 1/5 seasons. Recovering since 2021 trough.
 ---
@@ -216,6 +276,10 @@ Z-SCORES: xGD_attack=+1.28σ | heist_rate=-0.21σ | xGD_defence=+1.71σ
 SEASON_PROGRESSION (xGD_attack): 2024: +5.4
 PEAK: best season 2024 (+5.43 xGD attack) | worst season 2024 (+5.43 xGD attack)
 GAME TAGS: heists=2 (rate=5.9%) | grand_heists=1 | robberies=2 | gk_worldies=1
+TOP GAME TAGS: Wasteful: 11 | Clinical: 8 | GK Nightmare: 4 | Normal: 4 | Ultra Clinical: 2
+STORY TAGS: Absolute Chaos: 2 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=2 | avg_xGD_fatigue=+1.07 | avg_xGD_normal=+0.10
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
 INSIGHT: Holstein Kiel are a balanced side in Bundesliga — averaging +5.43 xGD attack (+1.3σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -229,6 +293,10 @@ Z-SCORES: xGD_attack=-0.59σ | heist_rate=-0.30σ | xGD_defence=-0.12σ
 SEASON_PROGRESSION (xGD_attack): 2020: -9.5 → 2021: -2.1 → 2022: +3.5 → 2023: -12.7 → 2024: -0.8
 PEAK: best season 2022 (+3.51 xGD attack) | worst season 2023 (-12.68 xGD attack)
 GAME TAGS: heists=10 (rate=5.9%) | grand_heists=5 | robberies=15 | gk_worldies=7
+TOP GAME TAGS: Wasteful: 46 | Clinical: 29 | Dominant Win: 20 | Home Bottled: 17 | Normal: 13
+STORY TAGS: The Heist of Heists: 2 | Nothing Game: 1 | Fatigue Heist: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=15 | avg_xGD_fatigue=+0.03 | avg_xGD_normal=-0.14
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Mainz 05 are a balanced side in Bundesliga — averaging -4.31 xGD attack (-0.6σ vs league), solid in defence 1/5 seasons. Declining trend since 2022 peak.
 ---
@@ -242,6 +310,10 @@ Z-SCORES: xGD_attack=-0.13σ | heist_rate=-0.33σ | xGD_defence=-0.61σ
 SEASON_PROGRESSION (xGD_attack): 2020: -7.1 → 2021: +4.6 → 2022: -4.8 → 2023: +4.4 → 2024: +0.7
 PEAK: best season 2021 (+4.60 xGD attack) | worst season 2020 (-7.14 xGD attack)
 GAME TAGS: heists=9 (rate=5.3%) | grand_heists=2 | robberies=13 | gk_worldies=6
+TOP GAME TAGS: Clinical: 37 | Dominant Win: 33 | Wasteful: 30 | Ultra Clinical: 15 | Home Bottled: 13
+STORY TAGS: Absolute Chaos: 2 | Nothing Game: 1 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=10 | avg_xGD_fatigue=-0.21 | avg_xGD_normal=-0.00
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: RasenBallsport Leipzig are a defensively elite side in Bundesliga — averaging -0.47 xGD attack (-0.1σ vs league), solid in defence 3/5 seasons. Recovering since 2020 trough.
 ---
@@ -255,6 +327,10 @@ Z-SCORES: xGD_attack=-1.12σ | heist_rate=-0.55σ | xGD_defence=+1.83σ
 SEASON_PROGRESSION (xGD_attack): 2020: -2.7 → 2022: -5.5
 PEAK: best season 2020 (-2.66 xGD attack) | worst season 2022 (-5.54 xGD attack)
 GAME TAGS: heists=4 (rate=5.9%) | grand_heists=0 | robberies=5 | gk_worldies=3
+TOP GAME TAGS: Wasteful: 18 | Normal: 15 | GK Nightmare: 9 | Clinical: 8 | Robbery: 5
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 1
+DERBY: Revierderby | W0 D1 L3 | avg_xGD: -0.17
+FATIGUE: fatigue_games=8 | avg_xGD_fatigue=-0.14 | avg_xGD_normal=-0.12
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Schalke 04 are a balanced side in Bundesliga — averaging -4.10 xGD attack (-1.1σ vs league), solid in defence 0/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -268,6 +344,10 @@ Z-SCORES: xGD_attack=-1.57σ | heist_rate=-1.72σ | xGD_defence=-1.53σ
 SEASON_PROGRESSION (xGD_attack): 2024: -11.5
 PEAK: best season 2024 (-11.47 xGD attack) | worst season 2024 (-11.47 xGD attack)
 GAME TAGS: heists=0 (rate=0.0%) | grand_heists=0 | robberies=2 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 12 | Clinical: 5 | Normal: 4 | Home Bottled: 4 | GK Worldie: 4
+STORY TAGS: none
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=1 | avg_xGD_fatigue=-0.23 | avg_xGD_normal=-0.34
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: St. Pauli are a defensively elite side in Bundesliga — averaging -11.47 xGD attack (-1.6σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -281,6 +361,10 @@ Z-SCORES: xGD_attack=-0.05σ | heist_rate=+0.35σ | xGD_defence=-0.17σ
 SEASON_PROGRESSION (xGD_attack): 2020: +4.0 → 2021: -5.2 → 2022: +15.9 → 2023: -11.7 → 2024: -7.0
 PEAK: best season 2022 (+15.93 xGD attack) | worst season 2023 (-11.74 xGD attack)
 GAME TAGS: heists=16 (rate=9.4%) | grand_heists=2 | robberies=11 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 45 | Clinical: 33 | Home Bottled: 14 | Heist: 14 | Normal: 13
+STORY TAGS: Absolute Chaos: 7 | Fatigue Heist: 2 | Nothing Game: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.19 | avg_xGD_normal=-0.01
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Union Berlin are a balanced side in Bundesliga — averaging -0.81 xGD attack (-0.0σ vs league), solid in defence 3/5 seasons. Declining trend since 2022 peak.
 ---
@@ -294,6 +378,10 @@ Z-SCORES: xGD_attack=-0.57σ | heist_rate=-0.23σ | xGD_defence=+0.28σ
 SEASON_PROGRESSION (xGD_attack): 2020: +3.8 → 2021: -6.9 → 2022: -4.1 → 2023: -1.0 → 2024: -7.2
 PEAK: best season 2020 (+3.82 xGD attack) | worst season 2024 (-7.19 xGD attack)
 GAME TAGS: heists=10 (rate=5.9%) | grand_heists=1 | robberies=22 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 38 | Clinical: 31 | Dominant Win: 22 | Robbery: 14 | Ultra Clinical: 12
+STORY TAGS: Absolute Chaos: 4 | The Horror Show: 1 | Nothing Game: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=10 | avg_xGD_fatigue=-0.15 | avg_xGD_normal=-0.09
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: VfB Stuttgart are a chance-dominant but wasteful side in Bundesliga — averaging -3.08 xGD attack (-0.6σ vs league), solid in defence 1/5 seasons. Declining trend since 2020 peak.
 ---
@@ -307,6 +395,10 @@ Z-SCORES: xGD_attack=+0.37σ | heist_rate=+0.40σ | xGD_defence=+0.14σ
 SEASON_PROGRESSION (xGD_attack): 2020: +3.5 → 2022: +8.1 → 2023: +0.9 → 2024: -2.3
 PEAK: best season 2022 (+8.09 xGD attack) | worst season 2024 (-2.26 xGD attack)
 GAME TAGS: heists=12 (rate=8.8%) | grand_heists=3 | robberies=12 | gk_worldies=6
+TOP GAME TAGS: Clinical: 33 | Wasteful: 29 | Normal: 12 | Robbery: 11 | Heist: 9
+STORY TAGS: Absolute Chaos: 5 | Nothing Game: 3 | Fatigue Heist: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.06 | avg_xGD_normal=+0.09
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Werder Bremen are a balanced side in Bundesliga — averaging +2.55 xGD attack (+0.4σ vs league), solid in defence 1/4 seasons. Declining trend since 2022 peak.
 ---
@@ -320,6 +412,10 @@ Z-SCORES: xGD_attack=+0.24σ | heist_rate=+0.86σ | xGD_defence=-0.24σ
 SEASON_PROGRESSION (xGD_attack): 2020: +9.4 → 2021: -6.3 → 2022: +5.8 → 2023: -3.0 → 2024: +2.6
 PEAK: best season 2020 (+9.41 xGD attack) | worst season 2021 (-6.27 xGD attack)
 GAME TAGS: heists=19 (rate=11.2%) | grand_heists=6 | robberies=13 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 40 | Clinical: 35 | Home Bottled: 15 | Dominant Win: 13 | Heist: 13
+STORY TAGS: Absolute Chaos: 4 | Fatigue Heist: 1 | Perfect Storm: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=12 | avg_xGD_fatigue=+0.18 | avg_xGD_normal=+0.04
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Wolfsburg are a balanced side in Bundesliga — averaging +1.71 xGD attack (+0.2σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
 ---

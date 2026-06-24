@@ -21,6 +21,10 @@ Z-SCORES: xGD_attack=+0.63σ | heist_rate=-0.32σ | xGD_defence=-0.20σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.8 → 2021: -2.4 → 2022: +11.5 → 2023: +6.6 → 2024: -4.6
 PEAK: best season 2022 (+11.49 xGD attack) | worst season 2024 (-4.57 xGD attack)
 GAME TAGS: heists=12 (rate=6.3%) | grand_heists=3 | robberies=14 | gk_worldies=12
+TOP GAME TAGS: Dominant Win: 48 | Wasteful: 34 | Clinical: 26 | Ultra Clinical: 15 | Robbery: 10
+STORY TAGS: Absolute Chaos: 3 | Derby Robbery: 1 | Nothing Game: 1 | Fatigue Heist: 1 | Bottle Job: 1 | Perfect Storm: 1
+DERBY: North London Derby | W14 D3 L3 | avg_xGD: +0.29
+FATIGUE: fatigue_games=28 | avg_xGD_fatigue=-0.05 | avg_xGD_normal=+0.09
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Arsenal are a defensively elite side in Premier League — averaging +2.78 xGD attack (+0.6σ vs league), solid in defence 5/5 seasons. Recovering since 2024 trough.
 ---
@@ -34,6 +38,10 @@ Z-SCORES: xGD_attack=+0.56σ | heist_rate=+0.12σ | xGD_defence=-0.38σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.7 → 2021: +8.9 → 2022: +1.0 → 2023: +8.6 → 2024: -8.4
 PEAK: best season 2021 (+8.87 xGD attack) | worst season 2024 (-8.38 xGD attack)
 GAME TAGS: heists=16 (rate=8.4%) | grand_heists=5 | robberies=16 | gk_worldies=15
+TOP GAME TAGS: Clinical: 46 | Wasteful: 39 | Dominant Win: 20 | Normal: 17 | Robbery: 12
+STORY TAGS: Absolute Chaos: 3 | The Heist of Heists: 2 | Fatigue Heist: 2 | Nothing Game: 2 | Game of the Season: 1 | The Horror Show: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=36 | avg_xGD_fatigue=+0.13 | avg_xGD_normal=+0.02
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Aston Villa are a defensively elite side in Premier League — averaging +1.67 xGD attack (+0.6σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -47,6 +55,10 @@ Z-SCORES: xGD_attack=-0.92σ | heist_rate=-0.39σ | xGD_defence=+0.19σ
 SEASON_PROGRESSION (xGD_attack): 2022: -3.1 → 2023: -9.8 → 2024: -14.6
 PEAK: best season 2022 (-3.08 xGD attack) | worst season 2024 (-14.62 xGD attack)
 GAME TAGS: heists=7 (rate=6.1%) | grand_heists=2 | robberies=8 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 38 | Clinical: 18 | Dominant Win: 12 | Home Bottled: 9 | Normal: 8
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=19 | avg_xGD_fatigue=+0.03 | avg_xGD_normal=-0.29
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Bournemouth are a balanced side in Premier League — averaging -9.15 xGD attack (-0.9σ vs league), solid in defence 1/3 seasons. Declining trend since 2022 peak.
 ---
@@ -60,6 +72,10 @@ Z-SCORES: xGD_attack=-0.23σ | heist_rate=-0.25σ | xGD_defence=+0.46σ
 SEASON_PROGRESSION (xGD_attack): 2021: -4.9 → 2022: -1.2 → 2023: -8.3 → 2024: -1.1
 PEAK: best season 2024 (-1.12 xGD attack) | worst season 2023 (-8.29 xGD attack)
 GAME TAGS: heists=10 (rate=6.6%) | grand_heists=0 | robberies=14 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 37 | Clinical: 33 | Dominant Win: 15 | Home Bottled: 12 | Normal: 12
+STORY TAGS: Absolute Chaos: 4 | Fatigue Heist: 3 | Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=23 | avg_xGD_fatigue=+0.01 | avg_xGD_normal=-0.12
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Brentford are a balanced side in Premier League — averaging -3.88 xGD attack (-0.2σ vs league), solid in defence 2/4 seasons. Declining trend since 2024 peak.
 ---
@@ -73,6 +89,10 @@ Z-SCORES: xGD_attack=-0.63σ | heist_rate=-0.16σ | xGD_defence=+0.58σ
 SEASON_PROGRESSION (xGD_attack): 2020: -13.8 → 2021: -7.6 → 2022: -5.7 → 2023: -6.9 → 2024: +0.7
 PEAK: best season 2024 (+0.72 xGD attack) | worst season 2020 (-13.82 xGD attack)
 GAME TAGS: heists=14 (rate=7.4%) | grand_heists=2 | robberies=18 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 43 | Clinical: 38 | Home Bottled: 29 | Robbery: 13 | Heist: 12
+STORY TAGS: Absolute Chaos: 2 | Fatigue Heist: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=39 | avg_xGD_fatigue=-0.17 | avg_xGD_normal=-0.18
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Brighton are a balanced side in Premier League — averaging -6.66 xGD attack (-0.6σ vs league), solid in defence 2/5 seasons. Recovering since 2020 trough.
 ---
@@ -86,6 +106,10 @@ Z-SCORES: xGD_attack=-0.59σ | heist_rate=-0.01σ | xGD_defence=-0.42σ
 SEASON_PROGRESSION (xGD_attack): 2020: -5.1 → 2021: -7.1 → 2023: -2.4
 PEAK: best season 2023 (-2.44 xGD attack) | worst season 2021 (-7.11 xGD attack)
 GAME TAGS: heists=8 (rate=7.0%) | grand_heists=2 | robberies=10 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 32 | Clinical: 18 | Normal: 14 | Robbery: 10 | GK Worldie: 9
+STORY TAGS: Nothing Game: 3 | Absolute Chaos: 2 | Fatigue Heist: 2 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=29 | avg_xGD_fatigue=-0.20 | avg_xGD_normal=-0.11
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Burnley are a balanced side in Premier League — averaging -4.89 xGD attack (-0.6σ vs league), solid in defence 2/3 seasons. Recovering since 2021 trough.
 ---
@@ -99,6 +123,10 @@ Z-SCORES: xGD_attack=-0.50σ | heist_rate=+0.39σ | xGD_defence=-0.13σ
 SEASON_PROGRESSION (xGD_attack): 2020: -10.7 → 2021: +6.7 → 2022: -13.9 → 2023: -3.9 → 2024: -9.1
 PEAK: best season 2021 (+6.70 xGD attack) | worst season 2022 (-13.89 xGD attack)
 GAME TAGS: heists=18 (rate=9.5%) | grand_heists=4 | robberies=16 | gk_worldies=6
+TOP GAME TAGS: Wasteful: 39 | Dominant Win: 34 | Home Bottled: 24 | Clinical: 21 | Heist: 14
+STORY TAGS: Fatigue Heist: 5 | Absolute Chaos: 4 | Nothing Game: 2 | Derby Robbery: 2 | Perfect Storm: 2 | Game of the Season: 1
+DERBY: London Derby | W1 D2 L7 | avg_xGD: -0.50
+FATIGUE: fatigue_games=38 | avg_xGD_fatigue=-0.18 | avg_xGD_normal=-0.16
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Chelsea are a balanced side in Premier League — averaging -6.17 xGD attack (-0.5σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
 ---
@@ -112,6 +140,10 @@ Z-SCORES: xGD_attack=+0.03σ | heist_rate=-0.59σ | xGD_defence=+0.29σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.7 → 2021: +1.2 → 2022: -0.7 → 2023: +3.1 → 2024: -16.8
 PEAK: best season 2020 (+5.71 xGD attack) | worst season 2024 (-16.78 xGD attack)
 GAME TAGS: heists=10 (rate=5.3%) | grand_heists=2 | robberies=12 | gk_worldies=14
+TOP GAME TAGS: Wasteful: 45 | Clinical: 34 | Normal: 22 | Dominant Win: 17 | Home Bottled: 14
+STORY TAGS: Nothing Game: 5 | Absolute Chaos: 4 | Fatigue Heist: 3 | Perfect Storm: 1 | Total Domination: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=41 | avg_xGD_fatigue=+0.05 | avg_xGD_normal=-0.07
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Crystal Palace are a balanced side in Premier League — averaging -1.51 xGD attack (+0.0σ vs league), solid in defence 2/5 seasons. Declining trend since 2020 peak.
 ---
@@ -125,6 +157,10 @@ Z-SCORES: xGD_attack=-0.92σ | heist_rate=+0.34σ | xGD_defence=-0.48σ
 SEASON_PROGRESSION (xGD_attack): 2020: -2.2 → 2021: -1.5 → 2022: -14.7 → 2023: -20.8 → 2024: -4.9
 PEAK: best season 2021 (-1.47 xGD attack) | worst season 2023 (-20.75 xGD attack)
 GAME TAGS: heists=18 (rate=9.5%) | grand_heists=1 | robberies=18 | gk_worldies=14
+TOP GAME TAGS: Wasteful: 52 | Clinical: 29 | Normal: 23 | Heist: 17 | Robbery: 15
+STORY TAGS: Nothing Game: 4 | Fatigue Heist: 3 | Absolute Chaos: 1
+DERBY: Merseyside Derby | W2 D3 L5 | avg_xGD: -0.08
+FATIGUE: fatigue_games=37 | avg_xGD_fatigue=+0.01 | avg_xGD_normal=-0.29
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Everton are a defensively elite side in Premier League — averaging -8.80 xGD attack (-0.9σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -138,6 +174,10 @@ Z-SCORES: xGD_attack=+0.04σ | heist_rate=+0.24σ | xGD_defence=-0.36σ
 SEASON_PROGRESSION (xGD_attack): 2020: -14.1 → 2022: +7.0 → 2023: +2.2 → 2024: -4.0
 PEAK: best season 2022 (+7.01 xGD attack) | worst season 2020 (-14.05 xGD attack)
 GAME TAGS: heists=15 (rate=9.9%) | grand_heists=4 | robberies=13 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 36 | Clinical: 33 | Normal: 18 | Heist: 11 | Robbery: 9
+STORY TAGS: The Horror Show: 3 | Absolute Chaos: 2 | Fatigue Heist: 2 | Perfect Storm: 2 | Carried and Won: 1 | Nothing Game: 1 | Game of the Season: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=26 | avg_xGD_fatigue=+0.13 | avg_xGD_normal=-0.10
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Fulham are a defensively elite side in Premier League — averaging -2.21 xGD attack (+0.0σ vs league), solid in defence 3/4 seasons. Recovering since 2020 trough.
 ---
@@ -151,6 +191,10 @@ Z-SCORES: xGD_attack=+0.11σ | heist_rate=-0.61σ | xGD_defence=+0.66σ
 SEASON_PROGRESSION (xGD_attack): 2024: -4.4
 PEAK: best season 2024 (-4.42 xGD attack) | worst season 2024 (-4.42 xGD attack)
 GAME TAGS: heists=2 (rate=5.3%) | grand_heists=0 | robberies=2 | gk_worldies=6
+TOP GAME TAGS: Normal: 7 | Clinical: 7 | Wasteful: 7 | GK Nightmare: 6 | GK Worldie: 5
+STORY TAGS: Absolute Chaos: 2 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=4 | avg_xGD_fatigue=-0.16 | avg_xGD_normal=-0.11
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Ipswich are a balanced side in Premier League — averaging -4.42 xGD attack (+0.1σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -164,6 +208,10 @@ Z-SCORES: xGD_attack=-0.24σ | heist_rate=+0.32σ | xGD_defence=+0.35σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.7 → 2021: -9.2 → 2022: +0.2
 PEAK: best season 2020 (+2.74 xGD attack) | worst season 2021 (-9.19 xGD attack)
 GAME TAGS: heists=10 (rate=8.8%) | grand_heists=2 | robberies=9 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 25 | Clinical: 22 | GK Nightmare: 10 | Normal: 9 | Heist: 8
+STORY TAGS: Absolute Chaos: 4
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=23 | avg_xGD_fatigue=-0.30 | avg_xGD_normal=+0.01
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Leeds are a balanced side in Premier League — averaging -2.08 xGD attack (-0.2σ vs league), solid in defence 1/3 seasons. Declining trend since 2020 peak.
 ---
@@ -177,6 +225,10 @@ Z-SCORES: xGD_attack=+0.99σ | heist_rate=+0.59σ | xGD_defence=+0.20σ
 SEASON_PROGRESSION (xGD_attack): 2020: +9.2 → 2021: +12.5 → 2022: +2.0 → 2024: -5.1
 PEAK: best season 2021 (+12.51 xGD attack) | worst season 2024 (-5.06 xGD attack)
 GAME TAGS: heists=17 (rate=11.2%) | grand_heists=3 | robberies=12 | gk_worldies=11
+TOP GAME TAGS: Clinical: 36 | Wasteful: 31 | Normal: 20 | Heist: 14 | Robbery: 10
+STORY TAGS: Fatigue Heist: 5 | Absolute Chaos: 4 | Nothing Game: 2 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=30 | avg_xGD_fatigue=+0.14 | avg_xGD_normal=+0.12
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Leicester are a balanced side in Premier League — averaging +4.67 xGD attack (+1.0σ vs league), solid in defence 2/4 seasons. Declining trend since 2021 peak.
 ---
@@ -190,6 +242,10 @@ Z-SCORES: xGD_attack=-0.40σ | heist_rate=-0.81σ | xGD_defence=-0.53σ
 SEASON_PROGRESSION (xGD_attack): 2020: -4.2 → 2021: +1.0 → 2022: -5.8 → 2023: -8.8 → 2024: -7.2
 PEAK: best season 2021 (+0.98 xGD attack) | worst season 2023 (-8.79 xGD attack)
 GAME TAGS: heists=8 (rate=4.2%) | grand_heists=0 | robberies=10 | gk_worldies=10
+TOP GAME TAGS: Dominant Win: 53 | Wasteful: 40 | Clinical: 36 | Home Bottled: 14 | Ultra Clinical: 12
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 3 | Game of the Season: 1
+DERBY: Merseyside Derby | W5 D3 L2 | avg_xGD: -0.36
+FATIGUE: fatigue_games=37 | avg_xGD_fatigue=-0.09 | avg_xGD_normal=-0.14
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Liverpool are a defensively elite side in Premier League — averaging -5.01 xGD attack (-0.4σ vs league), solid in defence 5/5 seasons. Declining trend since 2021 peak.
 ---
@@ -203,6 +259,10 @@ Z-SCORES: xGD_attack=+0.58σ | heist_rate=-0.00σ | xGD_defence=-0.62σ
 SEASON_PROGRESSION (xGD_attack): 2023: +2.1
 PEAK: best season 2023 (+2.13 xGD attack) | worst season 2023 (+2.13 xGD attack)
 GAME TAGS: heists=3 (rate=7.9%) | grand_heists=2 | robberies=5 | gk_worldies=6
+TOP GAME TAGS: Clinical: 11 | Normal: 6 | Wasteful: 5 | Robbery: 4 | GK Worldie: 4
+STORY TAGS: Absolute Chaos: 2 | Perfect Storm: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=9 | avg_xGD_fatigue=+0.55 | avg_xGD_normal=-0.10
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Luton are a chance-dominant but wasteful side in Premier League — averaging +2.13 xGD attack (+0.6σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -216,6 +276,10 @@ Z-SCORES: xGD_attack=+1.02σ | heist_rate=-0.65σ | xGD_defence=-0.04σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.3 → 2021: +5.6 → 2022: +9.7 → 2023: +6.5 → 2024: -1.1
 PEAK: best season 2022 (+9.68 xGD attack) | worst season 2024 (-1.15 xGD attack)
 GAME TAGS: heists=9 (rate=4.8%) | grand_heists=3 | robberies=8 | gk_worldies=6
+TOP GAME TAGS: Dominant Win: 61 | Wasteful: 33 | Ultra Clinical: 24 | Clinical: 20 | Early Knockout: 15
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 2 | Game of the Season: 1 | Bottle Job: 1 | Perfect Storm: 1
+DERBY: NW Derby | W5 D2 L3 | avg_xGD: +0.04
+FATIGUE: fatigue_games=44 | avg_xGD_fatigue=-0.08 | avg_xGD_normal=+0.20
 VERDICT: attack=systematic_overperformer | defence=inconsistent_defence
 INSIGHT: Manchester City are a consistently clinical finishers side in Premier League — averaging +5.17 xGD attack (+1.0σ vs league), solid in defence 3/5 seasons. Declining trend since 2022 peak.
 ---
@@ -229,6 +293,10 @@ Z-SCORES: xGD_attack=-0.30σ | heist_rate=+0.25σ | xGD_defence=-0.45σ
 SEASON_PROGRESSION (xGD_attack): 2020: +9.8 → 2021: -0.2 → 2022: -13.9 → 2023: -3.3 → 2024: -12.9
 PEAK: best season 2020 (+9.83 xGD attack) | worst season 2022 (-13.90 xGD attack)
 GAME TAGS: heists=18 (rate=9.5%) | grand_heists=1 | robberies=11 | gk_worldies=15
+TOP GAME TAGS: Wasteful: 47 | Clinical: 33 | Dominant Win: 24 | Heist: 17 | Normal: 12
+STORY TAGS: Fatigue Heist: 5 | Absolute Chaos: 3 | Game of the Season: 1 | Nothing Game: 1
+DERBY: NW Derby | W3 D2 L5 | avg_xGD: -0.07
+FATIGUE: fatigue_games=41 | avg_xGD_fatigue=+0.03 | avg_xGD_normal=-0.15
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Manchester United are a defensively elite side in Premier League — averaging -4.11 xGD attack (-0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
 ---
@@ -242,6 +310,10 @@ Z-SCORES: xGD_attack=+0.12σ | heist_rate=-0.33σ | xGD_defence=-0.11σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.0 → 2021: +2.5 → 2022: -9.0 → 2023: +0.5 → 2024: -3.5
 PEAK: best season 2021 (+2.47 xGD attack) | worst season 2022 (-8.98 xGD attack)
 GAME TAGS: heists=12 (rate=6.3%) | grand_heists=2 | robberies=13 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 44 | Dominant Win: 31 | Clinical: 26 | Normal: 24 | Home Bottled: 12
+STORY TAGS: Absolute Chaos: 4 | Fatigue Heist: 4 | Game of the Season: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=33 | avg_xGD_fatigue=+0.10 | avg_xGD_normal=-0.07
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Newcastle United are a defensively elite side in Premier League — averaging -1.48 xGD attack (+0.1σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -255,6 +327,10 @@ Z-SCORES: xGD_attack=-1.35σ | heist_rate=+0.07σ | xGD_defence=+0.72σ
 SEASON_PROGRESSION (xGD_attack): 2021: -8.5
 PEAK: best season 2021 (-8.51 xGD attack) | worst season 2021 (-8.51 xGD attack)
 GAME TAGS: heists=3 (rate=7.9%) | grand_heists=1 | robberies=2 | gk_worldies=3
+TOP GAME TAGS: Wasteful: 14 | Clinical: 7 | Normal: 6 | GK Nightmare: 3 | Robbery: 2
+STORY TAGS: Absolute Chaos: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=8 | avg_xGD_fatigue=-0.39 | avg_xGD_normal=-0.18
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Norwich are a balanced side in Premier League — averaging -8.51 xGD attack (-1.4σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -268,6 +344,10 @@ Z-SCORES: xGD_attack=+0.51σ | heist_rate=+0.44σ | xGD_defence=+0.30σ
 SEASON_PROGRESSION (xGD_attack): 2022: -1.6 → 2023: -3.2 → 2024: +5.3
 PEAK: best season 2024 (+5.25 xGD attack) | worst season 2023 (-3.16 xGD attack)
 GAME TAGS: heists=11 (rate=9.7%) | grand_heists=4 | robberies=14 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 27 | Clinical: 25 | Robbery: 12 | Normal: 10 | Heist: 7
+STORY TAGS: Perfect Storm: 1 | The Horror Show: 1 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=15 | avg_xGD_fatigue=+0.05 | avg_xGD_normal=-0.00
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Nottingham Forest are a chance-dominant but wasteful side in Premier League — averaging +0.17 xGD attack (+0.5σ vs league), solid in defence 2/3 seasons. Recovering since 2023 trough.
 ---
@@ -281,6 +361,10 @@ Z-SCORES: xGD_attack=-1.12σ | heist_rate=+0.16σ | xGD_defence=+1.09σ
 SEASON_PROGRESSION (xGD_attack): 2020: -13.2 → 2023: -6.3
 PEAK: best season 2023 (-6.31 xGD attack) | worst season 2020 (-13.16 xGD attack)
 GAME TAGS: heists=6 (rate=7.9%) | grand_heists=1 | robberies=6 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 17 | Normal: 14 | Clinical: 14 | GK Nightmare: 12 | Heist: 5
+STORY TAGS: Fatigue Heist: 3 | Absolute Chaos: 2 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=14 | avg_xGD_fatigue=-0.35 | avg_xGD_normal=-0.24
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Sheffield United are a balanced side in Premier League — averaging -9.73 xGD attack (-1.1σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -294,6 +378,10 @@ Z-SCORES: xGD_attack=-0.42σ | heist_rate=-0.03σ | xGD_defence=+0.66σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.7 → 2021: -4.3 → 2022: -3.3 → 2024: -12.6
 PEAK: best season 2020 (+1.72 xGD attack) | worst season 2024 (-12.63 xGD attack)
 GAME TAGS: heists=12 (rate=7.9%) | grand_heists=2 | robberies=15 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 48 | Clinical: 30 | Normal: 18 | Robbery: 12 | Heist: 10
+STORY TAGS: Absolute Chaos: 2 | Nothing Game: 2 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=29 | avg_xGD_fatigue=-0.12 | avg_xGD_normal=-0.12
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Southampton are a balanced side in Premier League — averaging -4.63 xGD attack (-0.4σ vs league), solid in defence 1/4 seasons. Declining trend since 2020 peak.
 ---
@@ -307,6 +395,10 @@ Z-SCORES: xGD_attack=+0.91σ | heist_rate=-0.13σ | xGD_defence=-0.10σ
 SEASON_PROGRESSION (xGD_attack): 2020: +11.3 → 2021: +1.0 → 2022: +12.2 → 2023: +0.6 → 2024: -1.4
 PEAK: best season 2022 (+12.17 xGD attack) | worst season 2024 (-1.36 xGD attack)
 GAME TAGS: heists=14 (rate=7.4%) | grand_heists=1 | robberies=15 | gk_worldies=10
+TOP GAME TAGS: Wasteful: 49 | Clinical: 36 | Dominant Win: 27 | Ultra Clinical: 19 | Heist: 13
+STORY TAGS: Absolute Chaos: 5 | Game of the Season: 1 | The Horror Show: 1 | Derby Robbery: 1
+DERBY: North London Derby | W2 D1 L7 | avg_xGD: -0.21
+FATIGUE: fatigue_games=31 | avg_xGD_fatigue=+0.16 | avg_xGD_normal=+0.12
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Tottenham are a balanced side in Premier League — averaging +4.76 xGD attack (+0.9σ vs league), solid in defence 4/5 seasons. Declining trend since 2022 peak.
 ---
@@ -320,6 +412,10 @@ Z-SCORES: xGD_attack=-0.82σ | heist_rate=-1.39σ | xGD_defence=+1.64σ
 SEASON_PROGRESSION (xGD_attack): 2021: -5.3
 PEAK: best season 2021 (-5.34 xGD attack) | worst season 2021 (-5.34 xGD attack)
 GAME TAGS: heists=0 (rate=0.0%) | grand_heists=0 | robberies=7 | gk_worldies=2
+TOP GAME TAGS: Normal: 10 | Wasteful: 9 | Robbery: 7 | Clinical: 5 | Ultra Clinical: 2
+STORY TAGS: Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=7 | avg_xGD_fatigue=-0.27 | avg_xGD_normal=-0.11
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Watford are a chance-dominant but wasteful side in Premier League — averaging -5.34 xGD attack (-0.8σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -333,6 +429,10 @@ Z-SCORES: xGD_attack=+0.10σ | heist_rate=-0.08σ | xGD_defence=+0.54σ
 SEASON_PROGRESSION (xGD_attack): 2020: +0.0
 PEAK: best season 2020 (+0.03 xGD attack) | worst season 2020 (+0.03 xGD attack)
 GAME TAGS: heists=3 (rate=7.9%) | grand_heists=3 | robberies=2 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 10 | Normal: 9 | Clinical: 5 | GK Nightmare: 3 | Home Bottled: 3
+STORY TAGS: Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=9 | avg_xGD_fatigue=+0.01 | avg_xGD_normal=-0.00
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
 INSIGHT: West Bromwich Albion are a balanced side in Premier League — averaging +0.03 xGD attack (+0.1σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -346,6 +446,10 @@ Z-SCORES: xGD_attack=+0.29σ | heist_rate=+0.33σ | xGD_defence=-0.21σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.7 → 2021: +5.0 → 2022: -9.2 → 2023: +5.5 → 2024: -4.6
 PEAK: best season 2023 (+5.47 xGD attack) | worst season 2022 (-9.21 xGD attack)
 GAME TAGS: heists=17 (rate=9.0%) | grand_heists=3 | robberies=15 | gk_worldies=12
+TOP GAME TAGS: Wasteful: 40 | Clinical: 39 | Normal: 22 | Dominant Win: 18 | Robbery: 14
+STORY TAGS: Absolute Chaos: 2 | Bottle Job: 1 | Nothing Game: 1 | Perfect Storm: 1 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=28 | avg_xGD_fatigue=-0.23 | avg_xGD_normal=+0.03
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: West Ham are a defensively elite side in Premier League — averaging -0.33 xGD attack (+0.3σ vs league), solid in defence 5/5 seasons. Declining trend since 2023 peak.
 ---
@@ -359,6 +463,10 @@ Z-SCORES: xGD_attack=+0.35σ | heist_rate=+1.25σ | xGD_defence=-0.29σ
 SEASON_PROGRESSION (xGD_attack): 2020: -2.6 → 2021: -1.0 → 2022: -4.1 → 2023: -0.7 → 2024: +8.6
 PEAK: best season 2024 (+8.63 xGD attack) | worst season 2022 (-4.13 xGD attack)
 GAME TAGS: heists=26 (rate=13.7%) | grand_heists=3 | robberies=14 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 55 | Clinical: 49 | Heist: 23 | Normal: 16 | Robbery: 13
+STORY TAGS: Fatigue Heist: 5 | Absolute Chaos: 3 | Nothing Game: 2 | Game of the Season: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=34 | avg_xGD_fatigue=+0.11 | avg_xGD_normal=-0.02
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Wolverhampton Wanderers are a counter-attacking/heist specialists side in Premier League — averaging +0.04 xGD attack (+0.4σ vs league), solid in defence 4/5 seasons. Recovering since 2022 trough.
 ---

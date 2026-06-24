@@ -21,6 +21,10 @@ Z-SCORES: xGD_attack=-0.77σ | heist_rate=+0.87σ | xGD_defence=+2.60σ
 SEASON_PROGRESSION (xGD_attack): 2022: -8.1
 PEAK: best season 2022 (-8.06 xGD attack) | worst season 2022 (-8.06 xGD attack)
 GAME TAGS: heists=4 (rate=10.5%) | grand_heists=2 | robberies=3 | gk_worldies=2
+TOP GAME TAGS: Normal: 12 | Wasteful: 9 | GK Nightmare: 5 | Robbery: 3 | Clinical: 2
+STORY TAGS: Nothing Game: 2 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=4 | avg_xGD_fatigue=+0.21 | avg_xGD_normal=-0.26
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Ajaccio are a balanced side in Ligue 1 — averaging -8.06 xGD attack (-0.8σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -34,6 +38,10 @@ Z-SCORES: xGD_attack=-0.48σ | heist_rate=-0.87σ | xGD_defence=+0.50σ
 SEASON_PROGRESSION (xGD_attack): 2020: +0.1 → 2021: -1.2 → 2022: -8.0 → 2024: -7.6
 PEAK: best season 2020 (+0.08 xGD attack) | worst season 2022 (-8.04 xGD attack)
 GAME TAGS: heists=5 (rate=3.4%) | grand_heists=1 | robberies=8 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 47 | Clinical: 27 | Normal: 26 | GK Nightmare: 11 | Early Knockout: 7
+STORY TAGS: Nothing Game: 4 | Absolute Chaos: 3 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=-0.03 | avg_xGD_normal=-0.12
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Angers are a balanced side in Ligue 1 — averaging -4.19 xGD attack (-0.5σ vs league), solid in defence 1/4 seasons. Declining trend since 2020 peak.
 ---
@@ -47,6 +55,10 @@ Z-SCORES: xGD_attack=+0.61σ | heist_rate=-0.30σ | xGD_defence=-0.44σ
 SEASON_PROGRESSION (xGD_attack): 2022: -5.2 → 2024: +5.2
 PEAK: best season 2024 (+5.22 xGD attack) | worst season 2022 (-5.21 xGD attack)
 GAME TAGS: heists=4 (rate=5.4%) | grand_heists=0 | robberies=3 | gk_worldies=7
+TOP GAME TAGS: Clinical: 21 | Wasteful: 14 | Normal: 10 | GK Nightmare: 5 | GK Worldie: 5
+STORY TAGS: Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=5 | avg_xGD_fatigue=-0.30 | avg_xGD_normal=+0.02
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Auxerre are a defensively elite side in Ligue 1 — averaging +0.00 xGD attack (+0.6σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -60,6 +72,10 @@ Z-SCORES: xGD_attack=-0.01σ | heist_rate=-0.61σ | xGD_defence=+1.19σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.6 → 2021: +5.7
 PEAK: best season 2021 (+5.72 xGD attack) | worst season 2020 (-1.55 xGD attack)
 GAME TAGS: heists=4 (rate=5.2%) | grand_heists=1 | robberies=4 | gk_worldies=4
+TOP GAME TAGS: Clinical: 21 | Wasteful: 15 | GK Nightmare: 10 | Home Bottled: 6 | Dominant Win: 6
+STORY TAGS: Absolute Chaos: 3 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=10 | avg_xGD_fatigue=+0.58 | avg_xGD_normal=-0.02
 VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
 INSIGHT: Bordeaux are a balanced side in Ligue 1 — averaging +2.08 xGD attack (-0.0σ vs league), solid in defence 0/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -73,6 +89,10 @@ Z-SCORES: xGD_attack=+0.62σ | heist_rate=+1.28σ | xGD_defence=-0.13σ
 SEASON_PROGRESSION (xGD_attack): 2020: +4.2 → 2021: +4.2 → 2022: +2.6 → 2023: +1.0 → 2024: -0.8
 PEAK: best season 2020 (+4.23 xGD attack) | worst season 2024 (-0.78 xGD attack)
 GAME TAGS: heists=24 (rate=13.3%) | grand_heists=5 | robberies=11 | gk_worldies=13
+TOP GAME TAGS: Wasteful: 38 | Clinical: 35 | Heist: 19 | Normal: 16 | Dominant Win: 14
+STORY TAGS: Absolute Chaos: 6 | Nothing Game: 3 | Fatigue Heist: 2 | The Horror Show: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=+0.11 | avg_xGD_normal=+0.06
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Brest are a counter-attacking/heist specialists side in Ligue 1 — averaging +2.25 xGD attack (+0.6σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
 ---
@@ -86,6 +106,10 @@ Z-SCORES: xGD_attack=-0.68σ | heist_rate=+0.41σ | xGD_defence=-0.08σ
 SEASON_PROGRESSION (xGD_attack): 2021: -4.1 → 2022: -4.6 → 2023: -9.7
 PEAK: best season 2021 (-4.07 xGD attack) | worst season 2023 (-9.69 xGD attack)
 GAME TAGS: heists=11 (rate=9.9%) | grand_heists=2 | robberies=4 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 25 | Clinical: 22 | Normal: 13 | GK Worldie: 10 | Heist: 9
+STORY TAGS: Absolute Chaos: 3 | Nothing Game: 2 | Fatigue Heist: 1 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=16 | avg_xGD_fatigue=-0.10 | avg_xGD_normal=-0.18
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Clermont Foot are a balanced side in Ligue 1 — averaging -6.14 xGD attack (-0.7σ vs league), solid in defence 2/3 seasons. Declining trend since 2021 peak.
 ---
@@ -99,6 +123,10 @@ Z-SCORES: xGD_attack=-1.65σ | heist_rate=-0.81σ | xGD_defence=-0.77σ
 SEASON_PROGRESSION (xGD_attack): 2020: -6.9
 PEAK: best season 2020 (-6.85 xGD attack) | worst season 2020 (-6.85 xGD attack)
 GAME TAGS: heists=2 (rate=5.3%) | grand_heists=1 | robberies=2 | gk_worldies=4
+TOP GAME TAGS: Normal: 12 | Wasteful: 9 | Clinical: 6 | GK Worldie: 4 | Robbery: 2
+STORY TAGS: Nothing Game: 2 | Carried and Won: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=8 | avg_xGD_fatigue=-0.10 | avg_xGD_normal=-0.20
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Dijon are a defensively elite side in Ligue 1 — averaging -6.85 xGD attack (-1.7σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -112,6 +140,10 @@ Z-SCORES: xGD_attack=-0.04σ | heist_rate=-0.84σ | xGD_defence=+0.00σ
 SEASON_PROGRESSION (xGD_attack): 2023: -5.1 → 2024: -5.3
 PEAK: best season 2023 (-5.05 xGD attack) | worst season 2024 (-5.35 xGD attack)
 GAME TAGS: heists=3 (rate=4.4%) | grand_heists=1 | robberies=7 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 16 | Normal: 13 | Clinical: 11 | Robbery: 6 | Early Knockout: 4
+STORY TAGS: Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=0 | avg_xGD_fatigue=+0.00 | avg_xGD_normal=-0.15
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Le Havre are a chance-dominant but wasteful side in Ligue 1 — averaging -5.20 xGD attack (-0.0σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -125,6 +157,10 @@ Z-SCORES: xGD_attack=-0.58σ | heist_rate=-0.09σ | xGD_defence=-0.50σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.4 → 2021: +9.8 → 2022: -1.9 → 2023: -17.1 → 2024: -16.7
 PEAK: best season 2021 (+9.76 xGD attack) | worst season 2023 (-17.08 xGD attack)
 GAME TAGS: heists=14 (rate=7.7%) | grand_heists=2 | robberies=17 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 49 | Clinical: 32 | Dominant Win: 22 | Robbery: 12 | Heist: 12
+STORY TAGS: Bottle Job: 1 | The Heist of Heists: 1 | Fatigue Heist: 1 | Total Domination: 1 | Perfect Storm: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=15 | avg_xGD_fatigue=-0.22 | avg_xGD_normal=-0.14
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Lens are a defensively elite side in Ligue 1 — averaging -5.47 xGD attack (-0.6σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
 ---
@@ -138,6 +174,10 @@ Z-SCORES: xGD_attack=-0.04σ | heist_rate=-0.02σ | xGD_defence=+0.01σ
 SEASON_PROGRESSION (xGD_attack): 2020: +15.9 → 2021: -8.4 → 2022: -9.2 → 2023: -3.3 → 2024: -8.4
 PEAK: best season 2020 (+15.93 xGD attack) | worst season 2022 (-9.23 xGD attack)
 GAME TAGS: heists=14 (rate=7.8%) | grand_heists=3 | robberies=18 | gk_worldies=8
+TOP GAME TAGS: Clinical: 38 | Wasteful: 33 | Dominant Win: 24 | Home Bottled: 20 | Robbery: 14
+STORY TAGS: Nothing Game: 3 | Absolute Chaos: 3 | Fatigue Heist: 2 | The Horror Show: 1 | The Heist of Heists: 1 | Carried and Won: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=19 | avg_xGD_fatigue=+0.25 | avg_xGD_normal=-0.11
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Lille are a balanced side in Ligue 1 — averaging -2.69 xGD attack (-0.0σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
 ---
@@ -151,6 +191,10 @@ Z-SCORES: xGD_attack=+0.34σ | heist_rate=+0.56σ | xGD_defence=+1.02σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.8 → 2021: -4.3 → 2022: +4.7 → 2023: +4.0
 PEAK: best season 2022 (+4.65 xGD attack) | worst season 2021 (-4.32 xGD attack)
 GAME TAGS: heists=16 (rate=10.6%) | grand_heists=4 | robberies=11 | gk_worldies=3
+TOP GAME TAGS: Wasteful: 36 | Clinical: 30 | Normal: 22 | Heist: 12 | Robbery: 11
+STORY TAGS: Absolute Chaos: 7 | Fatigue Heist: 7 | Nothing Game: 2 | Game of the Season: 1 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=27 | avg_xGD_fatigue=+0.09 | avg_xGD_normal=+0.03
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Lorient are a balanced side in Ligue 1 — averaging +1.56 xGD attack (+0.3σ vs league), solid in defence 1/4 seasons. Recovering since 2021 trough.
 ---
@@ -164,6 +208,10 @@ Z-SCORES: xGD_attack=-0.37σ | heist_rate=-0.10σ | xGD_defence=+0.18σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.4 → 2021: -7.3 → 2022: -4.8 → 2023: -6.3 → 2024: +0.0
 PEAK: best season 2024 (+0.02 xGD attack) | worst season 2021 (-7.32 xGD attack)
 GAME TAGS: heists=14 (rate=7.9%) | grand_heists=1 | robberies=19 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 36 | Dominant Win: 34 | Clinical: 29 | Home Bottled: 15 | Robbery: 13
+STORY TAGS: Absolute Chaos: 4 | Total Domination: 1 | The Horror Show: 1
+DERBY: Derby du Rhone | W4 D1 L1 | avg_xGD: -0.16
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=-0.24 | avg_xGD_normal=-0.09
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Lyon are a chance-dominant but wasteful side in Ligue 1 — averaging -3.95 xGD attack (-0.4σ vs league), solid in defence 4/5 seasons. Recovering since 2021 trough.
 ---
@@ -177,6 +225,10 @@ Z-SCORES: xGD_attack=+0.26σ | heist_rate=+0.61σ | xGD_defence=+0.05σ
 SEASON_PROGRESSION (xGD_attack): 2020: +4.7 → 2021: +3.1 → 2022: -5.9 → 2023: -8.0 → 2024: +5.2
 PEAK: best season 2024 (+5.16 xGD attack) | worst season 2023 (-8.03 xGD attack)
 GAME TAGS: heists=19 (rate=10.4%) | grand_heists=3 | robberies=15 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 35 | Dominant Win: 31 | Clinical: 27 | Heist: 16 | Home Bottled: 16
+STORY TAGS: The Heist of Heists: 3 | Fatigue Heist: 2 | Nothing Game: 1 | Absolute Chaos: 1 | The Horror Show: 1 | Bottle Job: 1
+DERBY: Le Classique | W1 D1 L8 | avg_xGD: -0.52
+FATIGUE: fatigue_games=26 | avg_xGD_fatigue=+0.14 | avg_xGD_normal=-0.03
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Marseille are a balanced side in Ligue 1 — averaging -0.20 xGD attack (+0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2024 peak.
 ---
@@ -190,6 +242,10 @@ Z-SCORES: xGD_attack=+0.42σ | heist_rate=+0.15σ | xGD_defence=-0.07σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.7 → 2021: +4.9 → 2023: +0.6
 PEAK: best season 2021 (+4.85 xGD attack) | worst season 2023 (+0.63 xGD attack)
 GAME TAGS: heists=10 (rate=9.1%) | grand_heists=1 | robberies=11 | gk_worldies=6
+TOP GAME TAGS: Wasteful: 28 | Clinical: 27 | Normal: 14 | Robbery: 10 | Heist: 9
+STORY TAGS: Nothing Game: 2 | Absolute Chaos: 2 | Fatigue Heist: 1 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.07 | avg_xGD_normal=+0.08
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Metz are a chance-dominant but wasteful side in Ligue 1 — averaging +2.41 xGD attack (+0.4σ vs league), solid in defence 3/3 seasons. Declining trend since 2021 peak.
 ---
@@ -203,6 +259,10 @@ Z-SCORES: xGD_attack=+0.31σ | heist_rate=+0.01σ | xGD_defence=+0.44σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.6 → 2021: +1.4 → 2022: +4.6 → 2023: +2.9 → 2024: -13.9
 PEAK: best season 2020 (+5.65 xGD attack) | worst season 2024 (-13.93 xGD attack)
 GAME TAGS: heists=14 (rate=7.7%) | grand_heists=1 | robberies=13 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 42 | Clinical: 35 | Dominant Win: 29 | Heist: 13 | Home Bottled: 12
+STORY TAGS: Fatigue Heist: 2 | Absolute Chaos: 2 | The Horror Show: 1 | Game of the Season: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=+0.60 | avg_xGD_normal=-0.06
 VERDICT: attack=systematic_overperformer | defence=inconsistent_defence
 INSIGHT: Monaco are a balanced side in Ligue 1 — averaging +0.14 xGD attack (+0.3σ vs league), solid in defence 2/5 seasons. Declining trend since 2020 peak.
 ---
@@ -216,6 +276,10 @@ Z-SCORES: xGD_attack=+0.40σ | heist_rate=+0.00σ | xGD_defence=-0.09σ
 SEASON_PROGRESSION (xGD_attack): 2020: +7.7 → 2021: +6.5 → 2022: +12.4 → 2023: -7.6 → 2024: -15.5
 PEAK: best season 2022 (+12.45 xGD attack) | worst season 2024 (-15.45 xGD attack)
 GAME TAGS: heists=14 (rate=7.5%) | grand_heists=4 | robberies=9 | gk_worldies=12
+TOP GAME TAGS: Wasteful: 47 | Clinical: 35 | Normal: 20 | GK Nightmare: 14 | Home Bottled: 13
+STORY TAGS: Absolute Chaos: 7 | Fatigue Heist: 2 | Perfect Storm: 1 | Nothing Game: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=23 | avg_xGD_fatigue=-0.01 | avg_xGD_normal=+0.02
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Montpellier are a balanced side in Ligue 1 — averaging +0.73 xGD attack (+0.4σ vs league), solid in defence 3/5 seasons. Declining trend since 2022 peak.
 ---
@@ -229,6 +293,10 @@ Z-SCORES: xGD_attack=-0.19σ | heist_rate=+0.30σ | xGD_defence=-0.38σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.3 → 2021: +9.2 → 2022: -7.6 → 2023: -9.4 → 2024: -5.9
 PEAK: best season 2021 (+9.23 xGD attack) | worst season 2023 (-9.44 xGD attack)
 GAME TAGS: heists=17 (rate=9.4%) | grand_heists=2 | robberies=9 | gk_worldies=13
+TOP GAME TAGS: Wasteful: 54 | Clinical: 30 | Normal: 21 | Home Bottled: 18 | Heist: 15
+STORY TAGS: Nothing Game: 6 | Fatigue Heist: 2 | Game of the Season: 2 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=22 | avg_xGD_fatigue=+0.19 | avg_xGD_normal=-0.12
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Nantes are a defensively elite side in Ligue 1 — averaging -3.00 xGD attack (-0.2σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -242,6 +310,10 @@ Z-SCORES: xGD_attack=-0.66σ | heist_rate=+0.09σ | xGD_defence=-0.62σ
 SEASON_PROGRESSION (xGD_attack): 2020: +3.6 → 2021: -7.6 → 2022: -11.2 → 2023: -14.8 → 2024: -0.8
 PEAK: best season 2020 (+3.63 xGD attack) | worst season 2023 (-14.81 xGD attack)
 GAME TAGS: heists=15 (rate=8.1%) | grand_heists=3 | robberies=18 | gk_worldies=11
+TOP GAME TAGS: Wasteful: 42 | Clinical: 30 | Dominant Win: 27 | Robbery: 14 | Home Bottled: 14
+STORY TAGS: Perfect Storm: 2 | The Horror Show: 1 | Fatigue Heist: 1 | Nothing Game: 1 | Game of the Season: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=-0.08 | avg_xGD_normal=-0.18
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Nice are a defensively elite side in Ligue 1 — averaging -6.17 xGD attack (-0.7σ vs league), solid in defence 5/5 seasons. Declining trend since 2020 peak.
 ---
@@ -255,6 +327,10 @@ Z-SCORES: xGD_attack=-0.63σ | heist_rate=+0.81σ | xGD_defence=+0.74σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.4
 PEAK: best season 2020 (-1.39 xGD attack) | worst season 2020 (-1.39 xGD attack)
 GAME TAGS: heists=4 (rate=10.5%) | grand_heists=0 | robberies=4 | gk_worldies=1
+TOP GAME TAGS: Clinical: 9 | Normal: 7 | Wasteful: 6 | Heist: 4 | Robbery: 4
+STORY TAGS: Absolute Chaos: 4 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=9 | avg_xGD_fatigue=-0.21 | avg_xGD_normal=+0.02
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Nimes are a chance-dominant but wasteful side in Ligue 1 — averaging -1.39 xGD attack (-0.6σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -268,6 +344,10 @@ Z-SCORES: xGD_attack=+0.56σ | heist_rate=-0.14σ | xGD_defence=-0.74σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.1 → 2021: +7.7 → 2022: +2.9 → 2023: +8.1 → 2024: -11.6
 PEAK: best season 2023 (+8.12 xGD attack) | worst season 2024 (-11.63 xGD attack)
 GAME TAGS: heists=13 (rate=7.3%) | grand_heists=1 | robberies=8 | gk_worldies=11
+TOP GAME TAGS: Dominant Win: 49 | Wasteful: 32 | Ultra Clinical: 22 | Clinical: 21 | Early Knockout: 14
+STORY TAGS: Fatigue Heist: 3 | Derby Robbery: 1 | Nothing Game: 1 | Absolute Chaos: 1 | Game of the Season: 1 | Bottle Job: 1
+DERBY: Le Classique | W8 D1 L1 | avg_xGD: -0.40
+FATIGUE: fatigue_games=26 | avg_xGD_fatigue=-0.29 | avg_xGD_normal=+0.11
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Paris Saint Germain are a defensively elite side in Ligue 1 — averaging +1.82 xGD attack (+0.6σ vs league), solid in defence 5/5 seasons. Declining trend since 2023 peak.
 ---
@@ -281,6 +361,10 @@ Z-SCORES: xGD_attack=-0.18σ | heist_rate=+0.08σ | xGD_defence=-1.01σ
 SEASON_PROGRESSION (xGD_attack): 2020: +8.8 → 2021: +3.0 → 2022: -14.5 → 2023: -6.0 → 2024: -8.6
 PEAK: best season 2020 (+8.77 xGD attack) | worst season 2022 (-14.52 xGD attack)
 GAME TAGS: heists=15 (rate=8.3%) | grand_heists=2 | robberies=12 | gk_worldies=15
+TOP GAME TAGS: Wasteful: 53 | Clinical: 31 | Normal: 27 | Heist: 13 | GK Worldie: 11
+STORY TAGS: Nothing Game: 4 | Fatigue Heist: 3 | Perfect Storm: 2 | Absolute Chaos: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=+0.37 | avg_xGD_normal=-0.14
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Reims are a defensively elite side in Ligue 1 — averaging -3.47 xGD attack (-0.2σ vs league), solid in defence 5/5 seasons. Declining trend since 2020 peak.
 ---
@@ -294,6 +378,10 @@ Z-SCORES: xGD_attack=+0.84σ | heist_rate=-0.33σ | xGD_defence=+0.26σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.2 → 2021: +13.8 → 2022: +4.8 → 2023: -3.0 → 2024: -2.8
 PEAK: best season 2021 (+13.76 xGD attack) | worst season 2023 (-3.00 xGD attack)
 GAME TAGS: heists=11 (rate=6.0%) | grand_heists=2 | robberies=20 | gk_worldies=6
+TOP GAME TAGS: Wasteful: 46 | Clinical: 33 | Dominant Win: 22 | Ultra Clinical: 17 | Robbery: 17
+STORY TAGS: Fatigue Heist: 3 | Nothing Game: 3 | Perfect Storm: 1 | Bottle Job: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=15 | avg_xGD_fatigue=+0.64 | avg_xGD_normal=+0.05
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Rennes are a chance-dominant but wasteful side in Ligue 1 — averaging +3.59 xGD attack (+0.8σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
 ---
@@ -307,6 +395,10 @@ Z-SCORES: xGD_attack=-0.25σ | heist_rate=-0.34σ | xGD_defence=+0.52σ
 SEASON_PROGRESSION (xGD_attack): 2020: -5.3 → 2021: +1.8 → 2024: -1.5
 PEAK: best season 2021 (+1.82 xGD attack) | worst season 2020 (-5.28 xGD attack)
 GAME TAGS: heists=7 (rate=6.4%) | grand_heists=2 | robberies=8 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 26 | Clinical: 23 | Normal: 14 | GK Nightmare: 9 | Home Bottled: 9
+STORY TAGS: Absolute Chaos: 4 | Carried and Won: 1 | Perfect Storm: 1
+DERBY: Derby du Rhone | W1 D1 L4 | avg_xGD: -0.48
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.11 | avg_xGD_normal=-0.04
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Saint-Etienne are a balanced side in Ligue 1 — averaging -1.65 xGD attack (-0.3σ vs league), solid in defence 1/3 seasons. Recovering since 2020 trough.
 ---
@@ -320,6 +412,10 @@ Z-SCORES: xGD_attack=-0.07σ | heist_rate=-0.34σ | xGD_defence=-0.01σ
 SEASON_PROGRESSION (xGD_attack): 2020: -3.8 → 2021: -1.2 → 2022: -1.8 → 2023: -4.7 → 2024: +2.2
 PEAK: best season 2024 (+2.19 xGD attack) | worst season 2023 (-4.69 xGD attack)
 GAME TAGS: heists=12 (rate=6.9%) | grand_heists=3 | robberies=16 | gk_worldies=6
+TOP GAME TAGS: Wasteful: 42 | Clinical: 42 | Normal: 19 | Robbery: 14 | Dominant Win: 13
+STORY TAGS: Absolute Chaos: 2 | Fatigue Heist: 2 | The Horror Show: 1 | Perfect Storm: 1 | Nothing Game: 1 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=20 | avg_xGD_fatigue=+0.25 | avg_xGD_normal=-0.09
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Strasbourg are a balanced side in Ligue 1 — averaging -1.85 xGD attack (-0.1σ vs league), solid in defence 3/5 seasons. Recovering since 2023 trough.
 ---
@@ -333,6 +429,10 @@ Z-SCORES: xGD_attack=-0.47σ | heist_rate=-0.54σ | xGD_defence=+0.54σ
 SEASON_PROGRESSION (xGD_attack): 2022: -8.8 → 2023: -2.8 → 2024: -10.9
 PEAK: best season 2023 (-2.85 xGD attack) | worst season 2024 (-10.89 xGD attack)
 GAME TAGS: heists=5 (rate=4.9%) | grand_heists=0 | robberies=18 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 26 | Clinical: 20 | Robbery: 14 | Home Bottled: 10 | Dominant Win: 10
+STORY TAGS: none
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=7 | avg_xGD_fatigue=-0.17 | avg_xGD_normal=-0.22
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Toulouse are a chance-dominant but wasteful side in Ligue 1 — averaging -7.50 xGD attack (-0.5σ vs league), solid in defence 2/3 seasons. Declining trend since 2023 peak.
 ---
@@ -346,6 +446,10 @@ Z-SCORES: xGD_attack=+0.41σ | heist_rate=-0.98σ | xGD_defence=-0.12σ
 SEASON_PROGRESSION (xGD_attack): 2021: -2.7 → 2022: +8.3
 PEAK: best season 2022 (+8.29 xGD attack) | worst season 2021 (-2.66 xGD attack)
 GAME TAGS: heists=2 (rate=2.6%) | grand_heists=0 | robberies=5 | gk_worldies=6
+TOP GAME TAGS: Clinical: 20 | Normal: 14 | Wasteful: 13 | GK Worldie: 6 | Home Bottled: 6
+STORY TAGS: Nothing Game: 2 | Fatigue Heist: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=12 | avg_xGD_fatigue=+0.15 | avg_xGD_normal=+0.06
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Troyes are a balanced side in Ligue 1 — averaging +2.81 xGD attack (+0.4σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---

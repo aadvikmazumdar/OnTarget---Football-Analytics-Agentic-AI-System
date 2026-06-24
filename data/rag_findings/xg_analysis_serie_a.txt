@@ -21,6 +21,10 @@ Z-SCORES: xGD_attack=-0.20σ | heist_rate=+0.36σ | xGD_defence=-0.19σ
 SEASON_PROGRESSION (xGD_attack): 2020: -1.0 → 2021: +1.7 → 2022: -5.9 → 2023: +4.1 → 2024: -8.5
 PEAK: best season 2023 (+4.14 xGD attack) | worst season 2024 (-8.51 xGD attack)
 GAME TAGS: heists=16 (rate=8.4%) | grand_heists=0 | robberies=11 | gk_worldies=5
+TOP GAME TAGS: Dominant Win: 41 | Wasteful: 39 | Clinical: 30 | Home Bottled: 18 | Heist: 16
+STORY TAGS: Absolute Chaos: 5 | Fatigue Heist: 3 | Nothing Game: 2 | Derby Robbery: 1 | Bottle Job: 1
+DERBY: Derby della Madonnina | W4 D2 L4 | avg_xGD: -0.12
+FATIGUE: fatigue_games=24 | avg_xGD_fatigue=+0.25 | avg_xGD_normal=-0.09
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: AC Milan are a balanced side in Serie A — averaging -1.93 xGD attack (-0.2σ vs league), solid in defence 3/5 seasons. Declining trend since 2023 peak.
 ---
@@ -34,6 +38,10 @@ Z-SCORES: xGD_attack=+0.61σ | heist_rate=-0.83σ | xGD_defence=+0.33σ
 SEASON_PROGRESSION (xGD_attack): 2020: +8.0 → 2021: -3.7 → 2022: +5.5 → 2023: +3.5 → 2024: -1.9
 PEAK: best season 2020 (+7.99 xGD attack) | worst season 2021 (-3.72 xGD attack)
 GAME TAGS: heists=6 (rate=3.2%) | grand_heists=1 | robberies=16 | gk_worldies=15
+TOP GAME TAGS: Dominant Win: 44 | Clinical: 38 | Wasteful: 30 | Ultra Clinical: 15 | Home Bottled: 14
+STORY TAGS: Game of the Season: 2 | Nothing Game: 2 | Absolute Chaos: 1 | Perfect Storm: 1 | Total Domination: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=28 | avg_xGD_fatigue=+0.35 | avg_xGD_normal=+0.01
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Atalanta are a balanced side in Serie A — averaging +2.29 xGD attack (+0.6σ vs league), solid in defence 2/5 seasons. Declining trend since 2020 peak.
 ---
@@ -47,6 +55,10 @@ Z-SCORES: xGD_attack=+0.04σ | heist_rate=+1.30σ | xGD_defence=+0.52σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.3
 PEAK: best season 2020 (+1.35 xGD attack) | worst season 2020 (+1.35 xGD attack)
 GAME TAGS: heists=5 (rate=13.2%) | grand_heists=2 | robberies=4 | gk_worldies=3
+TOP GAME TAGS: Clinical: 9 | Normal: 9 | Home Bottled: 4 | Heist: 3 | Wasteful: 3
+STORY TAGS: Nothing Game: 2 | Perfect Storm: 2 | Fatigue Heist: 1 | Game of the Season: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=10 | avg_xGD_fatigue=+0.24 | avg_xGD_normal=-0.04
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
 INSIGHT: Benevento are a counter-attacking/heist specialists side in Serie A — averaging +1.35 xGD attack (+0.0σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -60,6 +72,10 @@ Z-SCORES: xGD_attack=+0.19σ | heist_rate=+0.04σ | xGD_defence=-0.25σ
 SEASON_PROGRESSION (xGD_attack): 2020: -6.5 → 2021: -1.6 → 2022: +7.7 → 2023: 0.0 → 2024: -0.2
 PEAK: best season 2022 (+7.71 xGD attack) | worst season 2020 (-6.53 xGD attack)
 GAME TAGS: heists=13 (rate=6.8%) | grand_heists=3 | robberies=14 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 46 | Clinical: 39 | Normal: 19 | Dominant Win: 16 | Robbery: 12
+STORY TAGS: Absolute Chaos: 4 | Fatigue Heist: 3 | Nothing Game: 2 | The Heist of Heists: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=+0.40 | avg_xGD_normal=-0.05
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Bologna are a balanced side in Serie A — averaging -0.12 xGD attack (+0.2σ vs league), solid in defence 4/5 seasons. Recovering since 2020 trough.
 ---
@@ -73,6 +89,10 @@ Z-SCORES: xGD_attack=-0.75σ | heist_rate=-0.43σ | xGD_defence=-0.12σ
 SEASON_PROGRESSION (xGD_attack): 2020: -2.6 → 2021: -6.7 → 2023: -3.4 → 2024: -8.7
 PEAK: best season 2020 (-2.60 xGD attack) | worst season 2024 (-8.73 xGD attack)
 GAME TAGS: heists=7 (rate=4.6%) | grand_heists=1 | robberies=10 | gk_worldies=7
+TOP GAME TAGS: Clinical: 41 | Wasteful: 35 | Normal: 28 | Home Bottled: 10 | Dominant Win: 8
+STORY TAGS: Nothing Game: 4 | Fatigue Heist: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=12 | avg_xGD_fatigue=+0.11 | avg_xGD_normal=-0.16
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Cagliari are a balanced side in Serie A — averaging -5.38 xGD attack (-0.7σ vs league), solid in defence 3/4 seasons. Declining trend since 2020 peak.
 ---
@@ -86,6 +106,10 @@ Z-SCORES: xGD_attack=+0.54σ | heist_rate=+0.33σ | xGD_defence=+0.83σ
 SEASON_PROGRESSION (xGD_attack): 2024: -0.8
 PEAK: best season 2024 (-0.76 xGD attack) | worst season 2024 (-0.76 xGD attack)
 GAME TAGS: heists=3 (rate=7.9%) | grand_heists=1 | robberies=4 | gk_worldies=1
+TOP GAME TAGS: Wasteful: 12 | Clinical: 8 | Robbery: 4 | GK Nightmare: 3 | Home Bottled: 3
+STORY TAGS: Nothing Game: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=3 | avg_xGD_fatigue=-0.48 | avg_xGD_normal=+0.02
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Como are a chance-dominant but wasteful side in Serie A — averaging -0.76 xGD attack (+0.5σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -99,6 +123,10 @@ Z-SCORES: xGD_attack=+0.17σ | heist_rate=-0.71σ | xGD_defence=+0.18σ
 SEASON_PROGRESSION (xGD_attack): 2022: -0.6
 PEAK: best season 2022 (-0.59 xGD attack) | worst season 2022 (-0.59 xGD attack)
 GAME TAGS: heists=2 (rate=5.3%) | grand_heists=1 | robberies=3 | gk_worldies=2
+TOP GAME TAGS: Wasteful: 14 | Clinical: 9 | Normal: 6 | Robbery: 3 | GK Worldie: 2
+STORY TAGS: Fatigue Heist: 1 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=5 | avg_xGD_fatigue=-0.08 | avg_xGD_normal=-0.01
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Cremonese are a balanced side in Serie A — averaging -0.59 xGD attack (+0.2σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -112,6 +140,10 @@ Z-SCORES: xGD_attack=+0.76σ | heist_rate=-0.46σ | xGD_defence=+2.04σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.4
 PEAK: best season 2020 (+5.36 xGD attack) | worst season 2020 (+5.36 xGD attack)
 GAME TAGS: heists=2 (rate=5.3%) | grand_heists=0 | robberies=2 | gk_worldies=0
+TOP GAME TAGS: Clinical: 8 | GK Nightmare: 7 | Normal: 7 | Wasteful: 7 | Ultra Clinical: 2
+STORY TAGS: Absolute Chaos: 2 | Nothing Game: 1 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=8 | avg_xGD_fatigue=+0.56 | avg_xGD_normal=+0.03
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
 INSIGHT: Crotone are a balanced side in Serie A — averaging +5.36 xGD attack (+0.8σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -125,6 +157,10 @@ Z-SCORES: xGD_attack=-0.31σ | heist_rate=+0.27σ | xGD_defence=-0.44σ
 SEASON_PROGRESSION (xGD_attack): 2021: +4.5 → 2022: -4.2 → 2023: -9.1 → 2024: -5.3
 PEAK: best season 2021 (+4.48 xGD attack) | worst season 2023 (-9.06 xGD attack)
 GAME TAGS: heists=12 (rate=7.9%) | grand_heists=3 | robberies=11 | gk_worldies=14
+TOP GAME TAGS: Wasteful: 39 | Clinical: 34 | Normal: 22 | Heist: 9 | GK Worldie: 9
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=+0.14 | avg_xGD_normal=-0.11
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Empoli are a defensively elite side in Serie A — averaging -3.54 xGD attack (-0.3σ vs league), solid in defence 3/4 seasons. Declining trend since 2021 peak.
 ---
@@ -138,6 +174,10 @@ Z-SCORES: xGD_attack=+0.43σ | heist_rate=+0.97σ | xGD_defence=-0.30σ
 SEASON_PROGRESSION (xGD_attack): 2020: +0.8 → 2021: -3.0 → 2022: -3.9 → 2023: +2.9 → 2024: +5.9
 PEAK: best season 2024 (+5.89 xGD attack) | worst season 2022 (-3.90 xGD attack)
 GAME TAGS: heists=22 (rate=11.6%) | grand_heists=5 | robberies=11 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 47 | Clinical: 29 | Dominant Win: 20 | Normal: 17 | Heist: 17
+STORY TAGS: Absolute Chaos: 3 | Nothing Game: 2 | Fatigue Heist: 2 | Perfect Storm: 2 | Bottle Job: 2
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=28 | avg_xGD_fatigue=-0.05 | avg_xGD_normal=+0.03
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Fiorentina are a defensively elite side in Serie A — averaging +0.53 xGD attack (+0.4σ vs league), solid in defence 4/5 seasons. Recovering since 2022 trough.
 ---
@@ -151,6 +191,10 @@ Z-SCORES: xGD_attack=-0.53σ | heist_rate=+0.26σ | xGD_defence=+1.08σ
 SEASON_PROGRESSION (xGD_attack): 2023: -6.2
 PEAK: best season 2023 (-6.20 xGD attack) | worst season 2023 (-6.20 xGD attack)
 GAME TAGS: heists=3 (rate=7.9%) | grand_heists=1 | robberies=2 | gk_worldies=2
+TOP GAME TAGS: Wasteful: 11 | Clinical: 6 | GK Nightmare: 5 | Early Knockout: 3 | Heist: 2
+STORY TAGS: none
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=1 | avg_xGD_fatigue=-0.79 | avg_xGD_normal=-0.15
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Frosinone are a balanced side in Serie A — averaging -6.20 xGD attack (-0.5σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -164,6 +208,10 @@ Z-SCORES: xGD_attack=+0.19σ | heist_rate=+0.49σ | xGD_defence=-0.28σ
 SEASON_PROGRESSION (xGD_attack): 2020: +6.3 → 2021: -11.5 → 2023: +6.3 → 2024: -3.0
 PEAK: best season 2023 (+6.31 xGD attack) | worst season 2021 (-11.53 xGD attack)
 GAME TAGS: heists=13 (rate=8.6%) | grand_heists=1 | robberies=12 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 37 | Normal: 33 | Clinical: 21 | Heist: 12 | Home Bottled: 11
+STORY TAGS: Nothing Game: 4 | Absolute Chaos: 3 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=19 | avg_xGD_fatigue=+0.20 | avg_xGD_normal=-0.04
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Genoa are a defensively elite side in Serie A — averaging -0.49 xGD attack (+0.2σ vs league), solid in defence 4/4 seasons. Recovering since 2021 trough.
 ---
@@ -177,6 +225,10 @@ Z-SCORES: xGD_attack=+0.62σ | heist_rate=-0.26σ | xGD_defence=-0.72σ
 SEASON_PROGRESSION (xGD_attack): 2020: +10.7 → 2021: -6.4 → 2022: -1.0 → 2023: +3.2 → 2024: +2.3
 PEAK: best season 2020 (+10.65 xGD attack) | worst season 2021 (-6.38 xGD attack)
 GAME TAGS: heists=11 (rate=5.8%) | grand_heists=2 | robberies=15 | gk_worldies=10
+TOP GAME TAGS: Dominant Win: 56 | Clinical: 30 | Wasteful: 29 | Ultra Clinical: 16 | Early Knockout: 14
+STORY TAGS: Derby Robbery: 4 | Fatigue Heist: 3 | Absolute Chaos: 2 | Game of the Season: 1 | The Heist of Heists: 1
+DERBY: Derby della Madonnina | W7 D5 L8 | avg_xGD: -0.21
+FATIGUE: fatigue_games=29 | avg_xGD_fatigue=+0.28 | avg_xGD_normal=+0.00
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Inter are a defensively elite side in Serie A — averaging +1.75 xGD attack (+0.6σ vs league), solid in defence 4/5 seasons. Recovering since 2021 trough.
 ---
@@ -190,6 +242,10 @@ Z-SCORES: xGD_attack=-0.50σ | heist_rate=-0.63σ | xGD_defence=-0.22σ
 SEASON_PROGRESSION (xGD_attack): 2020: -6.5 → 2021: -3.8 → 2022: -3.7 → 2023: -9.5 → 2024: -0.1
 PEAK: best season 2024 (-0.12 xGD attack) | worst season 2023 (-9.48 xGD attack)
 GAME TAGS: heists=8 (rate=4.2%) | grand_heists=1 | robberies=13 | gk_worldies=4
+TOP GAME TAGS: Dominant Win: 43 | Wasteful: 40 | Clinical: 30 | Home Bottled: 17 | Early Knockout: 14
+STORY TAGS: Absolute Chaos: 5 | Fatigue Heist: 3 | Nothing Game: 1 | Derby Robbery: 1 | Bottle Job: 1 | Game of the Season: 1
+DERBY: Derby del Piemonte | W10 D7 L3 | avg_xGD: -0.16
+FATIGUE: fatigue_games=29 | avg_xGD_fatigue=+0.12 | avg_xGD_normal=-0.17
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Juventus are a balanced side in Serie A — averaging -4.74 xGD attack (-0.5σ vs league), solid in defence 5/5 seasons. Recovering since 2023 trough.
 ---
@@ -203,6 +259,10 @@ Z-SCORES: xGD_attack=+0.70σ | heist_rate=+0.50σ | xGD_defence=+0.33σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.3 → 2021: +17.7 → 2022: +5.7 → 2023: -2.4 → 2024: -4.3
 PEAK: best season 2021 (+17.71 xGD attack) | worst season 2024 (-4.32 xGD attack)
 GAME TAGS: heists=17 (rate=9.0%) | grand_heists=3 | robberies=15 | gk_worldies=7
+TOP GAME TAGS: Wasteful: 40 | Clinical: 36 | Dominant Win: 27 | Home Bottled: 16 | Heist: 14
+STORY TAGS: Absolute Chaos: 5 | Nothing Game: 4 | Perfect Storm: 2 | The Horror Show: 1 | Derby Robbery: 1
+DERBY: Derby della Capitale | W4 D2 L4 | avg_xGD: -0.09
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=+0.07 | avg_xGD_normal=+0.10
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Lazio are a balanced side in Serie A — averaging +3.80 xGD attack (+0.7σ vs league), solid in defence 2/5 seasons. Declining trend since 2021 peak.
 ---
@@ -216,6 +276,10 @@ Z-SCORES: xGD_attack=-1.30σ | heist_rate=-0.33σ | xGD_defence=-0.46σ
 SEASON_PROGRESSION (xGD_attack): 2022: -3.9 → 2023: -15.6 → 2024: -10.0
 PEAK: best season 2022 (-3.94 xGD attack) | worst season 2023 (-15.62 xGD attack)
 GAME TAGS: heists=7 (rate=6.1%) | grand_heists=4 | robberies=8 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 34 | Normal: 21 | Clinical: 20 | Home Bottled: 10 | Robbery: 8
+STORY TAGS: Nothing Game: 3 | The Heist of Heists: 2 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=6 | avg_xGD_fatigue=-0.30 | avg_xGD_normal=-0.26
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Lecce are a defensively elite side in Serie A — averaging -9.85 xGD attack (-1.3σ vs league), solid in defence 2/3 seasons. Declining trend since 2022 peak.
 ---
@@ -229,6 +293,10 @@ Z-SCORES: xGD_attack=-0.03σ | heist_rate=-0.15σ | xGD_defence=-0.25σ
 SEASON_PROGRESSION (xGD_attack): 2022: +3.2 → 2023: -6.6 → 2024: -4.1
 PEAK: best season 2022 (+3.19 xGD attack) | worst season 2023 (-6.55 xGD attack)
 GAME TAGS: heists=7 (rate=6.1%) | grand_heists=2 | robberies=5 | gk_worldies=7
+TOP GAME TAGS: Wasteful: 38 | Clinical: 19 | Normal: 17 | Home Bottled: 7 | Heist: 5
+STORY TAGS: Nothing Game: 4 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=5 | avg_xGD_fatigue=-0.10 | avg_xGD_normal=-0.06
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Monza are a defensively elite side in Serie A — averaging -2.49 xGD attack (-0.0σ vs league), solid in defence 2/3 seasons. Declining trend since 2022 peak.
 ---
@@ -242,6 +310,10 @@ Z-SCORES: xGD_attack=+0.76σ | heist_rate=-0.64σ | xGD_defence=-0.03σ
 SEASON_PROGRESSION (xGD_attack): 2020: +11.0 → 2021: +10.4 → 2022: +5.3 → 2023: -13.5 → 2024: +2.0
 PEAK: best season 2020 (+11.02 xGD attack) | worst season 2023 (-13.49 xGD attack)
 GAME TAGS: heists=8 (rate=4.2%) | grand_heists=3 | robberies=16 | gk_worldies=4
+TOP GAME TAGS: Clinical: 42 | Wasteful: 35 | Dominant Win: 31 | Ultra Clinical: 20 | Home Bottled: 15
+STORY TAGS: Nothing Game: 4 | Absolute Chaos: 2 | Fatigue Heist: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=25 | avg_xGD_fatigue=+0.02 | avg_xGD_normal=+0.09
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Napoli are a balanced side in Serie A — averaging +3.02 xGD attack (+0.8σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
 ---
@@ -255,6 +327,10 @@ Z-SCORES: xGD_attack=-0.56σ | heist_rate=-0.37σ | xGD_defence=+0.74σ
 SEASON_PROGRESSION (xGD_attack): 2020: -4.0 → 2024: -4.0
 PEAK: best season 2024 (-3.95 xGD attack) | worst season 2020 (-3.98 xGD attack)
 GAME TAGS: heists=4 (rate=5.2%) | grand_heists=2 | robberies=6 | gk_worldies=1
+TOP GAME TAGS: Wasteful: 19 | Clinical: 18 | Normal: 11 | Home Bottled: 8 | GK Nightmare: 6
+STORY TAGS: Absolute Chaos: 3 | Nothing Game: 2 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=9 | avg_xGD_fatigue=-0.13 | avg_xGD_normal=-0.10
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Parma Calcio 1913 are a balanced side in Serie A — averaging -3.96 xGD attack (-0.6σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -268,6 +344,10 @@ Z-SCORES: xGD_attack=-0.57σ | heist_rate=-0.95σ | xGD_defence=+0.08σ
 SEASON_PROGRESSION (xGD_attack): 2020: -4.1 → 2021: -7.8 → 2022: -14.0 → 2023: +8.1 → 2024: -6.1
 PEAK: best season 2023 (+8.08 xGD attack) | worst season 2022 (-14.02 xGD attack)
 GAME TAGS: heists=6 (rate=3.2%) | grand_heists=0 | robberies=11 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 48 | Dominant Win: 34 | Clinical: 34 | Home Bottled: 11 | Early Knockout: 11
+STORY TAGS: Nothing Game: 5 | Absolute Chaos: 3 | Derby Robbery: 1 | Bottle Job: 1
+DERBY: Derby della Capitale | W4 D2 L4 | avg_xGD: +0.14
+FATIGUE: fatigue_games=20 | avg_xGD_fatigue=+0.14 | avg_xGD_normal=-0.16
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Roma are a balanced side in Serie A — averaging -4.78 xGD attack (-0.6σ vs league), solid in defence 2/5 seasons. Recovering since 2022 trough.
 ---
@@ -281,6 +361,10 @@ Z-SCORES: xGD_attack=+0.59σ | heist_rate=+0.20σ | xGD_defence=+0.28σ
 SEASON_PROGRESSION (xGD_attack): 2021: -6.5 → 2022: +12.6 → 2023: +0.6
 PEAK: best season 2022 (+12.56 xGD attack) | worst season 2021 (-6.49 xGD attack)
 GAME TAGS: heists=9 (rate=7.9%) | grand_heists=2 | robberies=3 | gk_worldies=7
+TOP GAME TAGS: Wasteful: 29 | Normal: 26 | Clinical: 24 | Heist: 7 | GK Nightmare: 6
+STORY TAGS: Absolute Chaos: 1 | Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=11 | avg_xGD_fatigue=-0.01 | avg_xGD_normal=+0.07
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Salernitana are a balanced side in Serie A — averaging +2.21 xGD attack (+0.6σ vs league), solid in defence 1/3 seasons. Recovering since 2021 trough.
 ---
@@ -294,6 +378,10 @@ Z-SCORES: xGD_attack=+0.11σ | heist_rate=+0.11σ | xGD_defence=-0.07σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.3 → 2021: +6.9 → 2022: -11.1
 PEAK: best season 2021 (+6.91 xGD attack) | worst season 2022 (-11.10 xGD attack)
 GAME TAGS: heists=9 (rate=7.9%) | grand_heists=2 | robberies=8 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 30 | Clinical: 26 | Normal: 18 | Heist: 7 | GK Nightmare: 7
+STORY TAGS: Fatigue Heist: 2 | Absolute Chaos: 1 | Nothing Game: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=+0.16 | avg_xGD_normal=-0.02
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Sampdoria are a balanced side in Serie A — averaging +0.37 xGD attack (+0.1σ vs league), solid in defence 1/3 seasons. Declining trend since 2021 peak.
 ---
@@ -307,6 +395,10 @@ Z-SCORES: xGD_attack=+0.20σ | heist_rate=+0.81σ | xGD_defence=+0.65σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.4 → 2021: +4.6 → 2022: -4.5 → 2023: -0.5
 PEAK: best season 2021 (+4.64 xGD attack) | worst season 2022 (-4.50 xGD attack)
 GAME TAGS: heists=16 (rate=10.5%) | grand_heists=3 | robberies=11 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 41 | Clinical: 28 | Normal: 16 | Heist: 13 | Home Bottled: 12
+STORY TAGS: Absolute Chaos: 6 | Nothing Game: 2 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=18 | avg_xGD_fatigue=-0.21 | avg_xGD_normal=+0.04
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Sassuolo are a balanced side in Serie A — averaging +0.50 xGD attack (+0.2σ vs league), solid in defence 1/4 seasons. Declining trend since 2021 peak.
 ---
@@ -320,6 +412,10 @@ Z-SCORES: xGD_attack=-0.23σ | heist_rate=+0.53σ | xGD_defence=+0.13σ
 SEASON_PROGRESSION (xGD_attack): 2020: +4.1 → 2021: -0.6 → 2022: -9.6
 PEAK: best season 2020 (+4.10 xGD attack) | worst season 2022 (-9.64 xGD attack)
 GAME TAGS: heists=11 (rate=9.6%) | grand_heists=7 | robberies=7 | gk_worldies=10
+TOP GAME TAGS: Wasteful: 31 | Clinical: 22 | Normal: 13 | Home Bottled: 11 | GK Nightmare: 8
+STORY TAGS: Perfect Storm: 3 | Absolute Chaos: 2 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=19 | avg_xGD_fatigue=-0.05 | avg_xGD_normal=-0.05
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Spezia are a balanced side in Serie A — averaging -2.06 xGD attack (-0.2σ vs league), solid in defence 1/3 seasons. Declining trend since 2020 peak.
 ---
@@ -333,6 +429,10 @@ Z-SCORES: xGD_attack=-0.25σ | heist_rate=+0.06σ | xGD_defence=-0.10σ
 SEASON_PROGRESSION (xGD_attack): 2020: +0.4 → 2021: -7.8 → 2022: -5.3 → 2023: -7.3 → 2024: +1.7
 PEAK: best season 2024 (+1.71 xGD attack) | worst season 2021 (-7.75 xGD attack)
 GAME TAGS: heists=14 (rate=7.4%) | grand_heists=2 | robberies=8 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 51 | Clinical: 37 | Normal: 22 | Home Bottled: 22 | Dominant Win: 14
+STORY TAGS: Nothing Game: 4 | Absolute Chaos: 3 | Fatigue Heist: 2 | Game of the Season: 1 | Bottle Job: 1 | The Horror Show: 1 | Carried and Won: 1
+DERBY: Derby del Piemonte | W0 D4 L6 | avg_xGD: -0.09
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=+0.02 | avg_xGD_normal=-0.11
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Torino are a balanced side in Serie A — averaging -3.65 xGD attack (-0.3σ vs league), solid in defence 3/5 seasons. Recovering since 2021 trough.
 ---
@@ -346,6 +446,10 @@ Z-SCORES: xGD_attack=-0.30σ | heist_rate=+0.14σ | xGD_defence=+0.23σ
 SEASON_PROGRESSION (xGD_attack): 2020: -6.2 → 2021: +3.8 → 2022: -0.6 → 2023: -7.9 → 2024: -3.5
 PEAK: best season 2021 (+3.83 xGD attack) | worst season 2023 (-7.88 xGD attack)
 GAME TAGS: heists=15 (rate=7.9%) | grand_heists=1 | robberies=17 | gk_worldies=13
+TOP GAME TAGS: Wasteful: 40 | Clinical: 36 | Normal: 24 | Home Bottled: 21 | Heist: 14
+STORY TAGS: Nothing Game: 3 | Absolute Chaos: 3 | The Horror Show: 2 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=25 | avg_xGD_fatigue=-0.08 | avg_xGD_normal=-0.08
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Udinese are a balanced side in Serie A — averaging -2.87 xGD attack (-0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
 ---
@@ -359,6 +463,10 @@ Z-SCORES: xGD_attack=-0.90σ | heist_rate=-0.78σ | xGD_defence=-1.35σ
 SEASON_PROGRESSION (xGD_attack): 2021: -2.2 → 2024: -9.6
 PEAK: best season 2021 (-2.16 xGD attack) | worst season 2024 (-9.62 xGD attack)
 GAME TAGS: heists=2 (rate=2.6%) | grand_heists=1 | robberies=6 | gk_worldies=7
+TOP GAME TAGS: Wasteful: 28 | Clinical: 14 | Normal: 12 | GK Worldie: 6 | Robbery: 5
+STORY TAGS: Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=6 | avg_xGD_fatigue=+0.25 | avg_xGD_normal=-0.19
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Venezia are a defensively elite side in Serie A — averaging -5.89 xGD attack (-0.9σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -372,6 +480,10 @@ Z-SCORES: xGD_attack=-0.06σ | heist_rate=+0.43σ | xGD_defence=+0.50σ
 SEASON_PROGRESSION (xGD_attack): 2020: -5.0 → 2021: +8.6 → 2022: -6.3 → 2023: -0.5 → 2024: -3.3
 PEAK: best season 2021 (+8.62 xGD attack) | worst season 2022 (-6.27 xGD attack)
 GAME TAGS: heists=17 (rate=9.0%) | grand_heists=3 | robberies=16 | gk_worldies=8
+TOP GAME TAGS: Clinical: 42 | Wasteful: 36 | Normal: 29 | Heist: 14 | Home Bottled: 14
+STORY TAGS: Nothing Game: 5 | Absolute Chaos: 5 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=-0.19 | avg_xGD_normal=-0.02
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Verona are a balanced side in Serie A — averaging -1.28 xGD attack (-0.1σ vs league), solid in defence 2/5 seasons. Declining trend since 2021 peak.
 ---

@@ -21,6 +21,10 @@ Z-SCORES: xGD_attack=-0.99σ | heist_rate=-0.21σ | xGD_defence=+0.37σ
 SEASON_PROGRESSION (xGD_attack): 2020: -3.1 → 2021: -7.5 → 2023: -16.0 → 2024: -8.4
 PEAK: best season 2020 (-3.11 xGD attack) | worst season 2023 (-15.97 xGD attack)
 GAME TAGS: heists=10 (rate=6.6%) | grand_heists=1 | robberies=17 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 33 | Clinical: 26 | Normal: 26 | Robbery: 13 | Home Bottled: 10
+STORY TAGS: Nothing Game: 4 | Absolute Chaos: 2 | Fatigue Heist: 1 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=20 | avg_xGD_fatigue=-0.05 | avg_xGD_normal=-0.26
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Alaves are a chance-dominant but wasteful side in La Liga — averaging -8.73 xGD attack (-1.0σ vs league), solid in defence 2/4 seasons. Declining trend since 2020 peak.
 ---
@@ -34,6 +38,10 @@ Z-SCORES: xGD_attack=+0.53σ | heist_rate=-0.52σ | xGD_defence=+0.68σ
 SEASON_PROGRESSION (xGD_attack): 2022: +2.9 → 2023: -6.9
 PEAK: best season 2022 (+2.91 xGD attack) | worst season 2023 (-6.90 xGD attack)
 GAME TAGS: heists=5 (rate=6.6%) | grand_heists=1 | robberies=7 | gk_worldies=4
+TOP GAME TAGS: Clinical: 17 | Wasteful: 14 | Normal: 14 | Home Bottled: 6 | Robbery: 5
+STORY TAGS: Absolute Chaos: 3 | Fatigue Heist: 2 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=9 | avg_xGD_fatigue=+0.45 | avg_xGD_normal=-0.12
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Almeria are a balanced side in La Liga — averaging -1.99 xGD attack (+0.5σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -47,6 +55,10 @@ Z-SCORES: xGD_attack=-0.35σ | heist_rate=-0.38σ | xGD_defence=+0.18σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.9 → 2021: -14.0 → 2022: -9.2 → 2023: -0.6 → 2024: -5.7
 PEAK: best season 2020 (+2.94 xGD attack) | worst season 2021 (-14.01 xGD attack)
 GAME TAGS: heists=12 (rate=6.3%) | grand_heists=3 | robberies=15 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 35 | Clinical: 32 | Normal: 28 | Dominant Win: 25 | Home Bottled: 17
+STORY TAGS: Nothing Game: 10 | Absolute Chaos: 1 | Carried and Won: 1 | Perfect Storm: 1 | Fatigue Heist: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=29 | avg_xGD_fatigue=-0.31 | avg_xGD_normal=-0.11
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Athletic Club are a balanced side in La Liga — averaging -5.33 xGD attack (-0.4σ vs league), solid in defence 3/5 seasons. Recovering since 2021 trough.
 ---
@@ -60,6 +72,10 @@ Z-SCORES: xGD_attack=+0.95σ | heist_rate=+0.50σ | xGD_defence=-0.30σ
 SEASON_PROGRESSION (xGD_attack): 2020: +9.3 → 2021: +5.6 → 2022: +1.3 → 2023: +0.2 → 2024: -4.3
 PEAK: best season 2020 (+9.34 xGD attack) | worst season 2024 (-4.32 xGD attack)
 GAME TAGS: heists=19 (rate=10.0%) | grand_heists=3 | robberies=17 | gk_worldies=8
+TOP GAME TAGS: Dominant Win: 37 | Wasteful: 36 | Clinical: 34 | Heist: 16 | Ultra Clinical: 13
+STORY TAGS: Derby Robbery: 4 | Absolute Chaos: 3 | Perfect Storm: 1 | Bottle Job: 1 | Fatigue Heist: 1 | The Heist of Heists: 1
+DERBY: Spanish Derby | W5 D6 L9 | avg_xGD: -0.23
+FATIGUE: fatigue_games=34 | avg_xGD_fatigue=-0.22 | avg_xGD_normal=+0.12
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Atletico Madrid are a defensively elite side in La Liga — averaging +2.41 xGD attack (+0.9σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
 ---
@@ -73,6 +89,10 @@ Z-SCORES: xGD_attack=+0.10σ | heist_rate=-0.18σ | xGD_defence=-0.13σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.0 → 2021: -2.5 → 2022: -12.8 → 2023: -2.8 → 2024: +2.5
 PEAK: best season 2024 (+2.54 xGD attack) | worst season 2022 (-12.79 xGD attack)
 GAME TAGS: heists=13 (rate=6.9%) | grand_heists=2 | robberies=17 | gk_worldies=4
+TOP GAME TAGS: Dominant Win: 49 | Wasteful: 39 | Clinical: 28 | Ultra Clinical: 17 | Robbery: 11
+STORY TAGS: Derby Robbery: 5 | Nothing Game: 1 | Fatigue Heist: 1 | Absolute Chaos: 1 | Bottle Job: 1
+DERBY: El Clasico | W10 D1 L9 | avg_xGD: -0.15
+FATIGUE: fatigue_games=40 | avg_xGD_fatigue=-0.03 | avg_xGD_normal=-0.09
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Barcelona are a defensively elite side in La Liga — averaging -2.90 xGD attack (+0.1σ vs league), solid in defence 4/5 seasons. Recovering since 2022 trough.
 ---
@@ -86,6 +106,10 @@ Z-SCORES: xGD_attack=-0.83σ | heist_rate=-0.73σ | xGD_defence=-0.48σ
 SEASON_PROGRESSION (xGD_attack): 2020: -0.7 → 2021: -6.8 → 2022: -12.7 → 2023: -12.0
 PEAK: best season 2020 (-0.70 xGD attack) | worst season 2022 (-12.68 xGD attack)
 GAME TAGS: heists=7 (rate=4.6%) | grand_heists=2 | robberies=4 | gk_worldies=13
+TOP GAME TAGS: Wasteful: 54 | Clinical: 26 | Normal: 21 | Home Bottled: 14 | GK Worldie: 11
+STORY TAGS: Nothing Game: 5 | Fatigue Heist: 2 | Absolute Chaos: 2 | The Heist of Heists: 2
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=-0.24 | avg_xGD_normal=-0.21
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Cadiz are a defensively elite side in La Liga — averaging -8.04 xGD attack (-0.8σ vs league), solid in defence 4/4 seasons. Declining trend since 2020 peak.
 ---
@@ -99,6 +123,10 @@ Z-SCORES: xGD_attack=+0.39σ | heist_rate=+0.39σ | xGD_defence=+0.88σ
 SEASON_PROGRESSION (xGD_attack): 2020: +3.7 → 2021: -1.9 → 2022: +0.8 → 2023: -10.4 → 2024: +0.6
 PEAK: best season 2020 (+3.68 xGD attack) | worst season 2023 (-10.39 xGD attack)
 GAME TAGS: heists=18 (rate=9.5%) | grand_heists=7 | robberies=21 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 47 | Clinical: 36 | Normal: 21 | Robbery: 18 | Home Bottled: 14
+STORY TAGS: Nothing Game: 5 | Fatigue Heist: 3 | Absolute Chaos: 2 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=+0.15 | avg_xGD_normal=-0.06
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Celta Vigo are a chance-dominant but wasteful side in La Liga — averaging -1.47 xGD attack (+0.4σ vs league), solid in defence 2/5 seasons. Declining trend since 2020 peak.
 ---
@@ -112,6 +140,10 @@ Z-SCORES: xGD_attack=-2.47σ | heist_rate=-0.96σ | xGD_defence=+0.62σ
 SEASON_PROGRESSION (xGD_attack): 2020: -13.5
 PEAK: best season 2020 (-13.45 xGD attack) | worst season 2020 (-13.45 xGD attack)
 GAME TAGS: heists=1 (rate=2.6%) | grand_heists=1 | robberies=8 | gk_worldies=1
+TOP GAME TAGS: Clinical: 8 | Wasteful: 7 | Normal: 5 | Robbery: 5 | Home Bottled: 5
+STORY TAGS: Nothing Game: 1 | Perfect Storm: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=5 | avg_xGD_fatigue=-0.36 | avg_xGD_normal=-0.35
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: Eibar are a chance-dominant but wasteful side in La Liga — averaging -13.45 xGD attack (-2.5σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -125,6 +157,10 @@ Z-SCORES: xGD_attack=+0.18σ | heist_rate=+0.17σ | xGD_defence=-1.03σ
 SEASON_PROGRESSION (xGD_attack): 2020: +3.6 → 2021: +3.2 → 2022: -10.3
 PEAK: best season 2020 (+3.60 xGD attack) | worst season 2022 (-10.29 xGD attack)
 GAME TAGS: heists=10 (rate=8.8%) | grand_heists=3 | robberies=6 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 31 | Clinical: 26 | Normal: 22 | Heist: 7 | GK Worldie: 6
+STORY TAGS: Nothing Game: 2 | Fatigue Heist: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=20 | avg_xGD_fatigue=-0.13 | avg_xGD_normal=-0.01
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Elche are a defensively elite side in La Liga — averaging -1.17 xGD attack (+0.2σ vs league), solid in defence 3/3 seasons. Declining trend since 2020 peak.
 ---
@@ -138,6 +174,10 @@ Z-SCORES: xGD_attack=+0.96σ | heist_rate=+1.56σ | xGD_defence=+0.29σ
 SEASON_PROGRESSION (xGD_attack): 2021: +1.1 → 2022: +1.0 → 2024: +1.3
 PEAK: best season 2024 (+1.32 xGD attack) | worst season 2022 (+0.96 xGD attack)
 GAME TAGS: heists=17 (rate=14.9%) | grand_heists=3 | robberies=11 | gk_worldies=8
+TOP GAME TAGS: Clinical: 31 | Wasteful: 21 | Normal: 14 | Heist: 14 | Robbery: 11
+STORY TAGS: Nothing Game: 1 | Bottle Job: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=14 | avg_xGD_fatigue=-0.43 | avg_xGD_normal=+0.09
 VERDICT: attack=systematic_overperformer | defence=inconsistent_defence
 INSIGHT: Espanyol are a counter-attacking/heist specialists side in La Liga — averaging +1.13 xGD attack (+1.0σ vs league), solid in defence 2/3 seasons. Recovering since 2022 trough.
 ---
@@ -151,6 +191,10 @@ Z-SCORES: xGD_attack=-0.41σ | heist_rate=+0.03σ | xGD_defence=-0.03σ
 SEASON_PROGRESSION (xGD_attack): 2020: -7.6 → 2021: +1.4 → 2022: -4.9 → 2023: -8.3 → 2024: -7.4
 PEAK: best season 2021 (+1.45 xGD attack) | worst season 2023 (-8.28 xGD attack)
 GAME TAGS: heists=16 (rate=8.4%) | grand_heists=2 | robberies=16 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 43 | Normal: 39 | Clinical: 29 | Home Bottled: 18 | Heist: 14
+STORY TAGS: Nothing Game: 8 | Absolute Chaos: 4 | The Horror Show: 1 | Bottle Job: 1 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=30 | avg_xGD_fatigue=-0.01 | avg_xGD_normal=-0.16
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Getafe are a defensively elite side in La Liga — averaging -5.35 xGD attack (-0.4σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -164,6 +208,10 @@ Z-SCORES: xGD_attack=+1.21σ | heist_rate=-0.24σ | xGD_defence=+0.02σ
 SEASON_PROGRESSION (xGD_attack): 2022: +3.2 → 2023: +7.0 → 2024: -2.3
 PEAK: best season 2023 (+6.95 xGD attack) | worst season 2024 (-2.26 xGD attack)
 GAME TAGS: heists=9 (rate=7.9%) | grand_heists=3 | robberies=7 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 28 | Clinical: 20 | Dominant Win: 12 | Normal: 11 | Ultra Clinical: 9
+STORY TAGS: Absolute Chaos: 2 | Perfect Storm: 2 | Game of the Season: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=13 | avg_xGD_fatigue=-0.15 | avg_xGD_normal=+0.10
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Girona are a defensively elite side in La Liga — averaging +2.63 xGD attack (+1.2σ vs league), solid in defence 1/3 seasons. Declining trend since 2023 peak.
 ---
@@ -177,6 +225,10 @@ Z-SCORES: xGD_attack=+0.56σ | heist_rate=-0.40σ | xGD_defence=+0.99σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.9 → 2021: +2.7 → 2023: -5.6
 PEAK: best season 2020 (+5.95 xGD attack) | worst season 2023 (-5.58 xGD attack)
 GAME TAGS: heists=6 (rate=5.3%) | grand_heists=1 | robberies=11 | gk_worldies=2
+TOP GAME TAGS: Clinical: 26 | Wasteful: 26 | Normal: 19 | Robbery: 11 | GK Nightmare: 8
+STORY TAGS: Nothing Game: 5 | Absolute Chaos: 3 | Fatigue Heist: 1 | Game of the Season: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=16 | avg_xGD_fatigue=-0.10 | avg_xGD_normal=+0.05
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Granada are a balanced side in La Liga — averaging +1.02 xGD attack (+0.6σ vs league), solid in defence 1/3 seasons. Declining trend since 2020 peak.
 ---
@@ -190,6 +242,10 @@ Z-SCORES: xGD_attack=+0.71σ | heist_rate=+1.33σ | xGD_defence=-1.29σ
 SEASON_PROGRESSION (xGD_attack): 2023: -2.8 → 2024: +0.9
 PEAK: best season 2024 (+0.94 xGD attack) | worst season 2023 (-2.82 xGD attack)
 GAME TAGS: heists=11 (rate=14.5%) | grand_heists=5 | robberies=5 | gk_worldies=10
+TOP GAME TAGS: Wasteful: 23 | Clinical: 12 | Normal: 9 | Heist: 6 | GK Worldie: 6
+STORY TAGS: Perfect Storm: 2 | The Heist of Heists: 1 | Nothing Game: 1 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=5 | avg_xGD_fatigue=-0.68 | avg_xGD_normal=+0.02
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Las Palmas are a counter-attacking/heist specialists side in La Liga — averaging -0.94 xGD attack (+0.7σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -203,6 +259,10 @@ Z-SCORES: xGD_attack=+1.07σ | heist_rate=-0.08σ | xGD_defence=-0.69σ
 SEASON_PROGRESSION (xGD_attack): 2024: +0.4
 PEAK: best season 2024 (+0.44 xGD attack) | worst season 2024 (+0.44 xGD attack)
 GAME TAGS: heists=3 (rate=7.9%) | grand_heists=2 | robberies=0 | gk_worldies=4
+TOP GAME TAGS: Wasteful: 12 | Clinical: 9 | Normal: 6 | GK Nightmare: 3 | Home Bottled: 2
+STORY TAGS: Absolute Chaos: 2 | Nothing Game: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=4 | avg_xGD_fatigue=-0.42 | avg_xGD_normal=+0.06
 VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
 INSIGHT: Leganes are a defensively elite side in La Liga — averaging +0.44 xGD attack (+1.1σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -216,6 +276,10 @@ Z-SCORES: xGD_attack=+0.14σ | heist_rate=+0.45σ | xGD_defence=+1.35σ
 SEASON_PROGRESSION (xGD_attack): 2020: +5.1 → 2021: -6.6
 PEAK: best season 2020 (+5.07 xGD attack) | worst season 2021 (-6.56 xGD attack)
 GAME TAGS: heists=7 (rate=9.2%) | grand_heists=1 | robberies=9 | gk_worldies=4
+TOP GAME TAGS: Clinical: 16 | Wasteful: 13 | Home Bottled: 10 | Normal: 7 | Robbery: 6
+STORY TAGS: Absolute Chaos: 3 | The Heist of Heists: 1 | Nothing Game: 1 | Bottle Job: 1 | Fatigue Heist: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=12 | avg_xGD_fatigue=+0.30 | avg_xGD_normal=-0.08
 VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
 INSIGHT: Levante are a chance-dominant but wasteful side in La Liga — averaging -0.75 xGD attack (+0.1σ vs league), solid in defence 0/2 seasons. Only 2 season(s) tracked — insufficient for trend.
 ---
@@ -229,6 +293,10 @@ Z-SCORES: xGD_attack=-0.41σ | heist_rate=+0.50σ | xGD_defence=+0.23σ
 SEASON_PROGRESSION (xGD_attack): 2021: -4.6 → 2022: -2.6 → 2023: -8.7 → 2024: -9.4
 PEAK: best season 2022 (-2.56 xGD attack) | worst season 2024 (-9.40 xGD attack)
 GAME TAGS: heists=15 (rate=9.9%) | grand_heists=6 | robberies=10 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 36 | Clinical: 27 | Normal: 25 | Home Bottled: 13 | Heist: 9
+STORY TAGS: Nothing Game: 5 | Absolute Chaos: 3 | Fatigue Heist: 2 | Perfect Storm: 1 | Bottle Job: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=21 | avg_xGD_fatigue=+0.03 | avg_xGD_normal=-0.20
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Mallorca are a balanced side in La Liga — averaging -6.32 xGD attack (-0.4σ vs league), solid in defence 3/4 seasons. Declining trend since 2022 peak.
 ---
@@ -242,6 +310,10 @@ Z-SCORES: xGD_attack=+0.08σ | heist_rate=+0.37σ | xGD_defence=-0.10σ
 SEASON_PROGRESSION (xGD_attack): 2020: -2.6 → 2021: -5.0 → 2022: -4.4 → 2023: -0.8 → 2024: -1.4
 PEAK: best season 2023 (-0.79 xGD attack) | worst season 2021 (-5.03 xGD attack)
 GAME TAGS: heists=18 (rate=9.5%) | grand_heists=5 | robberies=7 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 46 | Clinical: 39 | Normal: 38 | Dominant Win: 13 | Heist: 13
+STORY TAGS: Fatigue Heist: 6 | Nothing Game: 4 | The Heist of Heists: 2 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=27 | avg_xGD_fatigue=+0.09 | avg_xGD_normal=-0.10
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Osasuna are a defensively elite side in La Liga — averaging -2.86 xGD attack (+0.1σ vs league), solid in defence 4/5 seasons. Recovering since 2021 trough.
 ---
@@ -255,6 +327,10 @@ Z-SCORES: xGD_attack=-0.61σ | heist_rate=+0.20σ | xGD_defence=+0.20σ
 SEASON_PROGRESSION (xGD_attack): 2021: -8.0 → 2022: +2.5 → 2023: -17.4 → 2024: -9.0
 PEAK: best season 2022 (+2.46 xGD attack) | worst season 2023 (-17.40 xGD attack)
 GAME TAGS: heists=13 (rate=8.5%) | grand_heists=3 | robberies=17 | gk_worldies=10
+TOP GAME TAGS: Wasteful: 42 | Clinical: 23 | Home Bottled: 16 | Normal: 13 | Robbery: 12
+STORY TAGS: Nothing Game: 5 | Fatigue Heist: 3 | Absolute Chaos: 2 | Carried and Won: 1 | The Horror Show: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=20 | avg_xGD_fatigue=+0.02 | avg_xGD_normal=-0.25
 VERDICT: attack=inconsistent | defence=inconsistent_defence
 INSIGHT: Rayo Vallecano are a chance-dominant but wasteful side in La Liga — averaging -7.99 xGD attack (-0.6σ vs league), solid in defence 3/4 seasons. Declining trend since 2022 peak.
 ---
@@ -268,6 +344,10 @@ Z-SCORES: xGD_attack=+0.13σ | heist_rate=-0.37σ | xGD_defence=-0.24σ
 SEASON_PROGRESSION (xGD_attack): 2020: +0.2 → 2021: +6.1 → 2022: -9.1 → 2023: -4.9 → 2024: -3.8
 PEAK: best season 2021 (+6.10 xGD attack) | worst season 2022 (-9.10 xGD attack)
 GAME TAGS: heists=12 (rate=6.3%) | grand_heists=1 | robberies=12 | gk_worldies=8
+TOP GAME TAGS: Clinical: 45 | Wasteful: 42 | Normal: 19 | Dominant Win: 19 | Home Bottled: 15
+STORY TAGS: Nothing Game: 2 | Absolute Chaos: 2 | Perfect Storm: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=30 | avg_xGD_fatigue=-0.06 | avg_xGD_normal=-0.06
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Real Betis are a defensively elite side in La Liga — averaging -2.30 xGD attack (+0.1σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -281,6 +361,10 @@ Z-SCORES: xGD_attack=+0.21σ | heist_rate=+0.16σ | xGD_defence=-1.15σ
 SEASON_PROGRESSION (xGD_attack): 2020: +1.9 → 2021: -0.2 → 2022: -4.4 → 2023: +6.1 → 2024: -10.1
 PEAK: best season 2023 (+6.12 xGD attack) | worst season 2024 (-10.10 xGD attack)
 GAME TAGS: heists=16 (rate=8.4%) | grand_heists=2 | robberies=8 | gk_worldies=7
+TOP GAME TAGS: Dominant Win: 51 | Wasteful: 39 | Clinical: 37 | Heist: 14 | Home Bottled: 14
+STORY TAGS: Fatigue Heist: 3 | Nothing Game: 2 | Absolute Chaos: 1
+DERBY: El Clasico | W9 D5 L6 | avg_xGD: +0.05
+FATIGUE: fatigue_games=38 | avg_xGD_fatigue=+0.04 | avg_xGD_normal=-0.05
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Real Madrid are a defensively elite side in La Liga — averaging -1.33 xGD attack (+0.2σ vs league), solid in defence 5/5 seasons. Declining trend since 2023 peak.
 ---
@@ -294,6 +378,10 @@ Z-SCORES: xGD_attack=-1.00σ | heist_rate=-0.73σ | xGD_defence=-0.05σ
 SEASON_PROGRESSION (xGD_attack): 2020: -4.1 → 2021: -16.1 → 2022: -11.6 → 2023: +1.8 → 2024: -12.9
 PEAK: best season 2023 (+1.84 xGD attack) | worst season 2021 (-16.09 xGD attack)
 GAME TAGS: heists=10 (rate=5.3%) | grand_heists=0 | robberies=14 | gk_worldies=7
+TOP GAME TAGS: Wasteful: 51 | Clinical: 33 | Dominant Win: 30 | Home Bottled: 17 | Normal: 14
+STORY TAGS: Nothing Game: 6 | Absolute Chaos: 3 | Fatigue Heist: 2 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=29 | avg_xGD_fatigue=-0.18 | avg_xGD_normal=-0.23
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Real Sociedad are a defensively elite side in La Liga — averaging -8.57 xGD attack (-1.0σ vs league), solid in defence 5/5 seasons. Recovering since 2021 trough.
 ---
@@ -307,6 +395,10 @@ Z-SCORES: xGD_attack=-0.78σ | heist_rate=-0.79σ | xGD_defence=+0.97σ
 SEASON_PROGRESSION (xGD_attack): 2020: -3.9 → 2022: -6.9 → 2024: -10.1
 PEAK: best season 2020 (-3.92 xGD attack) | worst season 2024 (-10.08 xGD attack)
 GAME TAGS: heists=5 (rate=4.4%) | grand_heists=1 | robberies=9 | gk_worldies=5
+TOP GAME TAGS: Wasteful: 26 | Clinical: 23 | Normal: 19 | Home Bottled: 10 | GK Nightmare: 9
+STORY TAGS: Fatigue Heist: 2 | Absolute Chaos: 2 | Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=17 | avg_xGD_fatigue=-0.09 | avg_xGD_normal=-0.20
 VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
 INSIGHT: Real Valladolid are a balanced side in La Liga — averaging -6.95 xGD attack (-0.8σ vs league), solid in defence 1/3 seasons. Declining trend since 2020 peak.
 ---
@@ -320,6 +412,10 @@ Z-SCORES: xGD_attack=-0.74σ | heist_rate=-0.96σ | xGD_defence=+0.86σ
 SEASON_PROGRESSION (xGD_attack): 2020: -4.0
 PEAK: best season 2020 (-3.98 xGD attack) | worst season 2020 (-3.98 xGD attack)
 GAME TAGS: heists=1 (rate=2.6%) | grand_heists=0 | robberies=5 | gk_worldies=3
+TOP GAME TAGS: Normal: 10 | Wasteful: 6 | Home Bottled: 5 | Clinical: 4 | Robbery: 4
+STORY TAGS: Nothing Game: 3 | Absolute Chaos: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=5 | avg_xGD_fatigue=-0.59 | avg_xGD_normal=-0.03
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
 INSIGHT: SD Huesca are a chance-dominant but wasteful side in La Liga — averaging -3.98 xGD attack (-0.7σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
 ---
@@ -333,6 +429,10 @@ Z-SCORES: xGD_attack=+0.22σ | heist_rate=+0.26σ | xGD_defence=-0.18σ
 SEASON_PROGRESSION (xGD_attack): 2020: -2.9 → 2021: +6.1 → 2022: -3.7 → 2023: -5.5 → 2024: -3.1
 PEAK: best season 2021 (+6.15 xGD attack) | worst season 2023 (-5.53 xGD attack)
 GAME TAGS: heists=17 (rate=9.0%) | grand_heists=4 | robberies=17 | gk_worldies=13
+TOP GAME TAGS: Wasteful: 42 | Clinical: 38 | Dominant Win: 17 | Normal: 17 | Heist: 13
+STORY TAGS: Absolute Chaos: 5 | Fatigue Heist: 2 | The Horror Show: 2 | Carried and Won: 1 | Perfect Storm: 1 | Nothing Game: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=35 | avg_xGD_fatigue=-0.05 | avg_xGD_normal=-0.05
 VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
 INSIGHT: Sevilla are a defensively elite side in La Liga — averaging -1.81 xGD attack (+0.2σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
 ---
@@ -346,6 +446,10 @@ Z-SCORES: xGD_attack=+0.34σ | heist_rate=-0.04σ | xGD_defence=-0.12σ
 SEASON_PROGRESSION (xGD_attack): 2020: +8.1 → 2021: +5.7 → 2022: -11.6 → 2023: -5.1 → 2024: -2.9
 PEAK: best season 2020 (+8.11 xGD attack) | worst season 2022 (-11.64 xGD attack)
 GAME TAGS: heists=15 (rate=7.9%) | grand_heists=3 | robberies=14 | gk_worldies=8
+TOP GAME TAGS: Wasteful: 51 | Clinical: 38 | Normal: 23 | Home Bottled: 18 | Heist: 12
+STORY TAGS: Nothing Game: 3 | Fatigue Heist: 2 | Absolute Chaos: 2 | Perfect Storm: 2 | Carried and Won: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=27 | avg_xGD_fatigue=-0.11 | avg_xGD_normal=-0.02
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Valencia are a defensively elite side in La Liga — averaging -1.17 xGD attack (+0.3σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
 ---
@@ -359,6 +463,10 @@ Z-SCORES: xGD_attack=+0.21σ | heist_rate=-0.10σ | xGD_defence=-0.23σ
 SEASON_PROGRESSION (xGD_attack): 2020: +2.1 → 2021: -7.3 → 2022: -6.6 → 2023: +5.2 → 2024: -3.1
 PEAK: best season 2023 (+5.19 xGD attack) | worst season 2021 (-7.33 xGD attack)
 GAME TAGS: heists=15 (rate=7.9%) | grand_heists=1 | robberies=17 | gk_worldies=9
+TOP GAME TAGS: Wasteful: 40 | Dominant Win: 33 | Clinical: 26 | Home Bottled: 18 | Normal: 15
+STORY TAGS: Fatigue Heist: 4 | Nothing Game: 3 | Absolute Chaos: 2 | Bottle Job: 1 | Game of the Season: 1 | The Heist of Heists: 1
+DERBY: no derbies tracked
+FATIGUE: fatigue_games=31 | avg_xGD_fatigue=+0.05 | avg_xGD_normal=-0.07
 VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
 INSIGHT: Villarreal are a defensively elite side in La Liga — averaging -1.92 xGD attack (+0.2σ vs league), solid in defence 4/5 seasons. Recovering since 2021 trough.
 ---
