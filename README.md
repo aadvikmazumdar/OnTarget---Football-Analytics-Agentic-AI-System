@@ -1,14 +1,241 @@
-# OnTarget — Football Analytics & Agentic AI System
+# OnTarget — AI Football Analyst
 
-> End-to-end football analytics platform covering 5 European leagues across 5 seasons, combining shot-level data engineering, statistical analysis, match prediction, and a multi-model AI agent — all running locally on Apple Silicon.
+> An AI football analyst that happens to have a dashboard. Not another stats site — a system that thinks about the game the way an analyst does.
 
 ---
 
-## What is OnTarget?
+## The Idea
 
-OnTarget is built around a simple idea: take the kind of data Sofascore shows you after a match and go significantly deeper — not just *what* happened, but *why* it happened and *what's likely to happen next*.
+SofaScore tells you what happened. OnTarget tells you why it happened, how unusual it was, and what's likely to happen next.
 
-Every layer of the system feeds the next. Raw match and shot data is scraped, cleaned, and analysed to produce statistical findings. Those findings train a prediction model and populate a vector database. A multi-model agent sits on top, answering natural language questions grounded in real data — not hallucinated summaries.
+The starting point was a simple frustration: every public football platform shows you the same surface-level stats. xG totals, possession percentages, pass completion rates. What none of them do is ask the harder questions:
+
+- Does Atletico Madrid actually win games they shouldn't, or does it just feel that way?
+- Which teams consistently outperform their xG — and is it finishing quality or something about how they create chances?
+- When a team goes 1-0 up, does the opponent's xGA artificially inflate because they're chasing the game?
+- Does pressing intensity actually predict xG overperformance, or is it just correlated with good teams?
+
+OnTarget is built to answer those questions — grounded in 224,000 shots, 8,982 matches, and 5 seasons of data across Europe's top 5 leagues. The AI layer makes all of it queryable in natural language.
+
+---
+
+## What Makes This Different From SofaScore
+
+| | SofaScore | OnTarget |
+|--|-----------|----------|
+| Data breadth | 1000+ competitions | 5 leagues, 5 seasons, deep |
+| Live data | ✅ | ❌ |
+| xG per match | ✅ | ✅ |
+| xGD consistency across seasons | ❌ | ✅ |
+| Game-state adjusted xG | ❌ | ✅ |
+| Opponent-quality adjusted xGD | ❌ | ✅ |
+| Heist/robbery game classification | ❌ | ✅ |
+| Counter-attack conversion by league | ❌ | ✅ |
+| Shot quality by phase (Q1-AT) | ❌ | ✅ |
+| Pressing → xGD correlation | ❌ | ✅ |
+| Natural language queries | ❌ | ✅ |
+| Agent controls dashboard filters | ❌ | ✅ |
+
+SofaScore is for fans who want scores. OnTarget is for people who want to understand the game analytically.
+
+---
+
+## The Agent Is the Product
+
+The dashboard is visual context. The agent is the interface.
+
+```
+"Which Bundesliga team has been most clinical away from home over 3 seasons?"
+→ RAG retrieval over pre-computed findings
+→ "RasenBallsport Leipzig: +0.8 avg xGD away, 3/5 seasons positive, +1.2σ above league avg"
+
+"Show me Bayern's counter-attack shots from 2022"
+→ render_chart("shot_map", {team: "Bayern Munich", season: "2022",
+   situation: "FromCounter", league: "bundesliga"})
+→ Shot map renders instantly
+→ "Bayern attempted 41 counter-attack shots in 2022, averaging 0.19 xG/shot
+   vs their open play rate of 0.13 — transition football creates better chances"
+
+"Predict Arsenal vs Man City this weekend"
+→ Shot-level xG model + match outcome predictor
+→ W/D/L probabilities + predicted scoreline + H2H historical xG profile
+
+"Now compare that to last season"
+→ Conversation memory resolves "that" without restating context
+```
+
+---
+
+## The Analysis Layer
+
+### Game Classification System
+
+Every match is tagged with a primary story label based on the xG vs goals relationship:
+
+| Tag | Definition |
+|-----|-----------|
+| **Perfect Heist** | Won away, xGA exceeded xG by 1.0+ |
+| **Grand Heist** | Won while xGA exceeded xG by 1.0+ |
+| **Grand Robbery** | Lost while xG exceeded xGA by 1.0+ |
+| **GK Worldie** | GK saved 1.5+ goals above xGA |
+| **Dominant Win** | Won with xG exceeding xGA by 1.5+ |
+| **Heroic Defence** | Clean sheet despite xGA 1.5+ |
+| **Chaos Game** | Total goals exceeded total xG by 50%+ |
+| **Ghost Game** | Total goals less than 50% of total xG |
+| **Home Bottled** | Home team failed to win despite xG dominance |
+
+These tags power the **Heist Games** and **Per-Game Clinical Rating** tabs — surfaces no public platform shows.
+
+### xG Consistency Rating
+
+Rather than a single-season xGD figure, every team in the dataset gets a 5-season profile:
+
+```
+TEAM: Atletico Madrid | LEAGUE: la_liga
+FINISHING IDENTITY: counter-attacking/heist specialists | TREND: declining
+ATTACK: avg_xGD_attack=+2.41 | clinical_rate=49.0% | seasons_overperforming=4/5
+DEFENCE: avg_xGD_defence=-4.53 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=1st of 20 | avg_heist_rank=1st of 20
+Z-SCORES: xGD_attack=+1.8σ | heist_rate=+2.1σ | xGD_defence=-1.6σ
+SEASON_PROGRESSION: 2020: +9.3 → 2021: +3.1 → 2022: +1.2 → 2023: +3.7 → 2024: -4.3
+INSIGHT: Atletico are La Liga's premier heist specialists — 2.1σ above league
+average heist rate, combining elite defensive xG suppression with clinical
+counter-attacking. Declining trend since 2020 peak.
+```
+
+### Game-State Adjusted xG
+
+Standard xG models are context-blind. A team 2-0 up in the 85th minute will concede high-xG shots because they're sitting deep — not because their defence is poor. OnTarget's shot model accounts for game state at the time of each shot, making it more analytically honest than Understat's own model.
+
+### Phase Analysis
+
+Every match is divided into five phases — Q1 (0-25), Q2 (26-45), Q3 (46-70), Q4 (71-90), AT (90+). For each phase across each team and league:
+
+- Shot volume and xG per shot
+- Game state distribution (how many shots taken when losing vs winning)
+- Does shot quality improve or decline as the game progresses? (momentum signal)
+- Do high-PPDA teams generate more Q1 chances? (pressing → early phase chances)
+
+### Cross & Transition Analysis
+
+- Cross volume by flank (left/right) and phase
+- xG per cross-assisted shot vs open play shots
+- Counter-attack conversion rates by league — does the Bundesliga really counter more efficiently than Serie A?
+- lastAction breakdown — what happened immediately before each shot
+
+---
+
+## The Novel Findings
+
+Two questions explored that no public platform has published answers to:
+
+**1. Does scoring first artificially inflate opponent xGA?**
+When a team goes 1-0 up, the opponent chases the game. This should inflate their xGA in Q3+Q4 independent of actual defensive quality — making the winning team look defensively weaker than they are. The data tests this directly.
+
+**2. Does PPDA predict xG overperformance?**
+The hypothesis: pressing teams win the ball higher up the pitch, generating shorter-distance shots with higher xG. If confirmed, PPDA becomes a leading indicator of finishing efficiency, not just a style metric.
+
+---
+
+## Data Scale
+
+| Dataset | Rows | Covers |
+|---------|------|--------|
+| matches.csv | 8,982 | 5 leagues × 5 seasons |
+| players.csv | 13,964 | Season-level player stats |
+| teams.csv | 35,928 | Per-match team history (2 rows per match) |
+| shots.csv | 224,676 | All 5 leagues, all 5 seasons |
+| rosters.csv | 273,825 | Per-match player contributions |
+| clinical_games.csv | 17,964 | Per-match flags and game tags |
+
+All data scraped from Understat's internal XHR API — the same endpoints the browser calls, reverse-engineered via Chrome DevTools.
+
+---
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      OnTarget Platform                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│   Streamlit Dashboard (dark theme)                          │
+│   ├── League Overview                                       │
+│   ├── Team Deep Dive                                        │
+│   │   ├── Season Summary                                    │
+│   │   ├── Per-Game Clinical Rating  ← unique tab            │
+│   │   └── Heist Games               ← unique tab            │
+│   ├── Player Profile                                        │
+│   ├── Shot Intelligence                                     │
+│   ├── Match Predictor                                       │
+│   ├── Novel Findings                                        │
+│   └── 💬 Agent (floating, always visible)                   │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                    21 Chart Boilerplates                     │
+│   shot_map, xgd_bar, timeline, radar, heatmap, trend,       │
+│   heist_table, home_away_split, h2h_xg, clinical_scatter,  │
+│   player_bar, player_trend, situation_bar, game_tag_dist,   │
+│   zscore_dist, phase_bar, phase_heatmap, cross_map,         │
+│   momentum_line, player_position_scatter, winger_profile    │
+│   Agent fills params dict → renders instantly               │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                     Agent Layer (LangGraph)                  │
+│   ├── Router: Llama 3.2 3B — intent classification          │
+│   ├── Tool 1: RAG over data/rag_findings/ (ChromaDB)        │
+│   ├── Tool 2: DuckDB — live SQL on shots + rosters CSVs     │
+│   ├── Tool 3: predict_match() — XGBoost model               │
+│   ├── Tool 4: render_chart() — triggers boilerplate          │
+│   ├── Tool 5: update_dashboard_filter() — controls UI       │
+│   └── Responder: Mistral 7B fine-tuned via MLX/LoRA         │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                      Prediction Models                       │
+│   ├── match_outcome_predictor (XGBoost) — W/D/L             │
+│   ├── xg_shot_model (XGBoost) — game-state aware P(goal)    │
+│   └── xg_overperformance_predictor (XGBoost) — binary       │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                       Data Layer                             │
+│   ├── 224k shots — enriched with phase, game_state,         │
+│   │   cross_side, shot_zone, is_cross                       │
+│   ├── clinical_games.csv — game tags, magnitude columns      │
+│   ├── team_season + consistency — z-scores, ranks           │
+│   └── data/rag_findings/ — 10 structured text files         │
+│       pre-computed fact blocks per team/league/season        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### RAG vs DuckDB — Clean Separation
+
+| Query type | Route | Example |
+|------------|-------|---------|
+| Team season stats | RAG | "Liverpool's xGD in 2023" |
+| League comparisons | RAG | "Which league converts counters best?" |
+| Consistency ratings | RAG | "Most systematic overperformer in Bundesliga" |
+| Novel findings | RAG | "Does scoring first predict wins?" |
+| Player/shot granular | DuckDB | "Salah's shots from inside the box in 2022" |
+| Match prediction | Model | "Predict Arsenal vs City" |
+| Visual query | Boilerplate | "Show me Bayern's shot map" |
+
+---
+
+## Evaluation Framework
+
+Three-layer eval stack run pre and post fine-tuning:
+
+**Layer 1 — RAGAS** (RAG pipeline quality)
+Faithfulness, answer relevancy, context precision, context recall.
+
+**Layer 2 — Router Confusion Matrix** (Llama 3B routing accuracy)
+30 test queries with known correct tool selections across DuckDB / RAG / predictor / chart / filter / comparison. Surfaces exactly where the router fails.
+
+**Layer 3 — LLM-as-Judge** (end-to-end response quality)
+Claude scores each agent response 1-5 on factual accuracy, groundedness, and relevance. Same 30-question eval set.
+
+Target: 80%+ on all three layers. Delta pre/post fine-tuning validates whether fine-tuning helped. All three metrics in the README on completion.
 
 ---
 
@@ -16,196 +243,41 @@ Every layer of the system feeds the next. Raw match and shot data is scraped, cl
 
 ```
 OnTarget/
-│
 ├── src/
-│   ├── scrape_understat.py        # League/season data scraper (async, aiohttp)
-│   ├── scrape_shots.py            # Per-match shot data scraper (PL 2023/24)
-│   └── scrape_european.py         # CL/Europa League data via FBref (planned)
+│   ├── scrape_understat.py         # Async league/season scraper (aiohttp)
+│   └── scrape_shots.py             # Per-match shot data scraper
 │
 ├── notebooks/
-│   ├── 01_cleaning_and_loading.ipynb     # Data cleaning pipeline
-│   ├── 02_xG_analysis.ipynb              # xG over/underperformance analysis
-│   ├── 03_shot_maps.ipynb                # Shot location visualizations
-│   ├── 04_player_profiles.ipynb          # Player shooting profiles
-│   ├── 05_counter_attack.ipynb           # Counter-attack frequency analysis
-│   ├── 06_pressing_vs_results.ipynb      # PPDA pressing intensity analysis
-│   ├── 07_seasonal_trends.ipynb          # How the game has changed 2020-2024
-│   └── 08_novel_finding.ipynb            # Data-driven discoveries
+│   ├── 01_cleaning_and_loading.ipynb
+│   ├── 02_xG_analysis.ipynb        # xGD, consistency, game tags, clinical/heist
+│   ├── 03_counter_attack.ipynb     # Situation, phase, cross, lastAction analysis
+│   ├── 04_pressing_vs_results.ipynb
+│   ├── 05_seasonal_trends.ipynb    # Player per-90s, avg position, z-scores
+│   └── 06_novel_finding.ipynb      # Scoring first + PPDA → overperformance
 │
 ├── models/
-│   ├── match_outcome_predictor.py        # XGBoost match outcome model
-│   └── xG_overperformance_predictor.py   # xG overperformance model
+│   ├── match_outcome_predictor.py
+│   ├── xg_shot_model.py
+│   └── xg_overperformance_predictor.py
+│
+├── charts/
+│   └── boilerplates.py             # 21 chart functions, params dict interface
 │
 ├── agent/
-│   ├── rag_pipeline.py                   # ChromaDB vector store + retrieval
-│   ├── fine_tune/                        # Mistral 7B LoRA fine-tuning (MLX)
-│   └── agent.py                          # LangGraph multi-model agent
+│   ├── rag_pipeline.py
+│   ├── agent.py                    # LangGraph multi-model agent
+│   └── fine_tune/                  # Mistral 7B LoRA (MLX)
 │
 ├── dashboard/
-│   └── dashboard.py                      # Streamlit interactive dashboard
+│   └── dashboard.py
 │
 ├── data/
-│   ├── processed/                        # Clean CSVs (tracked)
-│   │   ├── matches.csv                   # 8,982 matches across 5 leagues
-│   │   ├── players.csv                   # 13,964 player season records
-│   │   └── teams.csv                     # Per-match team history (17,964 rows)
-│   └── raw/                              # Raw JSON files (not tracked)
+│   ├── processed/                  # Clean CSVs (tracked in git)
+│   └── rag_findings/               # Structured fact blocks (10 txt files)
 │
-├── requirements.txt
-├── .gitignore
-└── README.md
+└── eval/
+    └── eval_questions.json         # 30 questions with known answers
 ```
-
----
-
-## Competitions & Seasons
-
-| League | Seasons |
-|--------|---------|
-| Premier League | 2020/21 → 2024/25 |
-| La Liga | 2020/21 → 2024/25 |
-| Serie A | 2020/21 → 2024/25 |
-| Bundesliga | 2020/21 → 2024/25 |
-| Ligue 1 | 2020/21 → 2024/25 |
-| Champions League | Planned |
-| Europa League | Planned |
-
----
-
-## Data
-
-### What's collected
-
-**League-level data** (via Understat's internal XHR API):
-- Every match result, date, home/away xG for 5 leagues × 5 seasons
-- Player season totals — goals, xG, assists, xA, shots, key passes, npxG, xGChain, xGBuildup
-- Team per-match history — xG, xGA, ppda (pressing intensity), deep completions, result, points
-
-**Shot-level data** (via `getMatchData` endpoint — PL 2023/24):
-- Every shot with: `minute`, `X/Y coordinates`, `xG`, `result`, `situation`, `shotType`, `player`
-- Match rosters with per-player xG contributions
-- Covers 380 Premier League matches (~10,000+ individual shots)
-
-### Scale
-
-| Dataset | Rows | Columns |
-|---------|------|---------|
-| matches.csv | 8,982 | 17 |
-| players.csv | 13,964 | 20 |
-| teams.csv | 17,964 | 23 |
-| shots (PL 2023/24) | ~10,000+ | 14 |
-
-### How to regenerate the data
-
-```bash
-# activate environment
-conda activate OnTarget
-
-# scrape league/season data (5 leagues × 5 seasons)
-python src/scrape_understat.py
-
-# scrape shot-level data (PL 2023/24, 380 matches)
-python src/scrape_shots.py
-
-# run cleaning notebook
-jupyter notebook notebooks/01_cleaning_and_loading.ipynb
-```
-
----
-
-## Data Engineering
-
-The scraper reverse-engineers Understat's internal XHR API — the same endpoint the browser calls when you visit a league page. There is no official API. The discovery process involved inspecting Chrome DevTools Network tab, identifying the `getLeagueData/{league}/{season}` and `getMatchData/{match_id}` endpoints, and replicating the exact headers the browser sends to avoid 404 responses.
-
-Key engineering decisions:
-- `aiohttp` for async HTTP requests — handles 25 league/season combinations efficiently
-- `X-Requested-With: XMLHttpRequest` + `Referer` headers required to authenticate requests
-- `json.load()` required for teams data — `pd.read_json()` misinterprets the dict-keyed structure
-- 1 second delay between requests to avoid rate limiting
-
----
-
-## Analysis
-
-### xG Over/Underperformance
-Which teams consistently score more or fewer goals than their xG predicts, and what does that tell us about finishing quality vs goalkeeper quality?
-
-### Counter-Attack Frequency
-Using the `situation` field in shot data (`FastBreak` vs `OpenPlay` vs `SetPiece`) — does counter-attack frequency differ significantly across leagues? Does the Bundesliga really counter more than the Premier League?
-
-### Pressing Intensity vs Results
-Understat's `ppda` (passes allowed per defensive action) measures how aggressively a team presses. Does high pressing intensity actually correlate with better results across 5 seasons?
-
-### Seasonal Trends 2020-2024
-Has the game become more or less open? Shots per game, xG per game, goals per game trends across all 5 leagues over 5 seasons.
-
-### Novel Finding
-One non-obvious finding discovered in the data — to be confirmed during analysis.
-
----
-
-## Prediction Models
-
-### Match Outcome Predictor (XGBoost)
-Predicts win/draw/loss from pre-match features:
-- Rolling xG (last 5 matches, home/away split)
-- Form — points from last 5/10 matches
-- Head-to-head record
-- Pressing intensity (ppda)
-- Deep completions
-- Home/away factor
-
-### xG Overperformance Predictor
-Predicts whether a team will over or underperform their xG based on team style features — shot quality by zone, pressing stats, historical overperformance trend.
-
----
-
-## Visualizations
-
-Built with `mplsoccer` and `matplotlib`:
-
-- **Shot maps** — every shot in a match or season plotted on a pitch, sized by xG, coloured by outcome
-- **Goal minute heatmaps** — when do goals happen across a league/season?
-- **Player radar charts** — compare multiple players across xG, xA, shots, key passes, npxG
-- **xG timeline** — how xG accumulated minute by minute for both teams in a match
-- **Team shot heatmaps** — aggregated shot locations across a full season on one pitch
-- **xG over/underperformance tracker** — actual goals vs xG over time per team
-
-All visualizations are available interactively via the Streamlit dashboard.
-
----
-
-## Agent Layer
-
-A multi-model agentic system that answers natural language football questions grounded in real data.
-
-### Architecture
-
-```
-User Query
-    → Model 1: Llama 3.2 3B (router)
-        → classifies query intent
-        → selects tools: RAG / DB query / prediction model
-        → formats tool calls as structured JSON
-    → Tools execute
-        → ChromaDB returns relevant analysis findings
-        → DuckDB queries processed CSVs
-        → XGBoost returns match prediction
-    → Model 2: Mistral 7B (fine-tuned responder)
-        → receives query + all tool results
-        → synthesises natural language response grounded in data
-    → User sees answer
-```
-
-### Example queries the agent handles
-- *"Which Premier League team has the biggest xG overperformance in 2023/24?"*
-- *"Which Bundesliga striker has the best shot quality from inside the box?"*
-- *"Predict Arsenal vs Manchester City this weekend"*
-- *"How has pressing intensity changed in the Premier League from 2020 to 2024?"*
-- *"Find me players similar to Mohamed Salah based on shot profile"*
-
-### Fine-tuning
-Mistral 7B fine-tuned via LoRA on Apple Silicon (M5 Pro) using MLX. Training data consists of football Q&A pairs formatted as tool-use instruction examples — grounding the model's responses in the actual data pipeline rather than general football knowledge.
 
 ---
 
@@ -215,12 +287,12 @@ Mistral 7B fine-tuned via LoRA on Apple Silicon (M5 Pro) using MLX. Training dat
 |-------|-------|
 | Data Collection | Python, aiohttp, asyncio |
 | Data Processing | pandas, numpy |
-| Analysis | pandas, scipy |
-| Visualization | mplsoccer, matplotlib, seaborn, plotly |
+| Analysis | pandas, scipy, DuckDB |
+| Visualization | mplsoccer, matplotlib, plotly |
 | Prediction | XGBoost, scikit-learn |
-| Vector Store | ChromaDB |
+| Vector Store | ChromaDB, nomic-embed-text |
 | LLM Fine-tuning | MLX, LoRA, Mistral 7B |
-| Agent Orchestration | LangGraph, LangChain |
+| Agent Orchestration | LangGraph |
 | Local LLM Serving | Ollama |
 | Dashboard | Streamlit |
 | Hardware | MacBook Pro M5 Pro 24GB |
@@ -230,25 +302,27 @@ Mistral 7B fine-tuned via LoRA on Apple Silicon (M5 Pro) using MLX. Training dat
 ## Setup
 
 ```bash
-# clone the repo
-git clone https://github.com/aadvikmazumdar/OnTarget.git
+git clone https://github.com/aadvikmazumdar/OnTarget---Football-Analytics-Agentic-AI-System.git
 cd OnTarget
 
-# create conda environment
 conda create -n OnTarget python=3.11
 conda activate OnTarget
-
-# install dependencies
 pip install -r requirements.txt
 
-# scrape data
+# scrape data (5 leagues × 5 seasons + shots)
 python src/scrape_understat.py
+python src/scrape_shots.py
 
-# run cleaning notebook
+# run notebooks in order
 jupyter notebook
 
 # launch dashboard
 streamlit run dashboard/dashboard.py
+
+# start Ollama models (for agent)
+ollama pull llama3.2:3b
+ollama pull mistral:7b
+ollama pull nomic-embed-text
 ```
 
 ---
@@ -257,18 +331,24 @@ streamlit run dashboard/dashboard.py
 
 | Phase | Status |
 |-------|--------|
-| Data Collection — League/Season | ✅ Complete |
-| Data Collection — Shot Level | 🔄 In Progress |
-| Data Cleaning & Loading | ✅ Complete |
-| EDA & Analysis Notebooks | 🔄 In Progress |
+| Data Collection | ✅ Complete |
+| Data Cleaning & Engineering | ✅ Complete |
+| EDA — xG Analysis (notebook 02) | ✅ Complete |
+| EDA — Counter Attack (notebook 03) | 🔄 In Progress |
+| EDA — Pressing vs Results (notebook 04) | ⏳ Planned |
+| EDA — Seasonal Trends (notebook 05) | ⏳ Planned |
+| EDA — Novel Findings (notebook 06) | ⏳ Planned |
 | Prediction Models | ⏳ Planned |
-| Visualizations & Dashboard | ⏳ Planned |
+| Dashboard + Boilerplates | ⏳ Planned |
 | Agent Layer | ⏳ Planned |
+| Evaluation | ⏳ Planned |
 
 ---
 
-## Why OnTarget?
+## Demo
 
-Most football analytics projects use a Kaggle CSV and plot a bar chart. OnTarget starts from raw HTML, reverse-engineers an undocumented API, collects shot-level data across thousands of matches, and builds analysis that surfaces non-obvious patterns — then makes all of it queryable through a natural language agent running entirely locally.
+*Screen recording coming on completion — 2-3 minutes of the agent answering real football questions, triggering live dashboard filters, and predicting a match with confidence scores.*
 
-The goal was never to replicate what Sofascore already shows you. It was to go deeper than what any off-the-shelf sports platform surfaces.
+---
+
+*Built on a MacBook Pro M5 Pro. Everything runs locally — no external APIs, no cloud inference, no paid data feeds.*
