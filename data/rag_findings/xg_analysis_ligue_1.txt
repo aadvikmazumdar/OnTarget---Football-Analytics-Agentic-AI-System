@@ -1,0 +1,351 @@
+
+=====================================
+XG ANALYSIS | LEAGUE: LIGUE_1 | SEASONS: 2020-2024
+=====================================
+LEAGUE SUMMARY (multi-season teams only):
+- Most clinical team (avg xGD attack): Rennes (+3.59 goals/season vs xG)
+- Most wasteful team: Toulouse (-7.50 goals/season vs xG)
+- Best defence vs xG: Reims (-8.95 goals conceded vs xGA)
+- Most heists: Brest (24 across tracked seasons)
+- Most robberies: Rennes (20 across tracked seasons)
+- Systematic overperformers: 4 | Systematic underperformers: 9
+-------------------------------------
+TEAM PROFILES:
+
+TEAM: Ajaccio | LEAGUE: ligue_1 | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-8.06 | clinical_rate=10.5% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=+17.87 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=16.0 of 20 | avg_heist_rank=3.0 of 20
+Z-SCORES: xGD_attack=-0.77σ | heist_rate=+0.87σ | xGD_defence=+2.60σ
+SEASON_PROGRESSION (xGD_attack): 2022: -8.1
+PEAK: best season 2022 (-8.06 xGD attack) | worst season 2022 (-8.06 xGD attack)
+GAME TAGS: heists=4 (rate=10.5%) | grand_heists=2 | robberies=3 | gk_worldies=2
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Ajaccio are a balanced side in Ligue 1 — averaging -8.06 xGD attack (-0.8σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Angers | LEAGUE: ligue_1 | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-4.19 | clinical_rate=33.0% | seasons_overperforming=1/4
+DEFENCE: avg_xGD_defence=+2.95 | seasons_solid=1/4
+LEAGUE RANK: avg_xGD_attack_rank=13.0 of 20 | avg_heist_rank=15.2 of 20
+Z-SCORES: xGD_attack=-0.48σ | heist_rate=-0.87σ | xGD_defence=+0.50σ
+SEASON_PROGRESSION (xGD_attack): 2020: +0.1 → 2021: -1.2 → 2022: -8.0 → 2024: -7.6
+PEAK: best season 2020 (+0.08 xGD attack) | worst season 2022 (-8.04 xGD attack)
+GAME TAGS: heists=5 (rate=3.4%) | grand_heists=1 | robberies=8 | gk_worldies=4
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Angers are a balanced side in Ligue 1 — averaging -4.19 xGD attack (-0.5σ vs league), solid in defence 1/4 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Auxerre | LEAGUE: ligue_1 | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+0.00 | clinical_rate=43.8% | seasons_overperforming=1/2
+DEFENCE: avg_xGD_defence=-6.93 | seasons_solid=2/2
+LEAGUE RANK: avg_xGD_attack_rank=6.5 of 20 | avg_heist_rank=10.5 of 20
+Z-SCORES: xGD_attack=+0.61σ | heist_rate=-0.30σ | xGD_defence=-0.44σ
+SEASON_PROGRESSION (xGD_attack): 2022: -5.2 → 2024: +5.2
+PEAK: best season 2024 (+5.22 xGD attack) | worst season 2022 (-5.21 xGD attack)
+GAME TAGS: heists=4 (rate=5.4%) | grand_heists=0 | robberies=3 | gk_worldies=7
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Auxerre are a defensively elite side in Ligue 1 — averaging +0.00 xGD attack (+0.6σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Bordeaux | LEAGUE: ligue_1 | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+2.08 | clinical_rate=50.0% | seasons_overperforming=1/2
+DEFENCE: avg_xGD_defence=+11.15 | seasons_solid=0/2
+LEAGUE RANK: avg_xGD_attack_rank=11.5 of 20 | avg_heist_rank=13.5 of 20
+Z-SCORES: xGD_attack=-0.01σ | heist_rate=-0.61σ | xGD_defence=+1.19σ
+SEASON_PROGRESSION (xGD_attack): 2020: -1.6 → 2021: +5.7
+PEAK: best season 2021 (+5.72 xGD attack) | worst season 2020 (-1.55 xGD attack)
+GAME TAGS: heists=4 (rate=5.2%) | grand_heists=1 | robberies=4 | gk_worldies=4
+VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
+INSIGHT: Bordeaux are a balanced side in Ligue 1 — averaging +2.08 xGD attack (-0.0σ vs league), solid in defence 0/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Brest | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: counter-attacking/heist specialists | TREND: declining
+ATTACK: avg_xGD_attack=+2.25 | clinical_rate=43.4% | seasons_overperforming=4/5
+DEFENCE: avg_xGD_defence=-2.72 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=6.2 of 20 | avg_heist_rank=4.0 of 20
+Z-SCORES: xGD_attack=+0.62σ | heist_rate=+1.28σ | xGD_defence=-0.13σ
+SEASON_PROGRESSION (xGD_attack): 2020: +4.2 → 2021: +4.2 → 2022: +2.6 → 2023: +1.0 → 2024: -0.8
+PEAK: best season 2020 (+4.23 xGD attack) | worst season 2024 (-0.78 xGD attack)
+GAME TAGS: heists=24 (rate=13.3%) | grand_heists=5 | robberies=11 | gk_worldies=13
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
+INSIGHT: Brest are a counter-attacking/heist specialists side in Ligue 1 — averaging +2.25 xGD attack (+0.6σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Clermont Foot | LEAGUE: ligue_1 | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-6.14 | clinical_rate=37.1% | seasons_overperforming=0/3
+DEFENCE: avg_xGD_defence=-1.82 | seasons_solid=2/3
+LEAGUE RANK: avg_xGD_attack_rank=14.0 of 20 | avg_heist_rank=7.3 of 20
+Z-SCORES: xGD_attack=-0.68σ | heist_rate=+0.41σ | xGD_defence=-0.08σ
+SEASON_PROGRESSION (xGD_attack): 2021: -4.1 → 2022: -4.6 → 2023: -9.7
+PEAK: best season 2021 (-4.07 xGD attack) | worst season 2023 (-9.69 xGD attack)
+GAME TAGS: heists=11 (rate=9.9%) | grand_heists=2 | robberies=4 | gk_worldies=11
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Clermont Foot are a balanced side in Ligue 1 — averaging -6.14 xGD attack (-0.7σ vs league), solid in defence 2/3 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Dijon | LEAGUE: ligue_1 | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: defensively elite | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-6.85 | clinical_rate=26.3% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=-3.12 | seasons_solid=1/1
+LEAGUE RANK: avg_xGD_attack_rank=20.0 of 20 | avg_heist_rank=16.0 of 20
+Z-SCORES: xGD_attack=-1.65σ | heist_rate=-0.81σ | xGD_defence=-0.77σ
+SEASON_PROGRESSION (xGD_attack): 2020: -6.9
+PEAK: best season 2020 (-6.85 xGD attack) | worst season 2020 (-6.85 xGD attack)
+GAME TAGS: heists=2 (rate=5.3%) | grand_heists=1 | robberies=2 | gk_worldies=4
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Dijon are a defensively elite side in Ligue 1 — averaging -6.85 xGD attack (-1.7σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Le Havre | LEAGUE: ligue_1 | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-5.20 | clinical_rate=35.3% | seasons_overperforming=0/2
+DEFENCE: avg_xGD_defence=-4.13 | seasons_solid=1/2
+LEAGUE RANK: avg_xGD_attack_rank=9.5 of 20 | avg_heist_rank=13.5 of 20
+Z-SCORES: xGD_attack=-0.04σ | heist_rate=-0.84σ | xGD_defence=+0.00σ
+SEASON_PROGRESSION (xGD_attack): 2023: -5.1 → 2024: -5.3
+PEAK: best season 2023 (-5.05 xGD attack) | worst season 2024 (-5.35 xGD attack)
+GAME TAGS: heists=3 (rate=4.4%) | grand_heists=1 | robberies=7 | gk_worldies=4
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Le Havre are a chance-dominant but wasteful side in Ligue 1 — averaging -5.20 xGD attack (-0.0σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Lens | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-5.47 | clinical_rate=41.2% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-5.00 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=12.2 of 20 | avg_heist_rank=9.8 of 20
+Z-SCORES: xGD_attack=-0.58σ | heist_rate=-0.09σ | xGD_defence=-0.50σ
+SEASON_PROGRESSION (xGD_attack): 2020: -1.4 → 2021: +9.8 → 2022: -1.9 → 2023: -17.1 → 2024: -16.7
+PEAK: best season 2021 (+9.76 xGD attack) | worst season 2023 (-17.08 xGD attack)
+GAME TAGS: heists=14 (rate=7.7%) | grand_heists=2 | robberies=17 | gk_worldies=11
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Lens are a defensively elite side in Ligue 1 — averaging -5.47 xGD attack (-0.6σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Lille | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-2.69 | clinical_rate=45.3% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-1.19 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=11.8 of 20 | avg_heist_rank=10.2 of 20
+Z-SCORES: xGD_attack=-0.04σ | heist_rate=-0.02σ | xGD_defence=+0.01σ
+SEASON_PROGRESSION (xGD_attack): 2020: +15.9 → 2021: -8.4 → 2022: -9.2 → 2023: -3.3 → 2024: -8.4
+PEAK: best season 2020 (+15.93 xGD attack) | worst season 2022 (-9.23 xGD attack)
+GAME TAGS: heists=14 (rate=7.8%) | grand_heists=3 | robberies=18 | gk_worldies=8
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Lille are a balanced side in Ligue 1 — averaging -2.69 xGD attack (-0.0σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Lorient | LEAGUE: ligue_1 | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=+1.56 | clinical_rate=40.5% | seasons_overperforming=3/4
+DEFENCE: avg_xGD_defence=+5.26 | seasons_solid=1/4
+LEAGUE RANK: avg_xGD_attack_rank=8.2 of 20 | avg_heist_rank=8.8 of 20
+Z-SCORES: xGD_attack=+0.34σ | heist_rate=+0.56σ | xGD_defence=+1.02σ
+SEASON_PROGRESSION (xGD_attack): 2020: +1.8 → 2021: -4.3 → 2022: +4.7 → 2023: +4.0
+PEAK: best season 2022 (+4.65 xGD attack) | worst season 2021 (-4.32 xGD attack)
+GAME TAGS: heists=16 (rate=10.6%) | grand_heists=4 | robberies=11 | gk_worldies=3
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Lorient are a balanced side in Ligue 1 — averaging +1.56 xGD attack (+0.3σ vs league), solid in defence 1/4 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Lyon | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: improving
+ATTACK: avg_xGD_attack=-3.95 | clinical_rate=42.3% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-1.04 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=12.0 of 20 | avg_heist_rank=10.4 of 20
+Z-SCORES: xGD_attack=-0.37σ | heist_rate=-0.10σ | xGD_defence=+0.18σ
+SEASON_PROGRESSION (xGD_attack): 2020: -1.4 → 2021: -7.3 → 2022: -4.8 → 2023: -6.3 → 2024: +0.0
+PEAK: best season 2024 (+0.02 xGD attack) | worst season 2021 (-7.32 xGD attack)
+GAME TAGS: heists=14 (rate=7.9%) | grand_heists=1 | robberies=19 | gk_worldies=8
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Lyon are a chance-dominant but wasteful side in Ligue 1 — averaging -3.95 xGD attack (-0.4σ vs league), solid in defence 4/5 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Marseille | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-0.20 | clinical_rate=41.1% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-2.13 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=8.8 of 20 | avg_heist_rank=6.6 of 20
+Z-SCORES: xGD_attack=+0.26σ | heist_rate=+0.61σ | xGD_defence=+0.05σ
+SEASON_PROGRESSION (xGD_attack): 2020: +4.7 → 2021: +3.1 → 2022: -5.9 → 2023: -8.0 → 2024: +5.2
+PEAK: best season 2024 (+5.16 xGD attack) | worst season 2023 (-8.03 xGD attack)
+GAME TAGS: heists=19 (rate=10.4%) | grand_heists=3 | robberies=15 | gk_worldies=11
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Marseille are a balanced side in Ligue 1 — averaging -0.20 xGD attack (+0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2024 peak.
+---
+
+TEAM: Metz | LEAGUE: ligue_1 | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: declining
+ATTACK: avg_xGD_attack=+2.41 | clinical_rate=42.8% | seasons_overperforming=3/3
+DEFENCE: avg_xGD_defence=-1.30 | seasons_solid=3/3
+LEAGUE RANK: avg_xGD_attack_rank=7.7 of 20 | avg_heist_rank=8.7 of 20
+Z-SCORES: xGD_attack=+0.42σ | heist_rate=+0.15σ | xGD_defence=-0.07σ
+SEASON_PROGRESSION (xGD_attack): 2020: +1.7 → 2021: +4.9 → 2023: +0.6
+PEAK: best season 2021 (+4.85 xGD attack) | worst season 2023 (+0.63 xGD attack)
+GAME TAGS: heists=10 (rate=9.1%) | grand_heists=1 | robberies=11 | gk_worldies=6
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
+INSIGHT: Metz are a chance-dominant but wasteful side in Ligue 1 — averaging +2.41 xGD attack (+0.4σ vs league), solid in defence 3/3 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Monaco | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+0.14 | clinical_rate=43.3% | seasons_overperforming=4/5
+DEFENCE: avg_xGD_defence=+1.15 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=8.0 of 20 | avg_heist_rank=10.2 of 20
+Z-SCORES: xGD_attack=+0.31σ | heist_rate=+0.01σ | xGD_defence=+0.44σ
+SEASON_PROGRESSION (xGD_attack): 2020: +5.6 → 2021: +1.4 → 2022: +4.6 → 2023: +2.9 → 2024: -13.9
+PEAK: best season 2020 (+5.65 xGD attack) | worst season 2024 (-13.93 xGD attack)
+GAME TAGS: heists=14 (rate=7.7%) | grand_heists=1 | robberies=13 | gk_worldies=5
+VERDICT: attack=systematic_overperformer | defence=inconsistent_defence
+INSIGHT: Monaco are a balanced side in Ligue 1 — averaging +0.14 xGD attack (+0.3σ vs league), solid in defence 2/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Montpellier | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+0.73 | clinical_rate=40.2% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-2.13 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=7.8 of 20 | avg_heist_rank=9.0 of 20
+Z-SCORES: xGD_attack=+0.40σ | heist_rate=+0.00σ | xGD_defence=-0.09σ
+SEASON_PROGRESSION (xGD_attack): 2020: +7.7 → 2021: +6.5 → 2022: +12.4 → 2023: -7.6 → 2024: -15.5
+PEAK: best season 2022 (+12.45 xGD attack) | worst season 2024 (-15.45 xGD attack)
+GAME TAGS: heists=14 (rate=7.5%) | grand_heists=4 | robberies=9 | gk_worldies=12
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Montpellier are a balanced side in Ligue 1 — averaging +0.73 xGD attack (+0.4σ vs league), solid in defence 3/5 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: Nantes | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-3.00 | clinical_rate=35.6% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-4.47 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=11.0 of 20 | avg_heist_rank=8.2 of 20
+Z-SCORES: xGD_attack=-0.19σ | heist_rate=+0.30σ | xGD_defence=-0.38σ
+SEASON_PROGRESSION (xGD_attack): 2020: -1.3 → 2021: +9.2 → 2022: -7.6 → 2023: -9.4 → 2024: -5.9
+PEAK: best season 2021 (+9.23 xGD attack) | worst season 2023 (-9.44 xGD attack)
+GAME TAGS: heists=17 (rate=9.4%) | grand_heists=2 | robberies=9 | gk_worldies=13
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Nantes are a defensively elite side in Ligue 1 — averaging -3.00 xGD attack (-0.2σ vs league), solid in defence 4/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Nice | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-6.17 | clinical_rate=36.7% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-6.15 | seasons_solid=5/5
+LEAGUE RANK: avg_xGD_attack_rank=13.8 of 20 | avg_heist_rank=8.6 of 20
+Z-SCORES: xGD_attack=-0.66σ | heist_rate=+0.09σ | xGD_defence=-0.62σ
+SEASON_PROGRESSION (xGD_attack): 2020: +3.6 → 2021: -7.6 → 2022: -11.2 → 2023: -14.8 → 2024: -0.8
+PEAK: best season 2020 (+3.63 xGD attack) | worst season 2023 (-14.81 xGD attack)
+GAME TAGS: heists=15 (rate=8.1%) | grand_heists=3 | robberies=18 | gk_worldies=11
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Nice are a defensively elite side in Ligue 1 — averaging -6.17 xGD attack (-0.7σ vs league), solid in defence 5/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Nimes | LEAGUE: ligue_1 | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-1.39 | clinical_rate=42.1% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=+6.83 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=16.0 of 20 | avg_heist_rank=4.0 of 20
+Z-SCORES: xGD_attack=-0.63σ | heist_rate=+0.81σ | xGD_defence=+0.74σ
+SEASON_PROGRESSION (xGD_attack): 2020: -1.4
+PEAK: best season 2020 (-1.39 xGD attack) | worst season 2020 (-1.39 xGD attack)
+GAME TAGS: heists=4 (rate=10.5%) | grand_heists=0 | robberies=4 | gk_worldies=1
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Nimes are a chance-dominant but wasteful side in Ligue 1 — averaging -1.39 xGD attack (-0.6σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Paris Saint Germain | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=+1.82 | clinical_rate=49.7% | seasons_overperforming=4/5
+DEFENCE: avg_xGD_defence=-6.41 | seasons_solid=5/5
+LEAGUE RANK: avg_xGD_attack_rank=7.0 of 20 | avg_heist_rank=11.0 of 20
+Z-SCORES: xGD_attack=+0.56σ | heist_rate=-0.14σ | xGD_defence=-0.74σ
+SEASON_PROGRESSION (xGD_attack): 2020: +2.1 → 2021: +7.7 → 2022: +2.9 → 2023: +8.1 → 2024: -11.6
+PEAK: best season 2023 (+8.12 xGD attack) | worst season 2024 (-11.63 xGD attack)
+GAME TAGS: heists=13 (rate=7.3%) | grand_heists=1 | robberies=8 | gk_worldies=11
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
+INSIGHT: Paris Saint Germain are a defensively elite side in Ligue 1 — averaging +1.82 xGD attack (+0.6σ vs league), solid in defence 5/5 seasons. Declining trend since 2023 peak.
+---
+
+TEAM: Reims | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-3.47 | clinical_rate=34.8% | seasons_overperforming=2/5
+DEFENCE: avg_xGD_defence=-8.95 | seasons_solid=5/5
+LEAGUE RANK: avg_xGD_attack_rank=11.2 of 20 | avg_heist_rank=9.2 of 20
+Z-SCORES: xGD_attack=-0.18σ | heist_rate=+0.08σ | xGD_defence=-1.01σ
+SEASON_PROGRESSION (xGD_attack): 2020: +8.8 → 2021: +3.0 → 2022: -14.5 → 2023: -6.0 → 2024: -8.6
+PEAK: best season 2020 (+8.77 xGD attack) | worst season 2022 (-14.52 xGD attack)
+GAME TAGS: heists=15 (rate=8.3%) | grand_heists=2 | robberies=12 | gk_worldies=15
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Reims are a defensively elite side in Ligue 1 — averaging -3.47 xGD attack (-0.2σ vs league), solid in defence 5/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Rennes | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: declining
+ATTACK: avg_xGD_attack=+3.59 | clinical_rate=48.0% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-0.59 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=4.8 of 20 | avg_heist_rank=11.4 of 20
+Z-SCORES: xGD_attack=+0.84σ | heist_rate=-0.33σ | xGD_defence=+0.26σ
+SEASON_PROGRESSION (xGD_attack): 2020: +5.2 → 2021: +13.8 → 2022: +4.8 → 2023: -3.0 → 2024: -2.8
+PEAK: best season 2021 (+13.76 xGD attack) | worst season 2023 (-3.00 xGD attack)
+GAME TAGS: heists=11 (rate=6.0%) | grand_heists=2 | robberies=20 | gk_worldies=6
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Rennes are a chance-dominant but wasteful side in Ligue 1 — averaging +3.59 xGD attack (+0.8σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Saint-Etienne | LEAGUE: ligue_1 | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-1.65 | clinical_rate=33.5% | seasons_overperforming=1/3
+DEFENCE: avg_xGD_defence=+3.36 | seasons_solid=1/3
+LEAGUE RANK: avg_xGD_attack_rank=12.3 of 20 | avg_heist_rank=11.3 of 20
+Z-SCORES: xGD_attack=-0.25σ | heist_rate=-0.34σ | xGD_defence=+0.52σ
+SEASON_PROGRESSION (xGD_attack): 2020: -5.3 → 2021: +1.8 → 2024: -1.5
+PEAK: best season 2021 (+1.82 xGD attack) | worst season 2020 (-5.28 xGD attack)
+GAME TAGS: heists=7 (rate=6.4%) | grand_heists=2 | robberies=8 | gk_worldies=9
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Saint-Etienne are a balanced side in Ligue 1 — averaging -1.65 xGD attack (-0.3σ vs league), solid in defence 1/3 seasons. Recovering since 2020 trough.
+---
+
+TEAM: Strasbourg | LEAGUE: ligue_1 | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-1.85 | clinical_rate=44.5% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-1.96 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=10.2 of 20 | avg_heist_rank=12.2 of 20
+Z-SCORES: xGD_attack=-0.07σ | heist_rate=-0.34σ | xGD_defence=-0.01σ
+SEASON_PROGRESSION (xGD_attack): 2020: -3.8 → 2021: -1.2 → 2022: -1.8 → 2023: -4.7 → 2024: +2.2
+PEAK: best season 2024 (+2.19 xGD attack) | worst season 2023 (-4.69 xGD attack)
+GAME TAGS: heists=12 (rate=6.9%) | grand_heists=3 | robberies=16 | gk_worldies=6
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Strasbourg are a balanced side in Ligue 1 — averaging -1.85 xGD attack (-0.1σ vs league), solid in defence 3/5 seasons. Recovering since 2023 trough.
+---
+
+TEAM: Toulouse | LEAGUE: ligue_1 | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: declining
+ATTACK: avg_xGD_attack=-7.50 | clinical_rate=37.9% | seasons_overperforming=0/3
+DEFENCE: avg_xGD_defence=-0.64 | seasons_solid=2/3
+LEAGUE RANK: avg_xGD_attack_rank=12.3 of 20 | avg_heist_rank=13.3 of 20
+Z-SCORES: xGD_attack=-0.47σ | heist_rate=-0.54σ | xGD_defence=+0.54σ
+SEASON_PROGRESSION (xGD_attack): 2022: -8.8 → 2023: -2.8 → 2024: -10.9
+PEAK: best season 2023 (-2.85 xGD attack) | worst season 2024 (-10.89 xGD attack)
+GAME TAGS: heists=5 (rate=4.9%) | grand_heists=0 | robberies=18 | gk_worldies=4
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Toulouse are a chance-dominant but wasteful side in Ligue 1 — averaging -7.50 xGD attack (-0.5σ vs league), solid in defence 2/3 seasons. Declining trend since 2023 peak.
+---
+
+TEAM: Troyes | LEAGUE: ligue_1 | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+2.81 | clinical_rate=43.4% | seasons_overperforming=1/2
+DEFENCE: avg_xGD_defence=-1.39 | seasons_solid=1/2
+LEAGUE RANK: avg_xGD_attack_rank=8.5 of 20 | avg_heist_rank=16.5 of 20
+Z-SCORES: xGD_attack=+0.41σ | heist_rate=-0.98σ | xGD_defence=-0.12σ
+SEASON_PROGRESSION (xGD_attack): 2021: -2.7 → 2022: +8.3
+PEAK: best season 2022 (+8.29 xGD attack) | worst season 2021 (-2.66 xGD attack)
+GAME TAGS: heists=2 (rate=2.6%) | grand_heists=0 | robberies=5 | gk_worldies=6
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Troyes are a balanced side in Ligue 1 — averaging +2.81 xGD attack (+0.4σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---

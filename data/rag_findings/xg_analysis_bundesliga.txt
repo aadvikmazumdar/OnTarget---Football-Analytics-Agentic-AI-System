@@ -1,0 +1,325 @@
+
+=====================================
+XG ANALYSIS | LEAGUE: BUNDESLIGA | SEASONS: 2020-2024
+=====================================
+LEAGUE SUMMARY (multi-season teams only):
+- Most clinical team (avg xGD attack): Bayer Leverkusen (+7.74 goals/season vs xG)
+- Most wasteful team: Bochum (-7.59 goals/season vs xG)
+- Best defence vs xG: Arminia Bielefeld (-11.82 goals conceded vs xGA)
+- Most heists: Wolfsburg (19 across tracked seasons)
+- Most robberies: VfB Stuttgart (22 across tracked seasons)
+- Systematic overperformers: 2 | Systematic underperformers: 6
+-------------------------------------
+TEAM PROFILES:
+
+TEAM: Arminia Bielefeld | LEAGUE: bundesliga | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-2.68 | clinical_rate=29.4% | seasons_overperforming=0/2
+DEFENCE: avg_xGD_defence=-11.82 | seasons_solid=2/2
+LEAGUE RANK: avg_xGD_attack_rank=11.0 of 18 | avg_heist_rank=8.5 of 18
+Z-SCORES: xGD_attack=-0.54σ | heist_rate=+0.04σ | xGD_defence=-1.93σ
+SEASON_PROGRESSION (xGD_attack): 2020: -5.1 → 2021: -0.2
+PEAK: best season 2021 (-0.22 xGD attack) | worst season 2020 (-5.14 xGD attack)
+GAME TAGS: heists=5 (rate=7.3%) | grand_heists=2 | robberies=3 | gk_worldies=10
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Arminia Bielefeld are a defensively elite side in Bundesliga — averaging -2.68 xGD attack (-0.5σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Augsburg | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=+0.55 | clinical_rate=44.7% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-3.57 | seasons_solid=5/5
+LEAGUE RANK: avg_xGD_attack_rank=8.4 of 18 | avg_heist_rank=4.2 of 18
+Z-SCORES: xGD_attack=+0.07σ | heist_rate=+0.92σ | xGD_defence=-0.60σ
+SEASON_PROGRESSION (xGD_attack): 2020: 0.0 → 2021: +0.0 → 2022: +6.0 → 2023: +0.9 → 2024: -4.1
+PEAK: best season 2022 (+5.97 xGD attack) | worst season 2024 (-4.13 xGD attack)
+GAME TAGS: heists=18 (rate=10.6%) | grand_heists=3 | robberies=12 | gk_worldies=13
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Augsburg are a defensively elite side in Bundesliga — averaging +0.55 xGD attack (+0.1σ vs league), solid in defence 5/5 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: Bayer Leverkusen | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: consistently clinical finishers | TREND: declining
+ATTACK: avg_xGD_attack=+7.74 | clinical_rate=54.1% | seasons_overperforming=5/5
+DEFENCE: avg_xGD_defence=-0.81 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=4.4 of 18 | avg_heist_rank=9.2 of 18
+Z-SCORES: xGD_attack=+1.12σ | heist_rate=+0.12σ | xGD_defence=-0.21σ
+SEASON_PROGRESSION (xGD_attack): 2020: +5.7 → 2021: +13.7 → 2022: +3.3 → 2023: +7.0 → 2024: +9.0
+PEAK: best season 2021 (+13.69 xGD attack) | worst season 2022 (+3.32 xGD attack)
+GAME TAGS: heists=13 (rate=7.6%) | grand_heists=3 | robberies=10 | gk_worldies=5
+VERDICT: attack=systematic_overperformer | defence=inconsistent_defence
+INSIGHT: Bayer Leverkusen are a consistently clinical finishers side in Bundesliga — averaging +7.74 xGD attack (+1.1σ vs league), solid in defence 2/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Bayern Munich | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+6.13 | clinical_rate=52.9% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=+3.66 | seasons_solid=1/5
+LEAGUE RANK: avg_xGD_attack_rank=5.6 of 18 | avg_heist_rank=15.0 of 18
+Z-SCORES: xGD_attack=+0.86σ | heist_rate=-1.13σ | xGD_defence=+0.53σ
+SEASON_PROGRESSION (xGD_attack): 2020: +23.1 → 2021: -2.9 → 2022: +6.9 → 2023: -0.4 → 2024: +4.0
+PEAK: best season 2020 (+23.07 xGD attack) | worst season 2021 (-2.91 xGD attack)
+GAME TAGS: heists=4 (rate=2.3%) | grand_heists=1 | robberies=12 | gk_worldies=2
+VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
+INSIGHT: Bayern Munich are a balanced side in Bundesliga — averaging +6.13 xGD attack (+0.9σ vs league), solid in defence 1/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Bochum | LEAGUE: bundesliga | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-7.59 | clinical_rate=29.4% | seasons_overperforming=0/4
+DEFENCE: avg_xGD_defence=-1.40 | seasons_solid=2/4
+LEAGUE RANK: avg_xGD_attack_rank=15.8 of 18 | avg_heist_rank=7.5 of 18
+Z-SCORES: xGD_attack=-1.12σ | heist_rate=+0.45σ | xGD_defence=-0.09σ
+SEASON_PROGRESSION (xGD_attack): 2021: -6.8 → 2022: -0.1 → 2023: -9.4 → 2024: -14.1
+PEAK: best season 2022 (-0.08 xGD attack) | worst season 2024 (-14.07 xGD attack)
+GAME TAGS: heists=12 (rate=8.8%) | grand_heists=5 | robberies=10 | gk_worldies=15
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Bochum are a balanced side in Bundesliga — averaging -7.59 xGD attack (-1.1σ vs league), solid in defence 2/4 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: Borussia Dortmund | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: consistently clinical finishers | TREND: declining
+ATTACK: avg_xGD_attack=+6.11 | clinical_rate=58.2% | seasons_overperforming=4/5
+DEFENCE: avg_xGD_defence=+0.41 | seasons_solid=1/5
+LEAGUE RANK: avg_xGD_attack_rank=5.6 of 18 | avg_heist_rank=7.6 of 18
+Z-SCORES: xGD_attack=+0.89σ | heist_rate=+0.20σ | xGD_defence=+0.00σ
+SEASON_PROGRESSION (xGD_attack): 2020: +6.0 → 2021: +19.4 → 2022: +6.0 → 2023: -3.2 → 2024: +2.3
+PEAK: best season 2021 (+19.35 xGD attack) | worst season 2023 (-3.16 xGD attack)
+GAME TAGS: heists=14 (rate=8.2%) | grand_heists=1 | robberies=14 | gk_worldies=6
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
+INSIGHT: Borussia Dortmund are a consistently clinical finishers side in Bundesliga — averaging +6.11 xGD attack (+0.9σ vs league), solid in defence 1/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Borussia M.Gladbach | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=+1.77 | clinical_rate=45.3% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=+0.31 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=8.4 of 18 | avg_heist_rank=9.6 of 18
+Z-SCORES: xGD_attack=+0.18σ | heist_rate=-0.06σ | xGD_defence=+0.03σ
+SEASON_PROGRESSION (xGD_attack): 2020: +9.9 → 2021: -5.9 → 2022: -0.8 → 2023: +4.2 → 2024: +1.5
+PEAK: best season 2020 (+9.89 xGD attack) | worst season 2021 (-5.92 xGD attack)
+GAME TAGS: heists=11 (rate=6.5%) | grand_heists=3 | robberies=7 | gk_worldies=11
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Borussia M.Gladbach are a balanced side in Bundesliga — averaging +1.77 xGD attack (+0.2σ vs league), solid in defence 2/5 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Darmstadt | LEAGUE: bundesliga | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-4.56 | clinical_rate=35.3% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=+4.88 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=13.0 of 18 | avg_heist_rank=16.0 of 18
+Z-SCORES: xGD_attack=-0.35σ | heist_rate=-1.12σ | xGD_defence=+1.06σ
+SEASON_PROGRESSION (xGD_attack): 2023: -4.6
+PEAK: best season 2023 (-4.56 xGD attack) | worst season 2023 (-4.56 xGD attack)
+GAME TAGS: heists=0 (rate=0.0%) | grand_heists=0 | robberies=3 | gk_worldies=2
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Darmstadt are a balanced side in Bundesliga — averaging -4.56 xGD attack (-0.3σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Eintracht Frankfurt | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+2.23 | clinical_rate=47.7% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-0.97 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=7.2 of 18 | avg_heist_rank=7.0 of 18
+Z-SCORES: xGD_attack=+0.28σ | heist_rate=+0.52σ | xGD_defence=-0.09σ
+SEASON_PROGRESSION (xGD_attack): 2020: +8.5 → 2021: +3.4 → 2022: +4.8 → 2023: -0.6 → 2024: -4.8
+PEAK: best season 2020 (+8.47 xGD attack) | worst season 2024 (-4.84 xGD attack)
+GAME TAGS: heists=15 (rate=8.8%) | grand_heists=4 | robberies=9 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Eintracht Frankfurt are a balanced side in Bundesliga — averaging +2.23 xGD attack (+0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: FC Cologne | LEAGUE: bundesliga | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-6.08 | clinical_rate=33.1% | seasons_overperforming=0/4
+DEFENCE: avg_xGD_defence=+0.71 | seasons_solid=2/4
+LEAGUE RANK: avg_xGD_attack_rank=14.2 of 18 | avg_heist_rank=11.0 of 18
+Z-SCORES: xGD_attack=-0.99σ | heist_rate=-0.30σ | xGD_defence=+0.13σ
+SEASON_PROGRESSION (xGD_attack): 2020: -5.6 → 2021: -0.3 → 2022: -2.0 → 2023: -16.3
+PEAK: best season 2021 (-0.30 xGD attack) | worst season 2023 (-16.34 xGD attack)
+GAME TAGS: heists=7 (rate=5.1%) | grand_heists=3 | robberies=10 | gk_worldies=10
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: FC Cologne are a balanced side in Bundesliga — averaging -6.08 xGD attack (-1.0σ vs league), solid in defence 2/4 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: FC Heidenheim | LEAGUE: bundesliga | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+0.73 | clinical_rate=47.1% | seasons_overperforming=1/2
+DEFENCE: avg_xGD_defence=-5.72 | seasons_solid=2/2
+LEAGUE RANK: avg_xGD_attack_rank=8.0 of 18 | avg_heist_rank=8.0 of 18
+Z-SCORES: xGD_attack=+0.32σ | heist_rate=+0.63σ | xGD_defence=-0.56σ
+SEASON_PROGRESSION (xGD_attack): 2023: +7.4 → 2024: -6.0
+PEAK: best season 2023 (+7.42 xGD attack) | worst season 2024 (-5.96 xGD attack)
+GAME TAGS: heists=7 (rate=10.2%) | grand_heists=4 | robberies=3 | gk_worldies=7
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: FC Heidenheim are a defensively elite side in Bundesliga — averaging +0.73 xGD attack (+0.3σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Freiburg | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-1.03 | clinical_rate=35.3% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-1.02 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=9.4 of 18 | avg_heist_rank=8.4 of 18
+Z-SCORES: xGD_attack=-0.22σ | heist_rate=+0.11σ | xGD_defence=-0.27σ
+SEASON_PROGRESSION (xGD_attack): 2020: +6.9 → 2021: +0.3 → 2022: +0.8 → 2023: -7.5 → 2024: -5.6
+PEAK: best season 2020 (+6.89 xGD attack) | worst season 2023 (-7.50 xGD attack)
+GAME TAGS: heists=13 (rate=7.7%) | grand_heists=3 | robberies=7 | gk_worldies=10
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Freiburg are a balanced side in Bundesliga — averaging -1.03 xGD attack (-0.2σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Greuther Fuerth | LEAGUE: bundesliga | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-2.64 | clinical_rate=26.5% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=+21.46 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=12.0 of 18 | avg_heist_rank=10.0 of 18
+Z-SCORES: xGD_attack=-0.38σ | heist_rate=-0.16σ | xGD_defence=+2.58σ
+SEASON_PROGRESSION (xGD_attack): 2021: -2.6
+PEAK: best season 2021 (-2.64 xGD attack) | worst season 2021 (-2.64 xGD attack)
+GAME TAGS: heists=2 (rate=5.9%) | grand_heists=1 | robberies=2 | gk_worldies=2
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Greuther Fuerth are a balanced side in Bundesliga — averaging -2.64 xGD attack (-0.4σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Hertha Berlin | LEAGUE: bundesliga | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-0.02 | clinical_rate=38.2% | seasons_overperforming=2/3
+DEFENCE: avg_xGD_defence=+8.03 | seasons_solid=0/3
+LEAGUE RANK: avg_xGD_attack_rank=11.0 of 18 | avg_heist_rank=15.7 of 18
+Z-SCORES: xGD_attack=-0.28σ | heist_rate=-1.17σ | xGD_defence=+0.90σ
+SEASON_PROGRESSION (xGD_attack): 2020: +0.3 → 2021: -0.9 → 2022: +0.6
+PEAK: best season 2022 (+0.56 xGD attack) | worst season 2021 (-0.90 xGD attack)
+GAME TAGS: heists=3 (rate=2.9%) | grand_heists=1 | robberies=8 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
+INSIGHT: Hertha Berlin are a balanced side in Bundesliga — averaging -0.02 xGD attack (-0.3σ vs league), solid in defence 0/3 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Hoffenheim | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=+1.89 | clinical_rate=47.7% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=+2.34 | seasons_solid=1/5
+LEAGUE RANK: avg_xGD_attack_rank=8.4 of 18 | avg_heist_rank=9.6 of 18
+Z-SCORES: xGD_attack=+0.21σ | heist_rate=-0.15σ | xGD_defence=+0.30σ
+SEASON_PROGRESSION (xGD_attack): 2020: +1.7 → 2021: -1.8 → 2022: +0.7 → 2023: +9.8 → 2024: -0.9
+PEAK: best season 2023 (+9.75 xGD attack) | worst season 2021 (-1.77 xGD attack)
+GAME TAGS: heists=11 (rate=6.5%) | grand_heists=2 | robberies=12 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=systematic_defensive_underperformer
+INSIGHT: Hoffenheim are a balanced side in Bundesliga — averaging +1.89 xGD attack (+0.2σ vs league), solid in defence 1/5 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Holstein Kiel | LEAGUE: bundesliga | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+5.43 | clinical_rate=47.1% | seasons_overperforming=1/1
+DEFENCE: avg_xGD_defence=+9.41 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=2.0 of 18 | avg_heist_rank=11.0 of 18
+Z-SCORES: xGD_attack=+1.28σ | heist_rate=-0.21σ | xGD_defence=+1.71σ
+SEASON_PROGRESSION (xGD_attack): 2024: +5.4
+PEAK: best season 2024 (+5.43 xGD attack) | worst season 2024 (+5.43 xGD attack)
+GAME TAGS: heists=2 (rate=5.9%) | grand_heists=1 | robberies=2 | gk_worldies=1
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
+INSIGHT: Holstein Kiel are a balanced side in Bundesliga — averaging +5.43 xGD attack (+1.3σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Mainz 05 | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-4.31 | clinical_rate=34.7% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-0.43 | seasons_solid=1/5
+LEAGUE RANK: avg_xGD_attack_rank=12.4 of 18 | avg_heist_rank=10.8 of 18
+Z-SCORES: xGD_attack=-0.59σ | heist_rate=-0.30σ | xGD_defence=-0.12σ
+SEASON_PROGRESSION (xGD_attack): 2020: -9.5 → 2021: -2.1 → 2022: +3.5 → 2023: -12.7 → 2024: -0.8
+PEAK: best season 2022 (+3.51 xGD attack) | worst season 2023 (-12.68 xGD attack)
+GAME TAGS: heists=10 (rate=5.9%) | grand_heists=5 | robberies=15 | gk_worldies=7
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Mainz 05 are a balanced side in Bundesliga — averaging -4.31 xGD attack (-0.6σ vs league), solid in defence 1/5 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: RasenBallsport Leipzig | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: improving
+ATTACK: avg_xGD_attack=-0.47 | clinical_rate=47.7% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-4.25 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=9.6 of 18 | avg_heist_rank=11.2 of 18
+Z-SCORES: xGD_attack=-0.13σ | heist_rate=-0.33σ | xGD_defence=-0.61σ
+SEASON_PROGRESSION (xGD_attack): 2020: -7.1 → 2021: +4.6 → 2022: -4.8 → 2023: +4.4 → 2024: +0.7
+PEAK: best season 2021 (+4.60 xGD attack) | worst season 2020 (-7.14 xGD attack)
+GAME TAGS: heists=9 (rate=5.3%) | grand_heists=2 | robberies=13 | gk_worldies=6
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: RasenBallsport Leipzig are a defensively elite side in Bundesliga — averaging -0.47 xGD attack (-0.1σ vs league), solid in defence 3/5 seasons. Recovering since 2020 trough.
+---
+
+TEAM: Schalke 04 | LEAGUE: bundesliga | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-4.10 | clinical_rate=27.9% | seasons_overperforming=0/2
+DEFENCE: avg_xGD_defence=+12.40 | seasons_solid=0/2
+LEAGUE RANK: avg_xGD_attack_rank=16.0 of 18 | avg_heist_rank=12.0 of 18
+Z-SCORES: xGD_attack=-1.12σ | heist_rate=-0.55σ | xGD_defence=+1.83σ
+SEASON_PROGRESSION (xGD_attack): 2020: -2.7 → 2022: -5.5
+PEAK: best season 2020 (-2.66 xGD attack) | worst season 2022 (-5.54 xGD attack)
+GAME TAGS: heists=4 (rate=5.9%) | grand_heists=0 | robberies=5 | gk_worldies=3
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Schalke 04 are a balanced side in Bundesliga — averaging -4.10 xGD attack (-1.1σ vs league), solid in defence 0/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: St. Pauli | LEAGUE: bundesliga | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: defensively elite | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-11.47 | clinical_rate=23.5% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=-12.50 | seasons_solid=1/1
+LEAGUE RANK: avg_xGD_attack_rank=17.0 of 18 | avg_heist_rank=17.0 of 18
+Z-SCORES: xGD_attack=-1.57σ | heist_rate=-1.72σ | xGD_defence=-1.53σ
+SEASON_PROGRESSION (xGD_attack): 2024: -11.5
+PEAK: best season 2024 (-11.47 xGD attack) | worst season 2024 (-11.47 xGD attack)
+GAME TAGS: heists=0 (rate=0.0%) | grand_heists=0 | robberies=2 | gk_worldies=4
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: St. Pauli are a defensively elite side in Bundesliga — averaging -11.47 xGD attack (-1.6σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Union Berlin | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-0.81 | clinical_rate=43.5% | seasons_overperforming=2/5
+DEFENCE: avg_xGD_defence=-0.19 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=10.8 of 18 | avg_heist_rank=7.6 of 18
+Z-SCORES: xGD_attack=-0.05σ | heist_rate=+0.35σ | xGD_defence=-0.17σ
+SEASON_PROGRESSION (xGD_attack): 2020: +4.0 → 2021: -5.2 → 2022: +15.9 → 2023: -11.7 → 2024: -7.0
+PEAK: best season 2022 (+15.93 xGD attack) | worst season 2023 (-11.74 xGD attack)
+GAME TAGS: heists=16 (rate=9.4%) | grand_heists=2 | robberies=11 | gk_worldies=9
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Union Berlin are a balanced side in Bundesliga — averaging -0.81 xGD attack (-0.0σ vs league), solid in defence 3/5 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: VfB Stuttgart | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: declining
+ATTACK: avg_xGD_attack=-3.08 | clinical_rate=38.2% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=+2.03 | seasons_solid=1/5
+LEAGUE RANK: avg_xGD_attack_rank=13.8 of 18 | avg_heist_rank=10.4 of 18
+Z-SCORES: xGD_attack=-0.57σ | heist_rate=-0.23σ | xGD_defence=+0.28σ
+SEASON_PROGRESSION (xGD_attack): 2020: +3.8 → 2021: -6.9 → 2022: -4.1 → 2023: -1.0 → 2024: -7.2
+PEAK: best season 2020 (+3.82 xGD attack) | worst season 2024 (-7.19 xGD attack)
+GAME TAGS: heists=10 (rate=5.9%) | grand_heists=1 | robberies=22 | gk_worldies=9
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: VfB Stuttgart are a chance-dominant but wasteful side in Bundesliga — averaging -3.08 xGD attack (-0.6σ vs league), solid in defence 1/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Werder Bremen | LEAGUE: bundesliga | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+2.55 | clinical_rate=44.1% | seasons_overperforming=3/4
+DEFENCE: avg_xGD_defence=+1.01 | seasons_solid=1/4
+LEAGUE RANK: avg_xGD_attack_rank=7.0 of 18 | avg_heist_rank=7.0 of 18
+Z-SCORES: xGD_attack=+0.37σ | heist_rate=+0.40σ | xGD_defence=+0.14σ
+SEASON_PROGRESSION (xGD_attack): 2020: +3.5 → 2022: +8.1 → 2023: +0.9 → 2024: -2.3
+PEAK: best season 2022 (+8.09 xGD attack) | worst season 2024 (-2.26 xGD attack)
+GAME TAGS: heists=12 (rate=8.8%) | grand_heists=3 | robberies=12 | gk_worldies=6
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Werder Bremen are a balanced side in Bundesliga — averaging +2.55 xGD attack (+0.4σ vs league), solid in defence 1/4 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: Wolfsburg | LEAGUE: bundesliga | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+1.71 | clinical_rate=42.9% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-0.73 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=8.0 of 18 | avg_heist_rank=4.0 of 18
+Z-SCORES: xGD_attack=+0.24σ | heist_rate=+0.86σ | xGD_defence=-0.24σ
+SEASON_PROGRESSION (xGD_attack): 2020: +9.4 → 2021: -6.3 → 2022: +5.8 → 2023: -3.0 → 2024: +2.6
+PEAK: best season 2020 (+9.41 xGD attack) | worst season 2021 (-6.27 xGD attack)
+GAME TAGS: heists=19 (rate=11.2%) | grand_heists=6 | robberies=13 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Wolfsburg are a balanced side in Bundesliga — averaging +1.71 xGD attack (+0.2σ vs league), solid in defence 3/5 seasons. Declining trend since 2020 peak.
+---

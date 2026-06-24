@@ -1,0 +1,377 @@
+
+=====================================
+XG ANALYSIS | LEAGUE: SERIE_A | SEASONS: 2020-2024
+=====================================
+LEAGUE SUMMARY (multi-season teams only):
+- Most clinical team (avg xGD attack): Lazio (+3.80 goals/season vs xG)
+- Most wasteful team: Lecce (-9.85 goals/season vs xG)
+- Best defence vs xG: Venezia (-8.64 goals conceded vs xGA)
+- Most heists: Fiorentina (22 across tracked seasons)
+- Most robberies: Udinese (17 across tracked seasons)
+- Systematic overperformers: 1 | Systematic underperformers: 9
+-------------------------------------
+TEAM PROFILES:
+
+TEAM: AC Milan | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-1.93 | clinical_rate=46.8% | seasons_overperforming=2/5
+DEFENCE: avg_xGD_defence=-2.32 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=11.4 of 20 | avg_heist_rank=8.0 of 20
+Z-SCORES: xGD_attack=-0.20σ | heist_rate=+0.36σ | xGD_defence=-0.19σ
+SEASON_PROGRESSION (xGD_attack): 2020: -1.0 → 2021: +1.7 → 2022: -5.9 → 2023: +4.1 → 2024: -8.5
+PEAK: best season 2023 (+4.14 xGD attack) | worst season 2024 (-8.51 xGD attack)
+GAME TAGS: heists=16 (rate=8.4%) | grand_heists=0 | robberies=11 | gk_worldies=5
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: AC Milan are a balanced side in Serie A — averaging -1.93 xGD attack (-0.2σ vs league), solid in defence 3/5 seasons. Declining trend since 2023 peak.
+---
+
+TEAM: Atalanta | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+2.29 | clinical_rate=51.1% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=+0.76 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=6.4 of 20 | avg_heist_rank=15.8 of 20
+Z-SCORES: xGD_attack=+0.61σ | heist_rate=-0.83σ | xGD_defence=+0.33σ
+SEASON_PROGRESSION (xGD_attack): 2020: +8.0 → 2021: -3.7 → 2022: +5.5 → 2023: +3.5 → 2024: -1.9
+PEAK: best season 2020 (+7.99 xGD attack) | worst season 2021 (-3.72 xGD attack)
+GAME TAGS: heists=6 (rate=3.2%) | grand_heists=1 | robberies=16 | gk_worldies=15
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Atalanta are a balanced side in Serie A — averaging +2.29 xGD attack (+0.6σ vs league), solid in defence 2/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Benevento | LEAGUE: serie_a | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: counter-attacking/heist specialists | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+1.35 | clinical_rate=39.5% | seasons_overperforming=1/1
+DEFENCE: avg_xGD_defence=+4.52 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=10.0 of 20 | avg_heist_rank=3.0 of 20
+Z-SCORES: xGD_attack=+0.04σ | heist_rate=+1.30σ | xGD_defence=+0.52σ
+SEASON_PROGRESSION (xGD_attack): 2020: +1.3
+PEAK: best season 2020 (+1.35 xGD attack) | worst season 2020 (+1.35 xGD attack)
+GAME TAGS: heists=5 (rate=13.2%) | grand_heists=2 | robberies=4 | gk_worldies=3
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
+INSIGHT: Benevento are a counter-attacking/heist specialists side in Serie A — averaging +1.35 xGD attack (+0.0σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Bologna | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-0.12 | clinical_rate=42.6% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-2.85 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=9.2 of 20 | avg_heist_rank=9.6 of 20
+Z-SCORES: xGD_attack=+0.19σ | heist_rate=+0.04σ | xGD_defence=-0.25σ
+SEASON_PROGRESSION (xGD_attack): 2020: -6.5 → 2021: -1.6 → 2022: +7.7 → 2023: 0.0 → 2024: -0.2
+PEAK: best season 2022 (+7.71 xGD attack) | worst season 2020 (-6.53 xGD attack)
+GAME TAGS: heists=13 (rate=6.8%) | grand_heists=3 | robberies=14 | gk_worldies=9
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Bologna are a balanced side in Serie A — averaging -0.12 xGD attack (+0.2σ vs league), solid in defence 4/5 seasons. Recovering since 2020 trough.
+---
+
+TEAM: Cagliari | LEAGUE: serie_a | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-5.38 | clinical_rate=38.8% | seasons_overperforming=0/4
+DEFENCE: avg_xGD_defence=-2.00 | seasons_solid=3/4
+LEAGUE RANK: avg_xGD_attack_rank=15.2 of 20 | avg_heist_rank=12.8 of 20
+Z-SCORES: xGD_attack=-0.75σ | heist_rate=-0.43σ | xGD_defence=-0.12σ
+SEASON_PROGRESSION (xGD_attack): 2020: -2.6 → 2021: -6.7 → 2023: -3.4 → 2024: -8.7
+PEAK: best season 2020 (-2.60 xGD attack) | worst season 2024 (-8.73 xGD attack)
+GAME TAGS: heists=7 (rate=4.6%) | grand_heists=1 | robberies=10 | gk_worldies=7
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Cagliari are a balanced side in Serie A — averaging -5.38 xGD attack (-0.7σ vs league), solid in defence 3/4 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Como | LEAGUE: serie_a | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: chance-dominant but wasteful | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-0.76 | clinical_rate=34.2% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=+1.89 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=7.0 of 20 | avg_heist_rank=7.0 of 20
+Z-SCORES: xGD_attack=+0.54σ | heist_rate=+0.33σ | xGD_defence=+0.83σ
+SEASON_PROGRESSION (xGD_attack): 2024: -0.8
+PEAK: best season 2024 (-0.76 xGD attack) | worst season 2024 (-0.76 xGD attack)
+GAME TAGS: heists=3 (rate=7.9%) | grand_heists=1 | robberies=4 | gk_worldies=1
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Como are a chance-dominant but wasteful side in Serie A — averaging -0.76 xGD attack (+0.5σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Cremonese | LEAGUE: serie_a | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-0.59 | clinical_rate=36.8% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=-0.55 | seasons_solid=1/1
+LEAGUE RANK: avg_xGD_attack_rank=8.0 of 20 | avg_heist_rank=15.0 of 20
+Z-SCORES: xGD_attack=+0.17σ | heist_rate=-0.71σ | xGD_defence=+0.18σ
+SEASON_PROGRESSION (xGD_attack): 2022: -0.6
+PEAK: best season 2022 (-0.59 xGD attack) | worst season 2022 (-0.59 xGD attack)
+GAME TAGS: heists=2 (rate=5.3%) | grand_heists=1 | robberies=3 | gk_worldies=2
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Cremonese are a balanced side in Serie A — averaging -0.59 xGD attack (+0.2σ vs league), solid in defence 1/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Crotone | LEAGUE: serie_a | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=+5.36 | clinical_rate=44.7% | seasons_overperforming=1/1
+DEFENCE: avg_xGD_defence=+14.52 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=5.0 of 20 | avg_heist_rank=13.0 of 20
+Z-SCORES: xGD_attack=+0.76σ | heist_rate=-0.46σ | xGD_defence=+2.04σ
+SEASON_PROGRESSION (xGD_attack): 2020: +5.4
+PEAK: best season 2020 (+5.36 xGD attack) | worst season 2020 (+5.36 xGD attack)
+GAME TAGS: heists=2 (rate=5.3%) | grand_heists=0 | robberies=2 | gk_worldies=0
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_underperformer
+INSIGHT: Crotone are a balanced side in Serie A — averaging +5.36 xGD attack (+0.8σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Empoli | LEAGUE: serie_a | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-3.54 | clinical_rate=34.2% | seasons_overperforming=1/4
+DEFENCE: avg_xGD_defence=-4.56 | seasons_solid=3/4
+LEAGUE RANK: avg_xGD_attack_rank=12.8 of 20 | avg_heist_rank=9.0 of 20
+Z-SCORES: xGD_attack=-0.31σ | heist_rate=+0.27σ | xGD_defence=-0.44σ
+SEASON_PROGRESSION (xGD_attack): 2021: +4.5 → 2022: -4.2 → 2023: -9.1 → 2024: -5.3
+PEAK: best season 2021 (+4.48 xGD attack) | worst season 2023 (-9.06 xGD attack)
+GAME TAGS: heists=12 (rate=7.9%) | grand_heists=3 | robberies=11 | gk_worldies=14
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Empoli are a defensively elite side in Serie A — averaging -3.54 xGD attack (-0.3σ vs league), solid in defence 3/4 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Fiorentina | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: improving
+ATTACK: avg_xGD_attack=+0.53 | clinical_rate=40.0% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-3.58 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=8.2 of 20 | avg_heist_rank=5.8 of 20
+Z-SCORES: xGD_attack=+0.43σ | heist_rate=+0.97σ | xGD_defence=-0.30σ
+SEASON_PROGRESSION (xGD_attack): 2020: +0.8 → 2021: -3.0 → 2022: -3.9 → 2023: +2.9 → 2024: +5.9
+PEAK: best season 2024 (+5.89 xGD attack) | worst season 2022 (-3.90 xGD attack)
+GAME TAGS: heists=22 (rate=11.6%) | grand_heists=5 | robberies=11 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Fiorentina are a defensively elite side in Serie A — averaging +0.53 xGD attack (+0.4σ vs league), solid in defence 4/5 seasons. Recovering since 2022 trough.
+---
+
+TEAM: Frosinone | LEAGUE: serie_a | SEASONS TRACKED: 1 | SAMPLE: single_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-6.20 | clinical_rate=42.1% | seasons_overperforming=0/1
+DEFENCE: avg_xGD_defence=+3.95 | seasons_solid=0/1
+LEAGUE RANK: avg_xGD_attack_rank=13.0 of 20 | avg_heist_rank=7.0 of 20
+Z-SCORES: xGD_attack=-0.53σ | heist_rate=+0.26σ | xGD_defence=+1.08σ
+SEASON_PROGRESSION (xGD_attack): 2023: -6.2
+PEAK: best season 2023 (-6.20 xGD attack) | worst season 2023 (-6.20 xGD attack)
+GAME TAGS: heists=3 (rate=7.9%) | grand_heists=1 | robberies=2 | gk_worldies=2
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_underperformer
+INSIGHT: Frosinone are a balanced side in Serie A — averaging -6.20 xGD attack (-0.5σ vs league), solid in defence 0/1 seasons. Only 1 season(s) tracked — insufficient for trend. Note: single-season sample — treat with caution.
+---
+
+TEAM: Genoa | LEAGUE: serie_a | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: improving
+ATTACK: avg_xGD_attack=-0.49 | clinical_rate=32.2% | seasons_overperforming=2/4
+DEFENCE: avg_xGD_defence=-3.00 | seasons_solid=4/4
+LEAGUE RANK: avg_xGD_attack_rank=8.8 of 20 | avg_heist_rank=8.0 of 20
+Z-SCORES: xGD_attack=+0.19σ | heist_rate=+0.49σ | xGD_defence=-0.28σ
+SEASON_PROGRESSION (xGD_attack): 2020: +6.3 → 2021: -11.5 → 2023: +6.3 → 2024: -3.0
+PEAK: best season 2023 (+6.31 xGD attack) | worst season 2021 (-11.53 xGD attack)
+GAME TAGS: heists=13 (rate=8.6%) | grand_heists=1 | robberies=12 | gk_worldies=5
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Genoa are a defensively elite side in Serie A — averaging -0.49 xGD attack (+0.2σ vs league), solid in defence 4/4 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Inter | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: improving
+ATTACK: avg_xGD_attack=+1.75 | clinical_rate=51.0% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=-5.27 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=6.6 of 20 | avg_heist_rank=11.2 of 20
+Z-SCORES: xGD_attack=+0.62σ | heist_rate=-0.26σ | xGD_defence=-0.72σ
+SEASON_PROGRESSION (xGD_attack): 2020: +10.7 → 2021: -6.4 → 2022: -1.0 → 2023: +3.2 → 2024: +2.3
+PEAK: best season 2020 (+10.65 xGD attack) | worst season 2021 (-6.38 xGD attack)
+GAME TAGS: heists=11 (rate=5.8%) | grand_heists=2 | robberies=15 | gk_worldies=10
+VERDICT: attack=inconsistent | defence=systematic_defensive_overperformer
+INSIGHT: Inter are a defensively elite side in Serie A — averaging +1.75 xGD attack (+0.6σ vs league), solid in defence 4/5 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Juventus | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-4.74 | clinical_rate=44.2% | seasons_overperforming=0/5
+DEFENCE: avg_xGD_defence=-2.58 | seasons_solid=5/5
+LEAGUE RANK: avg_xGD_attack_rank=13.2 of 20 | avg_heist_rank=14.4 of 20
+Z-SCORES: xGD_attack=-0.50σ | heist_rate=-0.63σ | xGD_defence=-0.22σ
+SEASON_PROGRESSION (xGD_attack): 2020: -6.5 → 2021: -3.8 → 2022: -3.7 → 2023: -9.5 → 2024: -0.1
+PEAK: best season 2024 (-0.12 xGD attack) | worst season 2023 (-9.48 xGD attack)
+GAME TAGS: heists=8 (rate=4.2%) | grand_heists=1 | robberies=13 | gk_worldies=4
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Juventus are a balanced side in Serie A — averaging -4.74 xGD attack (-0.5σ vs league), solid in defence 5/5 seasons. Recovering since 2023 trough.
+---
+
+TEAM: Lazio | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+3.80 | clinical_rate=46.3% | seasons_overperforming=3/5
+DEFENCE: avg_xGD_defence=+0.13 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=7.6 of 20 | avg_heist_rank=8.4 of 20
+Z-SCORES: xGD_attack=+0.70σ | heist_rate=+0.50σ | xGD_defence=+0.33σ
+SEASON_PROGRESSION (xGD_attack): 2020: +2.3 → 2021: +17.7 → 2022: +5.7 → 2023: -2.4 → 2024: -4.3
+PEAK: best season 2021 (+17.71 xGD attack) | worst season 2024 (-4.32 xGD attack)
+GAME TAGS: heists=17 (rate=9.0%) | grand_heists=3 | robberies=15 | gk_worldies=7
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Lazio are a balanced side in Serie A — averaging +3.80 xGD attack (+0.7σ vs league), solid in defence 2/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Lecce | LEAGUE: serie_a | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-9.85 | clinical_rate=30.7% | seasons_overperforming=0/3
+DEFENCE: avg_xGD_defence=-5.17 | seasons_solid=2/3
+LEAGUE RANK: avg_xGD_attack_rank=17.3 of 20 | avg_heist_rank=11.7 of 20
+Z-SCORES: xGD_attack=-1.30σ | heist_rate=-0.33σ | xGD_defence=-0.46σ
+SEASON_PROGRESSION (xGD_attack): 2022: -3.9 → 2023: -15.6 → 2024: -10.0
+PEAK: best season 2022 (-3.94 xGD attack) | worst season 2023 (-15.62 xGD attack)
+GAME TAGS: heists=7 (rate=6.1%) | grand_heists=4 | robberies=8 | gk_worldies=9
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Lecce are a defensively elite side in Serie A — averaging -9.85 xGD attack (-1.3σ vs league), solid in defence 2/3 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: Monza | LEAGUE: serie_a | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: declining
+ATTACK: avg_xGD_attack=-2.49 | clinical_rate=32.5% | seasons_overperforming=1/3
+DEFENCE: avg_xGD_defence=-4.10 | seasons_solid=2/3
+LEAGUE RANK: avg_xGD_attack_rank=11.0 of 20 | avg_heist_rank=10.0 of 20
+Z-SCORES: xGD_attack=-0.03σ | heist_rate=-0.15σ | xGD_defence=-0.25σ
+SEASON_PROGRESSION (xGD_attack): 2022: +3.2 → 2023: -6.6 → 2024: -4.1
+PEAK: best season 2022 (+3.19 xGD attack) | worst season 2023 (-6.55 xGD attack)
+GAME TAGS: heists=7 (rate=6.1%) | grand_heists=2 | robberies=5 | gk_worldies=7
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Monza are a defensively elite side in Serie A — averaging -2.49 xGD attack (-0.0σ vs league), solid in defence 2/3 seasons. Declining trend since 2022 peak.
+---
+
+TEAM: Napoli | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+3.02 | clinical_rate=47.4% | seasons_overperforming=4/5
+DEFENCE: avg_xGD_defence=-1.34 | seasons_solid=4/5
+LEAGUE RANK: avg_xGD_attack_rank=6.0 of 20 | avg_heist_rank=14.4 of 20
+Z-SCORES: xGD_attack=+0.76σ | heist_rate=-0.64σ | xGD_defence=-0.03σ
+SEASON_PROGRESSION (xGD_attack): 2020: +11.0 → 2021: +10.4 → 2022: +5.3 → 2023: -13.5 → 2024: +2.0
+PEAK: best season 2020 (+11.02 xGD attack) | worst season 2023 (-13.49 xGD attack)
+GAME TAGS: heists=8 (rate=4.2%) | grand_heists=3 | robberies=16 | gk_worldies=4
+VERDICT: attack=systematic_overperformer | defence=systematic_defensive_overperformer
+INSIGHT: Napoli are a balanced side in Serie A — averaging +3.02 xGD attack (+0.8σ vs league), solid in defence 4/5 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Parma Calcio 1913 | LEAGUE: serie_a | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-3.96 | clinical_rate=36.9% | seasons_overperforming=0/2
+DEFENCE: avg_xGD_defence=+4.15 | seasons_solid=1/2
+LEAGUE RANK: avg_xGD_attack_rank=13.5 of 20 | avg_heist_rank=12.0 of 20
+Z-SCORES: xGD_attack=-0.56σ | heist_rate=-0.37σ | xGD_defence=+0.74σ
+SEASON_PROGRESSION (xGD_attack): 2020: -4.0 → 2024: -4.0
+PEAK: best season 2024 (-3.95 xGD attack) | worst season 2020 (-3.98 xGD attack)
+GAME TAGS: heists=4 (rate=5.2%) | grand_heists=2 | robberies=6 | gk_worldies=1
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Parma Calcio 1913 are a balanced side in Serie A — averaging -3.96 xGD attack (-0.6σ vs league), solid in defence 1/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Roma | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-4.78 | clinical_rate=38.9% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-0.67 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=14.4 of 20 | avg_heist_rank=15.6 of 20
+Z-SCORES: xGD_attack=-0.57σ | heist_rate=-0.95σ | xGD_defence=+0.08σ
+SEASON_PROGRESSION (xGD_attack): 2020: -4.1 → 2021: -7.8 → 2022: -14.0 → 2023: +8.1 → 2024: -6.1
+PEAK: best season 2023 (+8.08 xGD attack) | worst season 2022 (-14.02 xGD attack)
+GAME TAGS: heists=6 (rate=3.2%) | grand_heists=0 | robberies=11 | gk_worldies=5
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Roma are a balanced side in Serie A — averaging -4.78 xGD attack (-0.6σ vs league), solid in defence 2/5 seasons. Recovering since 2022 trough.
+---
+
+TEAM: Salernitana | LEAGUE: serie_a | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=+2.21 | clinical_rate=43.0% | seasons_overperforming=2/3
+DEFENCE: avg_xGD_defence=-0.69 | seasons_solid=1/3
+LEAGUE RANK: avg_xGD_attack_rank=8.0 of 20 | avg_heist_rank=8.3 of 20
+Z-SCORES: xGD_attack=+0.59σ | heist_rate=+0.20σ | xGD_defence=+0.28σ
+SEASON_PROGRESSION (xGD_attack): 2021: -6.5 → 2022: +12.6 → 2023: +0.6
+PEAK: best season 2022 (+12.56 xGD attack) | worst season 2021 (-6.49 xGD attack)
+GAME TAGS: heists=9 (rate=7.9%) | grand_heists=2 | robberies=3 | gk_worldies=7
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Salernitana are a balanced side in Serie A — averaging +2.21 xGD attack (+0.6σ vs league), solid in defence 1/3 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Sampdoria | LEAGUE: serie_a | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+0.37 | clinical_rate=41.3% | seasons_overperforming=2/3
+DEFENCE: avg_xGD_defence=-0.88 | seasons_solid=1/3
+LEAGUE RANK: avg_xGD_attack_rank=9.7 of 20 | avg_heist_rank=9.3 of 20
+Z-SCORES: xGD_attack=+0.11σ | heist_rate=+0.11σ | xGD_defence=-0.07σ
+SEASON_PROGRESSION (xGD_attack): 2020: +5.3 → 2021: +6.9 → 2022: -11.1
+PEAK: best season 2021 (+6.91 xGD attack) | worst season 2022 (-11.10 xGD attack)
+GAME TAGS: heists=9 (rate=7.9%) | grand_heists=2 | robberies=8 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Sampdoria are a balanced side in Serie A — averaging +0.37 xGD attack (+0.1σ vs league), solid in defence 1/3 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Sassuolo | LEAGUE: serie_a | SEASONS TRACKED: 4 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=+0.50 | clinical_rate=38.8% | seasons_overperforming=2/4
+DEFENCE: avg_xGD_defence=+3.59 | seasons_solid=1/4
+LEAGUE RANK: avg_xGD_attack_rank=9.2 of 20 | avg_heist_rank=5.0 of 20
+Z-SCORES: xGD_attack=+0.20σ | heist_rate=+0.81σ | xGD_defence=+0.65σ
+SEASON_PROGRESSION (xGD_attack): 2020: +2.4 → 2021: +4.6 → 2022: -4.5 → 2023: -0.5
+PEAK: best season 2021 (+4.64 xGD attack) | worst season 2022 (-4.50 xGD attack)
+GAME TAGS: heists=16 (rate=10.5%) | grand_heists=3 | robberies=11 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Sassuolo are a balanced side in Serie A — averaging +0.50 xGD attack (+0.2σ vs league), solid in defence 1/4 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Spezia | LEAGUE: serie_a | SEASONS TRACKED: 3 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-2.06 | clinical_rate=36.8% | seasons_overperforming=1/3
+DEFENCE: avg_xGD_defence=+0.35 | seasons_solid=1/3
+LEAGUE RANK: avg_xGD_attack_rank=11.3 of 20 | avg_heist_rank=6.0 of 20
+Z-SCORES: xGD_attack=-0.23σ | heist_rate=+0.53σ | xGD_defence=+0.13σ
+SEASON_PROGRESSION (xGD_attack): 2020: +4.1 → 2021: -0.6 → 2022: -9.6
+PEAK: best season 2020 (+4.10 xGD attack) | worst season 2022 (-9.64 xGD attack)
+GAME TAGS: heists=11 (rate=9.6%) | grand_heists=7 | robberies=7 | gk_worldies=10
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Spezia are a balanced side in Serie A — averaging -2.06 xGD attack (-0.2σ vs league), solid in defence 1/3 seasons. Declining trend since 2020 peak.
+---
+
+TEAM: Torino | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: improving
+ATTACK: avg_xGD_attack=-3.65 | clinical_rate=36.8% | seasons_overperforming=2/5
+DEFENCE: avg_xGD_defence=-1.78 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=12.8 of 20 | avg_heist_rank=9.8 of 20
+Z-SCORES: xGD_attack=-0.25σ | heist_rate=+0.06σ | xGD_defence=-0.10σ
+SEASON_PROGRESSION (xGD_attack): 2020: +0.4 → 2021: -7.8 → 2022: -5.3 → 2023: -7.3 → 2024: +1.7
+PEAK: best season 2024 (+1.71 xGD attack) | worst season 2021 (-7.75 xGD attack)
+GAME TAGS: heists=14 (rate=7.4%) | grand_heists=2 | robberies=8 | gk_worldies=8
+VERDICT: attack=inconsistent | defence=inconsistent_defence
+INSIGHT: Torino are a balanced side in Serie A — averaging -3.65 xGD attack (-0.3σ vs league), solid in defence 3/5 seasons. Recovering since 2021 trough.
+---
+
+TEAM: Udinese | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-2.87 | clinical_rate=37.9% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=-0.15 | seasons_solid=3/5
+LEAGUE RANK: avg_xGD_attack_rank=11.8 of 20 | avg_heist_rank=9.2 of 20
+Z-SCORES: xGD_attack=-0.30σ | heist_rate=+0.14σ | xGD_defence=+0.23σ
+SEASON_PROGRESSION (xGD_attack): 2020: -6.2 → 2021: +3.8 → 2022: -0.6 → 2023: -7.9 → 2024: -3.5
+PEAK: best season 2021 (+3.83 xGD attack) | worst season 2023 (-7.88 xGD attack)
+GAME TAGS: heists=15 (rate=7.9%) | grand_heists=1 | robberies=17 | gk_worldies=13
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Udinese are a balanced side in Serie A — averaging -2.87 xGD attack (-0.3σ vs league), solid in defence 3/5 seasons. Declining trend since 2021 peak.
+---
+
+TEAM: Venezia | LEAGUE: serie_a | SEASONS TRACKED: 2 | SAMPLE: multi_season
+FINISHING IDENTITY: defensively elite | TREND: insufficient_data
+ATTACK: avg_xGD_attack=-5.89 | clinical_rate=26.3% | seasons_overperforming=0/2
+DEFENCE: avg_xGD_defence=-8.64 | seasons_solid=2/2
+LEAGUE RANK: avg_xGD_attack_rank=15.0 of 20 | avg_heist_rank=15.0 of 20
+Z-SCORES: xGD_attack=-0.90σ | heist_rate=-0.78σ | xGD_defence=-1.35σ
+SEASON_PROGRESSION (xGD_attack): 2021: -2.2 → 2024: -9.6
+PEAK: best season 2021 (-2.16 xGD attack) | worst season 2024 (-9.62 xGD attack)
+GAME TAGS: heists=2 (rate=2.6%) | grand_heists=1 | robberies=6 | gk_worldies=7
+VERDICT: attack=systematic_underperformer | defence=systematic_defensive_overperformer
+INSIGHT: Venezia are a defensively elite side in Serie A — averaging -5.89 xGD attack (-0.9σ vs league), solid in defence 2/2 seasons. Only 2 season(s) tracked — insufficient for trend.
+---
+
+TEAM: Verona | LEAGUE: serie_a | SEASONS TRACKED: 5 | SAMPLE: multi_season
+FINISHING IDENTITY: balanced | TREND: declining
+ATTACK: avg_xGD_attack=-1.28 | clinical_rate=38.9% | seasons_overperforming=1/5
+DEFENCE: avg_xGD_defence=+1.32 | seasons_solid=2/5
+LEAGUE RANK: avg_xGD_attack_rank=11.2 of 20 | avg_heist_rank=7.6 of 20
+Z-SCORES: xGD_attack=-0.06σ | heist_rate=+0.43σ | xGD_defence=+0.50σ
+SEASON_PROGRESSION (xGD_attack): 2020: -5.0 → 2021: +8.6 → 2022: -6.3 → 2023: -0.5 → 2024: -3.3
+PEAK: best season 2021 (+8.62 xGD attack) | worst season 2022 (-6.27 xGD attack)
+GAME TAGS: heists=17 (rate=9.0%) | grand_heists=3 | robberies=16 | gk_worldies=8
+VERDICT: attack=systematic_underperformer | defence=inconsistent_defence
+INSIGHT: Verona are a balanced side in Serie A — averaging -1.28 xGD attack (-0.1σ vs league), solid in defence 2/5 seasons. Declining trend since 2021 peak.
+---
