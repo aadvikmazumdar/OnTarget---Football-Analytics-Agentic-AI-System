@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Which Premier League team has the most heists across 5 seasons?",
+    "tool": "RAG",
+    "answer": "Wolverhampton Wanderers \u2014 26 heists across 5 seasons"
+  },
+  {
+    "question": "What is Liverpool's xGD defence verdict?",
+    "tool": "RAG",
+    "answer": "systematic_defensive_overperformer \u2014 solid 5/5 seasons"
+  },
+  {
+    "question": "Which Bundesliga team is most anomalous in xGD attack?",
+    "tool": "RAG",
+    "answer": "Bayer Leverkusen \u2014 +1.12\u03c3 above league average"
+  },
+  {
+    "question": "How many Bottle Job games did home teams have in the dataset?",
+    "tool": "DuckDB",
+    "answer": "29 total across all leagues and seasons"
+  },
+  {
+    "question": "Which team has the most Derby Robbery games?",
+    "tool": "DuckDB",
+    "answer": "query clinical_games where story_tag=Derby Robbery"
+  },
+  {
+    "question": "Does fatigue affect xGD? Show average xGD in fatigue vs normal games",
+    "tool": "RAG",
+    "answer": "from FATIGUE lines in rag_findings"
+  },
+  {
+    "question": "Which La Liga team is the best defensive overperformer?",
+    "tool": "RAG",
+    "answer": "Atletico Madrid \u2014 avg_xGD_defence=-4.53, 4/5 seasons solid"
+  },
+  {
+    "question": "Show me all Game of the Season matches in Serie A 2023",
+    "tool": "heist_table boilerplate",
+    "answer": "render heist_table with story_tag=Game of the Season filter"
+  },
+  {
+    "question": "Which league has the highest-converting counter-attacks?",
+    "tool": "RAG",
+    "answer": "Bundesliga \u2014 high-confidence counters convert at 27.4%, the highest of the top 5 leagues"
+  },
+  {
+    "question": "How much more likely is a counter-attack shot to score compared to regular play?",
+    "tool": "RAG",
+    "answer": "Roughly 2.8-2.9x \u2014 high-confidence counters convert at 24-27% depending on league, vs 8-9% for regular play"
+  },
+  {
+    "question": "Do teams with high defender xGBuildup concede more counter-attacks?",
+    "tool": "RAG",
+    "answer": "Yes \u2014 teams in the high buildup tier (avg xGBuildup > 0.4, elite possession sides) concede counters at roughly 1.5-1.7x the rate of low-buildup teams"
+  },
+  {
+    "question": "Which league has the lowest average xG per shot?",
+    "tool": "RAG",
+    "answer": "Serie A \u2014 0.112 avg xG per shot, the lowest among the top 5 leagues, consistent with its defensively compact reputation"
+  },
+  {
+    "question": "How many shots did a specific team take from six-yard-box zone last season?",
+    "tool": "DuckDB",
+    "answer": "Query shots.csv filtered by team_name, year, shot_zone='six_yard_box' \u2014 count varies per team"
+  },
+  {
+    "question": "Is shot quality while losing worse in added time than earlier in the match?",
+    "tool": "RAG",
+    "answer": "Yes \u2014 avg xG for losing teams drops steadily from 0.097 (Q1) to 0.083 (added time), while winning-by-2+ teams' avg xG rises from 0.198 to 0.211 over the same span, showing added time is the most polarized phase"
+  },
+  {
+    "question": "Which league has the highest-converting counter-attacks?",
+    "tool": "RAG",
+    "answer": "Bundesliga \u2014 high-confidence counters convert at 27.4%, the highest of the top 5 leagues"
+  },
+  {
+    "question": "How much more likely is a counter-attack shot to score compared to regular play?",
+    "tool": "RAG",
+    "answer": "Roughly 2.8-2.9x \u2014 high-confidence counters convert at 24-27% depending on league, vs 8-9% for regular play"
+  },
+  {
+    "question": "Do teams with high defender xGBuildup concede more counter-attacks?",
+    "tool": "RAG",
+    "answer": "Yes \u2014 teams in the high buildup tier (avg xGBuildup > 0.4, elite possession sides) concede counters at roughly 1.5-1.7x the rate of low-buildup teams"
+  },
+  {
+    "question": "Which league has the lowest average xG per shot?",
+    "tool": "RAG",
+    "answer": "Serie A \u2014 0.112 avg xG per shot, the lowest among the top 5 leagues, consistent with its defensively compact reputation"
+  },
+  {
+    "question": "How many shots did a specific team take from six-yard-box zone last season?",
+    "tool": "DuckDB",
+    "answer": "Query shots.csv filtered by team_name, year, shot_zone='six_yard_box' \u2014 count varies per team"
+  },
+  {
+    "question": "Is shot quality while losing worse in added time than earlier in the match?",
+    "tool": "RAG",
+    "answer": "Yes \u2014 avg xG for losing teams drops steadily from 0.097 (Q1) to 0.083 (added time), while winning-by-2+ teams' avg xG rises from 0.198 to 0.211 over the same span, showing added time is the most polarized phase"
+  },
+  {
+    "question": "Does pressing intensity (PPDA) predict a team's attacking output?",
+    "tool": "RAG",
+    "answer": "No \u2014 correlation with xGD_attack is near zero (0.021). Pressing intensity alone does not predict attacking quality."
+  },
+  {
+    "question": "What actually predicts good attacking output related to pressing?",
+    "tool": "RAG",
+    "answer": "Press resistance (ppda_allowed) \u2014 how well a team resists being pressed correlates 0.394 with clinical finishing and 0.206 with xGD_attack, both stronger than the team's own pressing intensity"
+  },
+  {
+    "question": "Do teams press harder when losing, to chase the game?",
+    "tool": "RAG",
+    "answer": "No \u2014 losing teams show weaker pressing throughout the match (13.51 avg PPDA vs ~12.1 for wins/draws), and pressing-driven shots decline further as added time approaches rather than intensifying"
+  },
+  {
+    "question": "Which league shows the strongest 'park the bus and nick one' pattern for heists?",
+    "tool": "RAG",
+    "answer": "Bundesliga \u2014 teams show the largest PPDA gap (1.95) between heist matches and normal matches, meaning German sides sit deepest specifically when pulling off a heist result"
+  },
+  {
+    "question": "Does high pressing actually reduce the danger a team concedes?",
+    "tool": "RAG",
+    "answer": "Yes \u2014 high-press teams concede an average of 5.11 deep completions per match vs 7.48 for low-block teams, a strong correlation (0.553) confirming the press functionally disrupts opponent buildup"
+  },
+  {
+    "question": "Which team had the clearest flat-track bully profile?",
+    "tool": "RAG",
+    "answer": "PSG 2021 \u2014 after correcting for the league-wide baseline effect of facing weaker opponents, PSG showed the largest excess gap (1.05) between dominating bottom-tier teams and struggling against top-tier opposition"
+  }
+]

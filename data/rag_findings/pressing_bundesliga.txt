@@ -1,0 +1,66 @@
+LEAGUE: Bundesliga
+
+PRESSING INTENSITY:
+avg_ppda=13.17 | median_ppda=11.73 | std=6.46
+NOTE: lower PPDA = more aggressive pressing (fewer opponent passes allowed before defensive action)
+
+PPDA VS ATTACKING OUTPUT (global, all leagues):
+correlation_with_xGD_attack=0.021 (near zero — REJECTED, pressing intensity alone does not predict attacking output)
+correlation_with_clinical_rate=-0.148 (weak — REJECTED)
+correlation_with_shot_volume=-0.524 (CONFIRMED — high press teams average 530 shots/season vs 411 for low-block teams)
+shot_quality_by_press_tier: high_press_conversion=11.5% | low_block_conversion=10.2% (CONFIRMED, modest)
+
+PRESSING STABILITY (season-to-season match variance, ppda_cv):
+most_reactive_team: Hertha Berlin 2020 (cv=0.667)
+most_consistent_team: Wolfsburg 2020 (cv=0.302)
+FINDING: pressing consistency does not predict results, xGD, or heist_rate (all correlations <0.16) — REJECTED
+
+DESPERATION PRESSING (global, whole-match level):
+losing_matches_avg_ppda=13.51 | winning_matches_avg_ppda=12.05 | drawing_matches_avg_ppda=12.15
+FINDING: losing teams show weaker pressing throughout the match (CONFIRMED, revised from initial shot-proxy test)
+WITHIN-MATCH TRAJECTORY: pressing-turnover shot share for losing teams declines from 4.18% (Q1) to 1.49% (added time) — teams fade further, do not rally the press late
+
+PRESS RESISTANCE (this league):
+correlation_ppda_allowed_vs_clinical_rate=0.470
+GLOBAL: correlation=0.394 with clinical_rate, 0.206 with xGD_attack — CONFIRMED, strongest team-level finding in notebook
+INSIGHT: how well a team resists being pressed matters more for attacking output than how aggressively that team presses others
+
+ZONE-BASED PRESSING (global):
+high_press_deep_completions_allowed=5.11 | mid_block=6.18 | low_block=7.48
+FINDING: high pressing meaningfully reduces deep completions allowed (CONFIRMED, correlation=0.553) — the cleanest mechanistic finding in the notebook
+
+FLAT-TRACK BULLY DETECTION (this league):
+top_flat_track_bully: FC Cologne 2023 — xGD vs bottom-tier opponents=-0.14, vs top-tier opponents=-0.93, excess_gap=0.700
+NOTE: baseline_gap_all_teams=0.092 — a raw bully_gap must exceed this to be a genuine signal, not just the universal effect of facing weaker opposition
+
+FATIGUE AND DERBY EFFECTS (global, both counterintuitive):
+fatigue_games_avg_ppda=12.42 vs normal_games=12.83 — teams press MARGINALLY MORE, not less, when fatigued (REJECTED original hypothesis, reversed)
+derby_avg_ppda=13.52 vs non_derby=12.76 — teams press LESS aggressively in derbies, more cautious not more frantic (REJECTED original hypothesis, reversed)
+
+PARK THE BUS AND NICK ONE (this league):
+heist_match_avg_ppda=15.10 | non_heist_avg_ppda=13.15 | gap=1.95
+GLOBAL: confirmed in all 5 leagues; Bundesliga shows strongest effect (gap=1.95), Premier League weakest (gap=0.36)
+FINDING: teams genuinely sit deeper specifically in matches where they achieve a heist result — but this was invisible at season-aggregate level (correlation=0.095) and only appeared when tested match-by-match. Aggregation dilutes situational tactical patterns.
+
+INSIGHT: Bundesliga teams press at 13.17 PPDA on average. The strongest predictor of attacking success in this league is not how hard a team presses, but how well it resists being pressed (r=0.47 with clinical finishing). FC Cologne's 2023 season stands out as the league's clearest flat-track-bully profile, dominating weak sides while struggling against genuine quality.
+
+POSITION-LEVEL PRESSING SENSITIVITY (global, all leagues):
+Every position shows more xGBuildup/xGChain involvement at high-press teams vs low-block teams — 
+driven by overall possession share, not distinct tactical roles.
+
+MOST SENSITIVE TO TEAM PRESSING STYLE (largest high-press/low-block ratio):
+DR (right-back): 0.331 vs 0.176 (ratio=1.88x)
+DC (center-back): 0.316 vs 0.170 (ratio=1.86x)
+DL (left-back): 0.320 vs 0.183 (ratio=1.75x)
+
+LEAST SENSITIVE (buildup role stable regardless of team pressing style):
+DMR: ratio=1.46x
+MR: ratio=1.44x
+ML: ratio=1.43x
+
+INSIGHT: defenders and fullbacks are the positions most dependent on a team's overall pressing/possession 
+identity — their attacking involvement swings most between passive and aggressive systems (1.75-1.88x), 
+while defensive/wide midfielders maintain stable buildup roles regardless of tactical style (1.43-1.62x). 
+This confirms the Notebook 03 finding that high-xGBuildup defenders concede more counters isn't a defender-specific 
+tactical flaw — it's a byproduct of the same possession-share effect that elevates every position's involvement 
+at high-press teams.

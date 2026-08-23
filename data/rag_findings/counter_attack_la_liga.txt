@@ -1,0 +1,20 @@
+LEAGUE: La Liga
+COUNTER-ATTACK PROFILE:
+high_confidence_counters: 364 shots (0.8% of total) | avg_xG=0.256 | conversion=23.1%
+elevated_threat: 10841 shots (24.2% of total) | avg_xG=0.190 | conversion=17.2%
+regular_play: avg_xG=0.092 | conversion=8.2%
+QUALITY_MULTIPLIER: high-confidence counters convert at 2.8x the rate of regular play
+
+LEAGUE FINGERPRINT:
+situation_mix: OpenPlay=73.1% | FromCorner=15.5% | SetPiece=6.4% | DirectFreekick=3.6% | Penalty=1.4%
+shot_zone_mix: six_yard_box=59.1% | edge_of_box=37.9% | outside_box=3.0%
+shot_type_mix: RightFoot=47.9% | LeftFoot=33.5% | Head=18.2%
+OVERALL: avg_xG_per_shot=0.117 | conversion=10.5%
+
+DEFENDER BUILDUP RISK:
+low_buildup_tier (avg_xGBuildup~0.14): counter_conceded_rate=0.778%
+mid_buildup_tier (avg_xGBuildup~0.28): counter_conceded_rate=0.753%
+high_buildup_tier (avg_xGBuildup~0.50): counter_conceded_rate=1.211%
+FINDING: teams with elite possession-style defenders (xGBuildup>0.4) concede counters at roughly 1.6x the rate of low-buildup teams
+
+INSIGHT: La Liga shots average 0.117 xG per attempt, mid-table among the top 5 leagues. Counter-attacks (high-confidence tier) convert at 23.1%, well above the 8.2% baseline for regular play, confirming transition moments produce disproportionately high-value chances.

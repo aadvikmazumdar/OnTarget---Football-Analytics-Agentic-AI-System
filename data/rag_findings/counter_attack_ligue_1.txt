@@ -1,0 +1,20 @@
+LEAGUE: Ligue 1
+COUNTER-ATTACK PROFILE:
+high_confidence_counters: 380 shots (0.9% of total) | avg_xG=0.260 | conversion=25.8%
+elevated_threat: 10921 shots (25.5% of total) | avg_xG=0.190 | conversion=17.3%
+regular_play: avg_xG=0.095 | conversion=8.8%
+QUALITY_MULTIPLIER: high-confidence counters convert at 2.9x the rate of regular play
+
+LEAGUE FINGERPRINT:
+situation_mix: OpenPlay=73.5% | FromCorner=15.6% | SetPiece=5.8% | DirectFreekick=3.6% | Penalty=1.5%
+shot_zone_mix: six_yard_box=59.5% | edge_of_box=37.8% | outside_box=2.7%
+shot_type_mix: RightFoot=51.8% | LeftFoot=31.1% | Head=16.6%
+OVERALL: avg_xG_per_shot=0.121 | conversion=11.1%
+
+DEFENDER BUILDUP RISK:
+low_buildup_tier (avg_xGBuildup~0.14): counter_conceded_rate=0.802%
+mid_buildup_tier (avg_xGBuildup~0.28): counter_conceded_rate=0.933%
+high_buildup_tier (avg_xGBuildup~0.50): counter_conceded_rate=1.210%
+FINDING: teams with elite possession-style defenders (xGBuildup>0.4) concede counters at roughly 1.5x the rate of low-buildup teams
+
+INSIGHT: Ligue 1 shots average 0.121 xG per attempt, mid-table among the top 5 leagues. Counter-attacks (high-confidence tier) convert at 25.8%, well above the 8.8% baseline for regular play, confirming transition moments produce disproportionately high-value chances.

@@ -1,0 +1,20 @@
+LEAGUE: Premier League
+COUNTER-ATTACK PROFILE:
+high_confidence_counters: 441 shots (0.9% of total) | avg_xG=0.246 | conversion=21.3%
+elevated_threat: 13415 shots (27.3% of total) | avg_xG=0.180 | conversion=16.0%
+regular_play: avg_xG=0.094 | conversion=8.8%
+QUALITY_MULTIPLIER: high-confidence counters convert at 2.4x the rate of regular play
+
+LEAGUE FINGERPRINT:
+situation_mix: OpenPlay=73.1% | FromCorner=16.6% | SetPiece=6.1% | DirectFreekick=3.2% | Penalty=1.1%
+shot_zone_mix: six_yard_box=60.6% | edge_of_box=37.7% | outside_box=1.6%
+shot_type_mix: RightFoot=50.0% | LeftFoot=32.3% | Head=17.1%
+OVERALL: avg_xG_per_shot=0.119 | conversion=10.9%
+
+DEFENDER BUILDUP RISK:
+low_buildup_tier (avg_xGBuildup~0.14): counter_conceded_rate=0.787%
+mid_buildup_tier (avg_xGBuildup~0.28): counter_conceded_rate=0.900%
+high_buildup_tier (avg_xGBuildup~0.50): counter_conceded_rate=1.634%
+FINDING: teams with elite possession-style defenders (xGBuildup>0.4) concede counters at roughly 2.1x the rate of low-buildup teams
+
+INSIGHT: Premier League shots average 0.119 xG per attempt, mid-table among the top 5 leagues. Counter-attacks (high-confidence tier) convert at 21.3%, well above the 8.8% baseline for regular play, confirming transition moments produce disproportionately high-value chances.

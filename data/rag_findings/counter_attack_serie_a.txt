@@ -1,0 +1,20 @@
+LEAGUE: Serie A
+COUNTER-ATTACK PROFILE:
+high_confidence_counters: 380 shots (0.8% of total) | avg_xG=0.252 | conversion=25.8%
+elevated_threat: 11612 shots (24.1% of total) | avg_xG=0.176 | conversion=16.4%
+regular_play: avg_xG=0.090 | conversion=8.4%
+QUALITY_MULTIPLIER: high-confidence counters convert at 3.1x the rate of regular play
+
+LEAGUE FINGERPRINT:
+situation_mix: OpenPlay=73.2% | FromCorner=16.0% | SetPiece=6.0% | DirectFreekick=3.5% | Penalty=1.3%
+shot_zone_mix: six_yard_box=58.5% | edge_of_box=39.3% | outside_box=2.2%
+shot_type_mix: RightFoot=48.2% | LeftFoot=33.3% | Head=17.9%
+OVERALL: avg_xG_per_shot=0.112 | conversion=10.5%
+
+DEFENDER BUILDUP RISK:
+low_buildup_tier (avg_xGBuildup~0.14): counter_conceded_rate=0.715%
+mid_buildup_tier (avg_xGBuildup~0.28): counter_conceded_rate=0.922%
+high_buildup_tier (avg_xGBuildup~0.50): counter_conceded_rate=0.820%
+FINDING: teams with elite possession-style defenders (xGBuildup>0.4) concede counters at roughly 1.1x the rate of low-buildup teams
+
+INSIGHT: Serie A shots average 0.112 xG per attempt, the lowest among the top 5 leagues. Counter-attacks (high-confidence tier) convert at 25.8%, well above the 8.4% baseline for regular play, confirming transition moments produce disproportionately high-value chances.

@@ -1,0 +1,20 @@
+LEAGUE: Bundesliga
+COUNTER-ATTACK PROFILE:
+high_confidence_counters: 368 shots (0.9% of total) | avg_xG=0.265 | conversion=27.4%
+elevated_threat: 10366 shots (26.0% of total) | avg_xG=0.191 | conversion=17.9%
+regular_play: avg_xG=0.095 | conversion=9.3%
+QUALITY_MULTIPLIER: high-confidence counters convert at 3.0x the rate of regular play
+
+LEAGUE FINGERPRINT:
+situation_mix: OpenPlay=73.0% | FromCorner=15.9% | SetPiece=6.9% | DirectFreekick=3.0% | Penalty=1.2%
+shot_zone_mix: six_yard_box=61.0% | edge_of_box=36.7% | outside_box=2.3%
+shot_type_mix: RightFoot=50.8% | LeftFoot=30.3% | Head=18.5%
+OVERALL: avg_xG_per_shot=0.122 | conversion=11.7%
+
+DEFENDER BUILDUP RISK:
+low_buildup_tier (avg_xGBuildup~0.14): counter_conceded_rate=0.891%
+mid_buildup_tier (avg_xGBuildup~0.28): counter_conceded_rate=0.834%
+high_buildup_tier (avg_xGBuildup~0.50): counter_conceded_rate=1.468%
+FINDING: teams with elite possession-style defenders (xGBuildup>0.4) concede counters at roughly 1.6x the rate of low-buildup teams
+
+INSIGHT: Bundesliga shots average 0.122 xG per attempt, the highest among the top 5 leagues. Counter-attacks (high-confidence tier) convert at 27.4%, well above the 9.3% baseline for regular play, confirming transition moments produce disproportionately high-value chances.
