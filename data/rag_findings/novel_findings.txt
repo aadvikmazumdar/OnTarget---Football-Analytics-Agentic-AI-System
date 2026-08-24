@@ -1,0 +1,50 @@
+NOVEL FINDINGS — CROSS-CUTTING HYPOTHESIS TESTS
+
+1. SCORING FIRST:
+Overall: teams that score first win 66.7% of matches, but xG alone already predicted that same team to win 66.5% of the time — scoring first adds almost no independent predictive power in the aggregate.
+EXCEPTION: in genuinely close xG matches (margin < 0.5), scoring first DOES provide a real independent edge — 59.5% win rate vs 55.1% predicted by xG alone. Scoring first matters most specifically when the match is competitive on paper.
+SIT-BACK MYTH REJECTED: teams that score first do NOT create worse chances afterward — avg_xG rises from 0.0875 (before) to 0.1589 (after) across nearly every team in the dataset, with only one exception (Norwich, effectively flat at -0.0016). The "park the bus once ahead" narrative does not hold; leading teams generate MORE and better chances, likely because trailing opponents are forced to commit more players forward.
+VALIDATED CASE: Bayer Leverkusen's 2023 unbeaten Bundesliga title season — 100% win rate (26/26) when scoring first.
+
+2. PPDA VS XG OVERPERFORMANCE:
+Own PPDA vs goals_vs_xG_ratio: 0.034 (near zero) — REJECTED
+Press resistance (ppda_allowed) vs goals_vs_xG_ratio: 0.067 (weak) — notably weaker than its 0.394 correlation with the broader clinical_rate metric from Notebook 04. Press resistance predicts general clinical finishing better than it predicts the specific overperformance ratio.
+
+3. DERBY EFFECT:
+Derbies show a slightly larger deviation from xG-predicted results (mean_abs_gap 1.312 vs 1.292 non-derby) and lean toward slight overperformance (mean_gap 0.095 vs 0.043). Small but real — consistent with Notebook 05's finding that individual players show elevated involvement (xGChain) in derbies specifically.
+
+4. FIXTURE FATIGUE:
+REJECTED, and reversed: fatigue games show slightly MORE overperformance (mean_gap 0.075 vs 0.040) and are marginally MORE predictable (mean_abs_gap 1.279 vs 1.295), not less. Consistent with Notebook 04's finding that fatigued teams press marginally harder, not softer.
+SEASONAL CONTEXT: fatigue peaks in December (27.3% of matches) and January (18.9%) — the congested Christmas/New Year period — which is also when stakes are often highest (title races, cup competitions), a plausible explanation for why fatigue doesn't translate to measurable performance decline.
+
+5. CHASING THE GAME (confirmed, Notebook 02):
+Chasing teams (chasing_shot_pct > 0.6, result = loss) average 1.02 xG vs 1.71 xG for non-chasing situations. Triangulated across three independent measures: raw chasing flag (Notebook 02), PPDA/pressing-action decline in losing states (Notebook 04), and phase x game_state xG collapse toward added time (Notebook 02/04). One of the most robust findings in the project.
+
+6. FORM VS XGD DIVERGENCE ("IS FORM OVERRATED"):
+CONFIRMED — clean, symmetric regression to the mean. Teams overachieving relative to rolling xGD (top tercile) see points drop from 9.96 to 8.28 in the following 5-match window (-1.68). Teams underachieving (bottom tercile) see points rise from 3.90 to 5.58 (+1.68). Neutral teams stay flat (+0.03). Hot and cold streaks untethered from underlying xG are genuinely unsustainable.
+
+7. SET PIECE DEPENDENCY:
+REJECTED, consistently across all 5 individual seasons (correlations ranging -0.146 to +0.018, no consistent direction). Set-piece-reliant teams (Everton 2023 at 47.5% of goals from set pieces) show no systematic over- or under-performance vs xG. Individual team examples confirm a genuine mixed bag, not a hidden pattern.
+
+8. LATE GOAL INFLATION:
+REJECTED at the league level — goals-vs-xG ratio is remarkably flat across all phases (0.916-0.932), no evidence of a late-game scoring surge beyond what xG predicts.
+TEAM-LEVEL EXCEPTION: with sufficient sample size, some individual teams show real late-phase clinical finishing — Lazio stands out with a sustained 1.48 ratio in added time across a substantial sample (110 shots, 16.2 cumulative xG), a genuine team-specific skill signal distinct from small-sample noise seen in other teams on a naive ranking.
+
+9. BIG GAME EFFECT (top-6 vs top-6):
+CONFIRMED, modestly. Big games are slightly MORE predictable from xG (mean_abs_gap 1.267 vs 1.295) and show LESS overperformance (mean_gap 0.025 vs 0.046) than regular matches — elite matchups track their underlying xG more closely, consistent with tighter, more tactically disciplined contests where "riding your luck" is harder against comparably elite opposition.
+
+10. PENALTY XG ACCURACY:
+Understat's assigned penalty xG is a near-fixed value (mean 0.757, std 0.008) — essentially a flat assumption, not shot-specific.
+Actual conversion in this dataset: 79.46% — notably higher than the assigned ~0.76.
+LEAGUE VARIATION Understat's flat value misses: Premier League (82.2% actual vs 76.1% assigned, +6.1 gap) and Ligue 1 (82.8% vs 76.0%, +6.8 gap) show the largest deviations. La Liga sits closest to the assumed value (75.6% vs 74.3%, +1.3 gap).
+
+11. LEAGUE PREDICTABILITY INDEX:
+Ranked by % of matches where the xG favorite actually won:
+Premier League: 61.47% (most predictable)
+Bundesliga: 60.50%
+Ligue 1: 59.76%
+Serie A: 58.95%
+La Liga: 57.16% (least predictable)
+Counterintuitive to popular narrative — the Premier League, often characterized as the most "unpredictable" league, is actually the most predictable from underlying chance quality; La Liga's historical top-heavy structure produces the most deviation between xG and results.
+
+METHODOLOGY NOTE: findings 2-4 and 9 use xGD_goal_gap (actual goal differential minus match_xGD) as a standardized deviation metric, enabling direct comparison across different hypothesis tests. Findings 6-11 required fresh analysis; findings 2, 5 substantially reused validated results from Notebooks 02 and 04.

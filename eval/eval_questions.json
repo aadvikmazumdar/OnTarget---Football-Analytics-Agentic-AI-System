@@ -158,5 +158,35 @@
     "question": "Was there a real, verified shift in shot volume across Europe in 2023?",
     "tool": "RAG",
     "answer": "Yes \u2014 Bundesliga, Premier League, and Ligue 1 all showed their statistically highest shot-volume season in 2023, confirmed as real signal (not a data completeness issue) via cross-checking match counts"
+  },
+  {
+    "question": "Does scoring first in a football match guarantee a psychological advantage beyond just being the better team?",
+    "tool": "RAG",
+    "answer": "Only in close matches \u2014 overall, scoring first adds almost no predictive power beyond xG (66.7% vs 66.5% predicted), but in genuinely close xG contests it does provide a real edge (59.5% vs 55.1% predicted)"
+  },
+  {
+    "question": "Do teams that take the lead defend more passively afterward?",
+    "tool": "RAG",
+    "answer": "No \u2014 the opposite. Teams that score first create HIGHER quality chances afterward (avg xG rises from 0.088 to 0.159), true for nearly every team in the dataset with almost no exceptions"
+  },
+  {
+    "question": "Is 'good form' a reliable predictor of future results, or does it regress to the mean?",
+    "tool": "RAG",
+    "answer": "It regresses cleanly. Teams overachieving relative to their rolling xGD see points drop by 1.68 in the following window; teams underachieving see points rise by 1.68 \u2014 a symmetric, validated regression-to-the-mean effect"
+  },
+  {
+    "question": "Which league is most predictable based on underlying chance quality (xG)?",
+    "tool": "RAG",
+    "answer": "Premier League, at 61.47% \u2014 the team with higher xG wins more often here than in any other top-5 league. La Liga is least predictable at 57.16%"
+  },
+  {
+    "question": "Is Understat's standard penalty xG value of ~0.76 accurate?",
+    "tool": "RAG",
+    "answer": "Roughly, but it understates real conversion \u2014 actual penalty conversion in the dataset is 79.46%, with Premier League and Ligue 1 penalties converting 6+ points higher than the assigned xG value"
+  },
+  {
+    "question": "Do matches between two top-6 teams behave differently than other matches relative to xG?",
+    "tool": "RAG",
+    "answer": "Yes, modestly \u2014 big games are slightly more predictable from xG and show less overperformance than regular matches, consistent with tighter, more tactically disciplined contests between elite sides"
   }
 ]
