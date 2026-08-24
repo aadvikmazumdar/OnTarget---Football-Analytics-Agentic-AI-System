@@ -128,5 +128,35 @@
     "question": "Which team had the clearest flat-track bully profile?",
     "tool": "RAG",
     "answer": "PSG 2021 \u2014 after correcting for the league-wide baseline effect of facing weaker opponents, PSG showed the largest excess gap (1.05) between dominating bottom-tier teams and struggling against top-tier opposition"
+  },
+  {
+    "question": "Did Napoli perform better at home or away during their 2023 title-winning season?",
+    "tool": "RAG",
+    "answer": "Surprisingly, away \u2014 Napoli's home clinical_rate was 0.211 vs 0.421 away, despite creating more xG at home (39.86) than away (28.63). A home finishing collapse, not a preference for away venues."
+  },
+  {
+    "question": "Are strikers shooting from further out in recent seasons?",
+    "tool": "RAG",
+    "answer": "No \u2014 the opposite. Forwards' six-yard-box shot share rose from 71.1% (2020) to 74.0% (2024), meaning shots are trending closer to goal, not further away."
+  },
+  {
+    "question": "Which players show the biggest jump in attacking involvement during derby matches?",
+    "tool": "RAG",
+    "answer": "Vitinha, Rodri, Raphinha, and John Stones show the largest xGChain increases in derbies vs regular matches, consistent with reputations as big-game performers"
+  },
+  {
+    "question": "Who was the most penalty-reliant player across multiple seasons?",
+    "tool": "RAG",
+    "answer": "Jorginho at Chelsea \u2014 over 90% of his expected goals came from penalties in both 2020 and 2021, confirmed as a sustained pattern, not a single-season fluke"
+  },
+  {
+    "question": "Does a team getting carried by one standout player correlate with better results?",
+    "tool": "RAG",
+    "answer": "No \u2014 carried-by-one-player is rare (max 8.8% of matches even for the most reliant teams) and shows no meaningful correlation with attacking output (r=-0.033) or clinical finishing (r=-0.162)"
+  },
+  {
+    "question": "Was there a real, verified shift in shot volume across Europe in 2023?",
+    "tool": "RAG",
+    "answer": "Yes \u2014 Bundesliga, Premier League, and Ligue 1 all showed their statistically highest shot-volume season in 2023, confirmed as real signal (not a data completeness issue) via cross-checking match counts"
   }
 ]

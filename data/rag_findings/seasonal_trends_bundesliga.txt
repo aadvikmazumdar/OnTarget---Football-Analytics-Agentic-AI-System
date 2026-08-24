@@ -1,0 +1,51 @@
+LEAGUE: Bundesliga
+
+SEASONAL TRENDS (2020-2024):
+avg_xG_per_match_2020=2.860 | avg_xG_per_match_2024=3.261
+NOTE: 2020 seasons show a league-wide dip across most leagues, consistent with COVID-era disruption (empty stadiums, congested fixtures)
+2023_ANOMALY: bundesliga shot volume in 2023 shows z-score=1.61 vs own 5-season history — part of a multi-league shot-volume spike that year, confirmed real (not a data completeness issue)
+
+TEAM-LEVEL ANOMALIES:
+highest_shot_volume_season: Bayern Munich 2024 (z=3.21)
+highest_conversion_season: Bayern Munich 2020 (z=2.18)
+
+PLAYER ANOMALY LAYER ("MESSI REEL"):
+z-score anomaly detection uses minutes-weighted primary position (validated against string-based heuristic — heuristic agreed with ground truth only 62.4% of the time, minutes-weighted version used)
+GK excluded from npxG-based anomaly checks — near-zero variance in that group produces unstable, meaningless z-scores
+Attacking full-backs/wing-backs (e.g. Robin Gosens 2020, Jeremie Frimpong 2023) surface as legitimate defensive-position outliers on attacking metrics — reflects real modern tactical trend, not a classification error
+
+PLAYER PEAK-SEASON DETECTION:
+compares each player to their OWN career mean (not league peers) — 197 peak seasons flagged (npxG_per90 > personal mean + 1.5 std)
+notable validated peaks: Marco Asensio 2024 (PSG), Rafael Leão 2022 (AC Milan)
+
+PENALTY DEPENDENCY:
+xG - npxG per player, filtered to xG >= 3.0 to exclude single-penalty-fluke seasons
+top penalty-reliant players (multi-season validated): Jorginho (Chelsea, 2020 & 2021, 90%+ dependency), Domenico Criscito (Genoa 2021), Thomas Mangani (Angers, 2020 & 2021)
+
+SHOT LOCATION EVOLUTION (global, all leagues):
+forwards' six_yard_box shot share rose from 71.1% (2020) to 74.0% (2024) — shots trending closer to goal, not further as originally hypothesized
+midfielders show the largest shift: six_yard_box share 47.0% (2020) to 53.1% (2024) — reflects more penalty-box runs by midfielders over time
+left/right shot split stable at ~48/52 across all positions and seasons — small persistent right-side lean, no meaningful trend
+extreme wide-angle shots (Y<0.2 or Y>0.8) are universally rare (<1.5% of shots) at every position and team
+
+CONVERSION BY SHOT LOCATION (global):
+centre shots convert at 15.13% vs 5.6-5.8% for mid-flank zones — roughly 2.5-3x premium for central positions
+forwards convert centre chances at 20.0%, nearly double defenders' centre conversion (10.3%) — a genuine finishing-skill signal, not just position
+
+CAREER TRAJECTORY (season-over-season, NOT age-based — no birthdate data available):
+requires 3+ consecutive reliable seasons; mid-season transfers aggregated via minutes-weighted combination (preserving club history in a separate field)
+131 players ascending, 128 declining, 1072 established (global counts)
+
+CARRIED-BY-ONE-PLAYER:
+rare event even for highest-rate teams (max 8.8% of matches in a season) — does not correlate meaningfully with xGD_attack (r=-0.033) or clinical_rate (r=-0.162)
+
+DERBY PERFORMANCE (PLAYER LEVEL):
+players show notably higher xGChain in derbies (mean 0.321) vs regular matches (mean 0.273)
+biggest derby performers (5+ derby appearances): Vitinha, Rodri, Raphinha, John Stones — matches known "big game player" reputations
+
+HOME ADVANTAGE DECOMPOSITION (this league):
+strongest home fortress: Freiburg 2024 (home_advantage_xGD=0.927)
+most reversed pattern (better away than home): Werder Bremen 2024 (home_advantage_xGD=-0.965)
+NOTABLE CASE: Napoli 2023 (Serie A title-winning season) showed a home finishing collapse — home clinical_rate 0.211 vs away 0.421, despite creating MORE xG at home (39.86) than away (28.63). Higher home xG did not translate to goals; a genuine "home nerves" pattern distinct from simple away-preference.
+
+INSIGHT: Bundesliga's seasonal data reveals football trending toward higher-quality, closer-range shot selection over 2020-2024, with midfielders increasingly making penalty-box runs. Player-level analysis surfaces both consistent attacking identities (multi-season penalty specialists, big-game performers) and a reminder that raw home-advantage assumptions can mask more specific patterns like Napoli's home finishing struggles during a title-winning campaign.
