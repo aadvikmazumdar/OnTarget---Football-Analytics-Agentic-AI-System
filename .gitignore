@@ -1,2 +1,7 @@
 data/raw/data/raw/
 data/raw/
+
+__pycache__/
+*.pyc
+data/ontarget.duckdb
+node_modules/
