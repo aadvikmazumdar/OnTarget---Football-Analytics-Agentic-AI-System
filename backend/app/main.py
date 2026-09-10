@@ -292,13 +292,19 @@ def consistency(league: str | None = None):
 
 @app.get("/api/leaderboard")
 def leaderboard(metric: str = "xGD_attack", league: str | None = None,
-                year: int | None = None, limit: int | None = None):
+                year: int | None = None, limit: int | None = None,
+                order: str | None = None):
     spec = METRICS.get(metric)
     if spec is None:
         raise HTTPException(
             404, f"Unknown metric '{metric}'. Allowed: {sorted(METRICS)}")
 
-    direction = "DESC" if spec["higher_is_better"] else "ASC"
+    # order overrides the metric's natural direction, so "worst defences" is
+    # reachable as well as "best".
+    if order:
+        direction = "DESC" if order.lower() == "desc" else "ASC"
+    else:
+        direction = "DESC" if spec["higher_is_better"] else "ASC"
 
     q = f'SELECT team_name, league, year, "{metric}" AS value FROM team_season WHERE 1=1'
     params = []
@@ -483,3 +489,127 @@ def own_goals(league: str | None = None, year: int | None = None,
                   "differences are largely variance, not defensive quality.",
         "rows": df_to_records(merged),
     }
+
+
+# ---------------------------------------------------------------- players
+#
+# Reads players_career, built by notebooks/player_analysis.ipynb. Everything
+# keys on id, never player_name: 24 names map to more than one player.
+#
+# Shot volume is meaningless without its positional cohort - 1.0 per 90 is high
+# for a defender and low for a forward - so single-player responses always carry
+# the distribution alongside the value.
+
+PLAYER_METRICS = {
+    "shots_per90":       ("Shots per 90", True),
+    "npg_per90":         ("Non-penalty goals per 90", True),
+    "npxg_per90":        ("Non-penalty xG per 90", True),
+    "np_residual":       ("Finishing residual (npG - npxG)", None),
+    "np_residual_per90": ("Finishing residual per 90", None),
+    "avg_shot_xg":       ("Average xG per shot", True),
+    "np_conversion":     ("Conversion rate", True),
+    "xa_per90":          ("xA per 90", True),
+    "kp_per90":          ("Key passes per 90", True),
+    "xgchain_per90":     ("xGChain per 90", True),
+    "xgbuildup_per90":   ("xGBuildup per 90", True),
+}
+
+
+@app.get("/api/players/search")
+def player_search(q: str, limit: int = 15):
+    df = db().execute("""
+        SELECT id, player_name, main_team, main_league, position, minutes, seasons
+        FROM players_career
+        WHERE lower(player_name) LIKE lower(?)
+        ORDER BY minutes DESC LIMIT ?
+    """, ["%" + q + "%", limit]).df()
+    return df_to_records(df)
+
+
+@app.get("/api/players/leaderboard")
+def player_leaderboard(metric: str = "shots_per90", position: str | None = None,
+                       league: str | None = None, team: str | None = None,
+                       limit: int = 25, order: str = "desc",
+                       min_minutes: int = 2700):
+    if metric not in PLAYER_METRICS:
+        raise HTTPException(404, f"Unknown metric. Allowed: {sorted(PLAYER_METRICS)}")
+    label, higher_better = PLAYER_METRICS[metric]
+    direction = "DESC" if order.lower() == "desc" else "ASC"
+
+    q = f"""SELECT id, player_name, main_team, main_league, position,
+                   minutes, np_shots, np_goals, key_passes, assists, position_ambiguous,
+                   "{metric}" AS value,
+                   "{metric}_pct" AS percentile
+            FROM players_career
+            WHERE "{metric}" IS NOT NULL AND minutes >= ?"""
+    params = [min_minutes]
+    if position:
+        q += " AND position = ?"
+        params.append(position)
+    if league:
+        q += " AND main_league = ?"
+        params.append(league)
+    if team:
+        q += " AND main_team = ?"
+        params.append(team)
+    q += f' ORDER BY "{metric}" {direction} LIMIT {int(limit)}'
+
+    return {
+        "metric": metric, "label": label, "higher_is_better": higher_better,
+        "rows": df_to_records(db().execute(q, params).df()),
+    }
+
+
+@app.get("/api/players/distribution")
+def player_distribution(metric: str = "shots_per90", position: str = "F",
+                        min_minutes: int = 2700):
+    """Full cohort values for one metric, for plotting a histogram."""
+    if metric not in PLAYER_METRICS:
+        raise HTTPException(404, f"Unknown metric. Allowed: {sorted(PLAYER_METRICS)}")
+    df = db().execute(f"""
+        SELECT "{metric}" AS value FROM players_career
+        WHERE position = ? AND "{metric}" IS NOT NULL AND minutes >= ?
+    """, [position, min_minutes]).df()
+    return {"metric": metric, "position": position,
+            "label": PLAYER_METRICS[metric][0],
+            "n": len(df),
+            "values": df["value"].tolist()}
+
+
+@app.get("/api/players/{player_id}")
+def player_detail(player_id: int):
+    df = db().execute("SELECT * FROM players_career WHERE id = ?", [player_id]).df()
+    if not len(df):
+        raise HTTPException(404, f"No player with id {player_id}")
+    row = df_to_records(df)[0]
+
+    pos = row["position"]
+    cohort = db().execute("""
+        SELECT count(*) n,
+               round(quantile_cont(shots_per90, 0.10), 3) shots_p10,
+               round(median(shots_per90), 3)              shots_p50,
+               round(quantile_cont(shots_per90, 0.90), 3) shots_p90,
+               round(median(np_residual_per90), 4)        resid_p50
+        FROM players_career WHERE position = ?
+    """, [pos]).df()
+
+    return {"player": row, "cohort": df_to_records(cohort)[0]}
+
+
+@app.get("/api/teams/{team_name}/squad")
+def team_squad(team_name: str):
+    df = db().execute("""
+        SELECT id, player_name, position, pos_share, minutes, seasons, games,
+               np_shots, np_goals, np_residual, shots_per90, shots_per90_pct,
+               xa_per90, footedness, finishing_verdict, volume_verdict,
+               creation_verdict, trend_verdict
+        FROM players_career WHERE main_team = ?
+        ORDER BY minutes DESC
+    """, [team_name]).df()
+    return df_to_records(df)
+
+
+@app.get("/api/players/metrics")
+def player_metrics():
+    return [{"metric": k, "label": v[0], "higher_is_better": v[1]}
+            for k, v in PLAYER_METRICS.items()]

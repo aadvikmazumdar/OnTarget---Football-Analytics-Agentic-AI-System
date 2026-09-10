@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 data/ontarget.duckdb
 node_modules/
+data/chroma/

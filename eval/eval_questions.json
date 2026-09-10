@@ -188,5 +188,75 @@
     "question": "Do matches between two top-6 teams behave differently than other matches relative to xG?",
     "tool": "RAG",
     "answer": "Yes, modestly \u2014 big games are slightly more predictable from xG and show less overperformance than regular matches, consistent with tighter, more tactically disciplined contests between elite sides"
+  },
+  {
+    "question": "Which Premier League player overperforms his non-penalty xG the most?",
+    "tool": "RAG",
+    "answer": "Phil Foden \u2014 +16.0 goals vs npxG across 5 seasons"
+  },
+  {
+    "question": "Which Premier League player is the most wasteful finisher?",
+    "tool": "RAG",
+    "answer": "Dominic Calvert-Lewin \u2014 -20.6 goals vs npxG"
+  },
+  {
+    "question": "Which defender takes the most shots per 90?",
+    "tool": "RAG",
+    "answer": "Denis Bouanga (Saint-Etienne) \u2014 3.14 per 90, 100th percentile among defenders"
+  },
+  {
+    "question": "Does shot volume vary more within defenders or within forwards?",
+    "tool": "RAG",
+    "answer": "Defenders \u2014 p10 to p90 spans 0.24 to 1.18 shots/90 (4.9x), versus 1.30 to 3.02 for forwards (2.3x). Advancing up the pitch is optional for a defender and definitional for a forward, so volume carries role information for D and M but much less for F"
+  },
+  {
+    "question": "How many players have a weaker-foot sample large enough to judge?",
+    "tool": "RAG",
+    "answer": "444 of 3226 players clear 25 shots on their weaker foot. For everyone else the weaker-foot residual is noise and is reported as such"
+  },
+  {
+    "question": "Are penalties included in a player's finishing residual?",
+    "tool": "RAG",
+    "answer": "No \u2014 penalties are excluded from every finishing figure and reported separately. At ~0.76 xG each and always struck with the stronger foot, including them would inflate both the preferred-foot share and the residual of anyone on penalty duty"
+  },
+  {
+    "question": "How many shots has a specific player taken from the six-yard box?",
+    "tool": "DuckDB",
+    "answer": "Query shots filtered by player_id and shot_zone='six_yard_box'. Must key on player_id, not player name \u2014 24 names map to more than one player, including four distinct Danilos"
+  },
+  {
+    "question": "Which Premier League player overperforms his non-penalty xG the most?",
+    "tool": "RAG",
+    "answer": "Phil Foden \u2014 +16.0 goals vs npxG across 5 seasons"
+  },
+  {
+    "question": "Which Premier League player is the most wasteful finisher?",
+    "tool": "RAG",
+    "answer": "Dominic Calvert-Lewin \u2014 -20.6 goals vs npxG"
+  },
+  {
+    "question": "Which defender takes the most shots per 90?",
+    "tool": "RAG",
+    "answer": "Federico Dimarco (Inter) \u2014 1.96 per 90, 100th percentile among defenders"
+  },
+  {
+    "question": "Does shot volume vary more within defenders or within forwards?",
+    "tool": "RAG",
+    "answer": "Defenders \u2014 p10 to p90 spans 0.21 to 0.81 shots/90 (3.8x), versus 1.23 to 3.00 for forwards (2.4x). Advancing up the pitch is optional for a defender and definitional for a forward, so volume carries role information for D and M but much less for F"
+  },
+  {
+    "question": "How many players have a weaker-foot sample large enough to judge?",
+    "tool": "RAG",
+    "answer": "444 of 3226 players clear 25 shots on their weaker foot. For everyone else the weaker-foot residual is noise and is reported as such"
+  },
+  {
+    "question": "Are penalties included in a player's finishing residual?",
+    "tool": "RAG",
+    "answer": "No \u2014 penalties are excluded from every finishing figure and reported separately. At ~0.76 xG each and always struck with the stronger foot, including them would inflate both the preferred-foot share and the residual of anyone on penalty duty"
+  },
+  {
+    "question": "How many shots has a specific player taken from the six-yard box?",
+    "tool": "DuckDB",
+    "answer": "Query shots filtered by player_id and shot_zone='six_yard_box'. Must key on player_id, not player name \u2014 24 names map to more than one player, including four distinct Danilos"
   }
 ]

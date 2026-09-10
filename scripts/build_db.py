@@ -20,6 +20,7 @@ TABLES = {
     "team_season_ha":     "team_season_ha.csv",
     "consistency":        "consistency.csv",
     "players":            "players_enriched.csv",
+    "players_career":     "players_career.csv",
     "rosters":            "rosters.csv",
     "league_fingerprint": "league_fingerprint.csv",
 }

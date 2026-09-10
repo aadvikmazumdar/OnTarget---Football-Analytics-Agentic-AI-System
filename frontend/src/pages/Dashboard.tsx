@@ -6,13 +6,14 @@ import { PressScatter } from '@/components/PressScatter'
 import { FormChart } from '@/components/FormChart'
 import { TagCounts } from '@/components/TagChart'
 import { RadarChart } from '@/components/RadarChart'
+import { PlayersTab } from '@/components/PlayersTab'
 import { ConsistencyChart } from '@/components/ConsistencyChart'
 import { ShotQuality } from '@/components/ShotQuality'
 import { ZoneMatrix } from '@/components/ZoneMatrix'
 import { Leaderboard } from '@/components/Leaderboard'
 
 const API = 'http://localhost:8000/api'
-const TABS = ['form', 'shots', 'tags', 'profile', 'league'] as const
+const TABS = ['form', 'shots', 'tags', 'profile', 'players', 'league'] as const
 const METRICS = [
   'xGD_attack', 'xGD_defence', 'clinical_rate', 'heist_rate',
   'robbery_rate', 'wasteful_rate', 'xG_per_game', 'xGA_per_game',
@@ -42,6 +43,8 @@ export function Dashboard() {
   const [board, setBoard] = useState<any[]>([])
   const [boardMeta, setBoardMeta] = useState<any>(null)
   const [metric, setMetric] = useState<string>('xGD_attack')
+  const [boardOrder, setBoardOrder] = useState('')
+  const [boardLimit, setBoardLimit] = useState(25)
 
   const [seasons, setSeasons] = useState<number[]>([])
   const [season, setSeason] = useState<number | null>(null)
@@ -199,11 +202,13 @@ export function Dashboard() {
       `metric=${metric}`,
       league ? `league=${encodeURIComponent(league)}` : '',
       season != null ? `year=${season}` : '',
+      boardOrder ? `order=${boardOrder}` : '',
+      `limit=${boardLimit}`,
     ].filter(Boolean).join('&')
     axios.get(`${API}/leaderboard?${params}`)
       .then(r => { setBoard(r.data.rows); setBoardMeta(r.data) })
       .catch(() => { setBoard([]); setBoardMeta(null) })
-  }, [metric, league, season])
+  }, [metric, league, season, boardOrder, boardLimit])
 
   const goals = shots.filter(s => s.result === 'Goal').length
 
@@ -433,6 +438,10 @@ export function Dashboard() {
                 </>
               ))}
 
+              {tab === 'players' && (
+                <PlayersTab league={league || undefined} team={team || undefined} />
+              )}
+
               {tab === 'profile' && (
                 <>
                   {profile.length === 0 ? <Empty /> : (
@@ -483,6 +492,18 @@ export function Dashboard() {
                     >
                       {METRICS.map(m => (
                         <option key={m} value={m} className="bg-panel">{m.replace(/_/g, ' ')}</option>
+                      ))}
+                    </select>
+                    <select value={boardOrder} onChange={e => setBoardOrder(e.target.value)}
+                      className="bg-transparent border border-rule rounded px-2 py-1 font-mono text-[11px] text-muted focus:outline-none focus:border-muted ml-2">
+                      <option value="" className="bg-panel">best first</option>
+                      <option value="desc" className="bg-panel">highest value</option>
+                      <option value="asc" className="bg-panel">lowest value</option>
+                    </select>
+                    <select value={boardLimit} onChange={e => setBoardLimit(Number(e.target.value))}
+                      className="bg-transparent border border-rule rounded px-2 py-1 font-mono text-[11px] text-muted focus:outline-none focus:border-muted ml-2">
+                      {[10, 25, 50, 100].map(v => (
+                        <option key={v} value={v} className="bg-panel">top {v}</option>
                       ))}
                     </select>
                   </div>
