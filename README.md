@@ -1,292 +1,234 @@
 # OnTarget — AI Football Analyst
 
-> An AI football analyst that happens to have a dashboard. Not another stats site — a system that thinks about the game the way an analyst does.
+> An AI football analyst that happens to have a dashboard. The agent is the product; the dashboard is where its answers get drawn.
+
+Top 5 European leagues, seasons 2020–2024. Everything runs locally.
 
 ---
 
 ## The Idea
 
-SofaScore tells you what happened. OnTarget tells you why it happened, how unusual it was, and what's likely to happen next.
+SofaScore tells you what happened. OnTarget is built to answer the questions that come after:
 
-The starting point was a simple frustration: every public football platform shows you the same surface-level stats. xG totals, possession percentages, pass completion rates. What none of them do is ask the harder questions:
+- Does Atletico actually win games they shouldn't, or does it just feel that way?
+- Which teams outperform their xG consistently, and is that finishing or chance creation?
+- Does pressing intensity predict anything, or is it just correlated with being good?
+- When a team goes 1-0 up, does the opponent's xG inflate because they're chasing?
+- Is a defender who shoots twice as often as his peers actually playing further forward?
 
-- Does Atletico Madrid actually win games they shouldn't, or does it just feel that way?
-- Which teams consistently outperform their xG — and is it finishing quality or something about how they create chances?
-- When a team goes 1-0 up, does the opponent's xGA artificially inflate because they're chasing the game?
-- Does pressing intensity actually predict xG overperformance, or is it just correlated with good teams?
-- Are teams that spend most of a match trailing creating lower quality chances — or just more desperate ones?
-
-OnTarget is built to answer those questions. The AI layer makes all of it queryable in natural language.
+Several of those turned out to have answers that contradict the common assumption. They're in [Findings](#findings) below.
 
 ---
 
-## What Makes This Different From SofaScore
+## Data
 
-| | SofaScore | OnTarget |
-|--|-----------|----------|
-| Data breadth | 1000+ competitions | 5 leagues, 5 seasons, deep |
-| Live data | ✅ | ❌ |
-| xG per match | ✅ | ✅ |
-| xGD consistency across seasons | ❌ | ✅ |
-| Game-state adjusted xG | ❌ | ✅ |
-| Opponent-quality adjusted xGD | ❌ | ✅ |
-| 20-tag game classification system | ❌ | ✅ |
-| Composite story tags per match | ❌ | ✅ |
-| Counter-attack conversion by league | ❌ | ✅ |
-| Shot quality by phase (Q1-AT) | ❌ | ✅ |
-| Derby performance tracking | ❌ | ✅ |
-| Fixture fatigue signal | ❌ | ✅ |
-| Pressing → xGD correlation | ❌ | ✅ |
-| League predictability index | ❌ | ✅ |
-| Natural language queries | ❌ | ✅ |
-| Agent controls dashboard filters | ❌ | ✅ |
+Scraped from Understat's internal XHR endpoints (`getLeagueData`, `getMatchData`) with `aiohttp`, semaphore-limited, jittered, resume-safe.
 
-SofaScore is for fans who want scores. OnTarget is for people who want to understand the game analytically.
+| Table | Rows |
+|---|---|
+| matches | 8,982 |
+| shots | 224,676 |
+| team-matches | 17,964 |
+| rosters | 273,825 |
+| player-seasons | 13,964 |
+| player careers | 3,226 |
+
+Persisted to a single DuckDB file built by `scripts/build_db.py`, which hard-fails on missing required columns rather than letting a schema drift reach the API.
 
 ---
 
-## The Analysis Layer 
-### Game Classification System — 20 Primary Tags Every match row is tagged with a primary game label based on xG vs goals relationships. Tags are assigned via a reversed priority loop — the most dramatic story wins. 
-| Tag | Definition | 
-|-----|-----------|
-| **Perfect Heist** | Won away, xGA exceeded xG by 1.0+ |
-| **Grand Heist** | Won while xGA exceeded xG by 1.0+ | 
-| **Grand Robbery** | Lost while xG exceeded xGA by 1.0+ |
-| **Cruel** | Grand robbery, away from home |
-| **Heist** | Won while being dominated on xG |
-| **Robbery** | Lost while dominating xG |
-| **Ultra Clinical** | Outscored xG by 1.5+ goals |
-| **Dominant Win** | Won with xG exceeding xGA by 1.5+ |
-| **GK Worldie** | GK saved 1.5+ goals above xGA |
-| **GK Nightmare** | GK conceded 1.5+ goals above xGA |
-| **Heroic Defence** | Clean sheet despite xGA 1.5+ |
-| **Fortress** | Heist at home |
-| **Home Bottled** | Home team failed to win despite xG dominance |
-| **Momentum Collapse** | Led on xG at home but defence gave away 1.5+ above xGA |
-| **False Dominance** | Lost despite marginally dominating xG, terrible finishing |
-| **Smash and Grab** | Won with under 0.8 xG — pure efficiency |
-| **Early Knockout** | Dominated Q1, won the match |
-| **Clinical** | Scored more than xG suggested |
-| **Wasteful** | Scored less than xG suggested |
-| **Normal** | No dramatic pattern |
+## Findings
 
-## The Agent Is the Product
+Each of these came out of an EDA notebook and is written to `data/rag_findings/` as a structured block the agent retrieves.
 
-The dashboard is visual context. The agent is the interface.
+**Press resistance predicts finishing; pressing intensity doesn't.** `ppda_allowed` — how well a team resists an opponent's press — correlates with clinical finishing at r=0.394. A team's own pressing intensity sits at r=0.021. The column name reads backwards from what it measures, which is why it's the single most misread field in the dataset.
 
-```
-"Which Bundesliga team has been most clinical away from home over 3 seasons?"
-→ Agent retrieves from pre-computed findings
-→ Answer with z-score context and season progression
+**Teams don't sit back after scoring.** Two goals up, teams generate 2.38 xG per match. Losing, they generate 1.03. The "parked bus" is mostly an artefact of who was already better.
 
-"Show me Bayern's counter-attack shots from 2022"
-→ Shot map renders instantly on the dashboard
-→ Agent appends insight on conversion rate vs open play
+**Form regresses harder than anyone assumes.** A 15-point spread over five matches collapses to about 5 points going forward.
 
-"Show all Bottle Job games in the Premier League"
-→ Filtered table of matches where home teams dominated xG but collapsed
-→ Ranked by magnitude of the capitulation
+**The Premier League is the most predictable of the five.** 61.5% of outcomes explainable from xG alone — the opposite of its reputation.
 
-"Is Arsenal on a heist streak?"
-→ Rolling form vs xGD divergence check
-→ Agent flags whether current form is sustainable
+**xG overperformance is genuinely random match-to-match.** Model B tested three framings and found nothing, with flat feature importances across all of them. That's a result, not a failure: it means a hot finishing streak carries no predictive signal, and the product says so rather than manufacturing an explanation.
 
-"Predict Arsenal vs Man City this weekend"
-→ W/D/L probabilities + predicted xG
-→ Derby flag, fatigue flag, H2H profile auto-shown
-
-"Now compare that to last season"
-→ Conversation memory resolves "that" without restating context
-```
+**Shot volume encodes how far forward a player operates.** Within-position spread on shots per 90: midfielders vary 4.7x between p10 and p90, defenders 3.8x, forwards only 2.4x. Advancing up the pitch is optional for the first two and definitional for the third. The distributions overlap — a defender at the 90th percentile shoots more than a median midfielder — so the metric cuts across the position label rather than restating it.
 
 ---
 
 ## The Analysis Layer
 
-### Game Classification System
+### Three tag vocabularies
 
-Every match is tagged with a primary story label and a composite story tag — the most dramatic narrative wins. Tags range from **Perfect Heist** and **Grand Robbery** to **Bottle Job**, **The Heist of Heists**, and **Game of the Season**.
+Not one system, three, and conflating them produces contradictory counts:
 
-Visit the dashboard to explore which tags define your team.
+- **`game_tag`** — 14 mutually exclusive primary classifications (Heist, Grand Robbery, Smash and Grab, GK Worldie, Early Knockout…). Canonical for counting and narrative claims.
+- **`story_tag`** — 11 composites at 5.4% density (The Heist of Heists, Bottle Job, Perfect Storm, Derby Robbery). Rare enough that surfacing one is itself a finding.
+- **37 property columns** — freely overlapping flags. A match can be `smash_and_grab` in its property column, `Heist` as its `game_tag`, and `Fatigue Heist` as its `story_tag`, all correctly.
 
-### xG Consistency Rating
+The vocabulary is derived from the database schema at API startup rather than hardcoded, because three hardcoded lists in the backend had already drifted apart and silently broken six tags in the drill-down.
 
-Every team gets a 5-season analytical profile — not just a single xGD number. Finishing identity, trend direction, league rank, z-scores, season progression, derby performance, fatigue effect, and a pre-written analyst insight line. The kind of profile a club's data team would build internally.
+### Team profiles
 
-### Game-State Adjusted xG
+Every team gets a five-season block: finishing identity, trend, league rank, z-scores against the same league in the same season, season progression, derby record, fatigue effect, and a pre-written insight line. Teams with a single season are flagged `thin_sample` so the agent caveats rather than asserting.
 
-Standard xG models are context-blind. OnTarget's shot model accounts for game state at the time of each shot — making it more analytically honest than Understat's own model. A team sitting deep at 2-0 up concedes high-xG shots for tactical reasons, not defensive failure. The model knows the difference.
+### Player profiles
 
-### Phase Analysis (Q1 → Q2 → Q3 → Q4 → AT)
+Career-aggregated, keyed on `player_id` — 24 names map to more than one player, including four distinct Danilos. Position is minutes-weighted across seasons from `primary_position_hierarchy`; the naive column puts Federico Chiesa and Noni Madueke at centre-back. Players who genuinely moved between roles are flagged `position_ambiguous` (527 of 1,740).
 
-Every match divided into five phases. Shot quality, conversion rates, game state distribution, and momentum signals computed per phase per team per league — including added time, where the data tells a specific story about desperation vs composure.
+Penalties are excluded from every finishing figure and reported separately — at ~0.76 xG each and always struck with the stronger foot, including them would inflate both the preferred-foot share and the residual of anyone on penalty duty.
 
-### Fixture Intelligence
+Foot splits carry a 25-shot floor per cell. A weaker-foot residual on 12 shots is noise, and the block says so instead of inventing a finding.
 
-Fatigue tracking (matches played within 3 days) and derby classification (15 named derbies across all 5 leagues) are built into every analysis. The match predictor surfaces both automatically.
+### Metric semantics
+
+Three columns read backwards from their names, so direction and meaning live in `backend/app/metrics.py` rather than in anyone's head:
+
+- `ppda_allowed` — the press a team *withstands*, not the press it applies
+- `xGD_defence` — `missed - xGA`, a conceding residual. For "best defence", use `xGA_per_game`
+- `xGD_attack` — `scored - xG`, a finishing residual. For "best attack", use `xG_per_game`
+
+Every leaderboard carries its own sort direction and a plain-English caption, so a user reading `xGD_defence` sees "positive is worse" at the point of use.
 
 ---
 
-## Novel Findings
+## Models
 
-Several non-obvious questions answered by the data that no public platform has published. Visit the Novel Findings page on the dashboard to see the results — with annotated charts and the data behind each conclusion.
+**Match outcome (XGBoost).** 51.0% accuracy against a 46.8% calibrated xG-difference baseline; log-loss 1.008 vs 1.037. Features: rank gap, rolling and expanding form, press resistance, H2H as-of-match-date — 44 in total. Class weighting lifted draw recall from 0.09 to 0.31. Every rolling feature applies `shift(1)` before windowing.
+
+Tested and discarded: opponent tier (redundant with rank gap), counter-attack share (0.86% sparse), squad trajectory (cost 80% of training rows).
+
+**xG overperformance (XGBoost).** A rigorous null result across three framings. Documented as a finding rather than hidden.
+
+**Counter-attack proxy.** Understat's `FromCounter` is absent from the scraped data, so it was built from scratch — `lastAction`, zone, and timing composited into a three-tier structure (`regular_play` / `elevated_threat` / `high_confidence_counter`), validated against xG and conversion rate. The tiered version outperformed a binary flag.
 
 ---
 
-## Architecture
+## The Agent
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      OnTarget Platform                       │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Streamlit Dashboard (dark theme)                          │
-│   ├── League Overview                                       │
-│   ├── Team Deep Dive                                        │
-│   │   ├── Season Summary                                    │
-│   │   ├── Per-Game Clinical Rating  ← unique tab            │
-│   │   ├── Heist Games               ← unique tab            │
-│   │   ├── Story Tags                ← unique tab            │
-│   │   ├── Derby Performance         ← unique tab            │
-│   │   ├── Fatigue Analysis          ← unique tab            │
-│   │   └── Form vs xGD Divergence    ← unique tab            │
-│   ├── Player Profile                                        │
-│   │   ├── Z-score anomaly                                   │
-│   │   ├── Peak season detection                             │
-│   │   └── Trajectory label                                  │
-│   ├── Shot Intelligence                                     │
-│   ├── Match Predictor                                       │
-│   ├── Novel Findings                                        │
-│   └── 💬 Agent (floating, always visible)                   │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│                    24 Chart Boilerplates                     │
-│   Agent fills params dict → renders instantly               │
-│   Never writes plot code — only fills parameters            │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│                     Agent Layer (LangGraph)                  │
-│   ├── Router: Llama 3.2 3B — intent classification          │
-│   ├── RAG: ChromaDB over 21 structured findings files       │
-│   ├── DuckDB: live SQL on shots + rosters at runtime        │
-│   ├── predict_match(): XGBoost + derby/fatigue context      │
-│   ├── render_chart(): triggers any of 24 boilerplates       │
-│   ├── update_dashboard_filter(): controls UI state          │
-│   ├── get_derby_analysis(): derby performance tool          │
-│   ├── get_anomaly_players(): z-score freak finder           │
-│   ├── get_form_divergence(): heist streak detector          │
-│   └── Responder: Mistral 7B fine-tuned via MLX/LoRA         │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│                      Prediction Models                       │
-│   ├── match_outcome_predictor (XGBoost) — W/D/L             │
-│   │   Rolling xG, PPDA, ppda_cv, derby/fatigue flags,       │
-│   │   form_xGD_divergence, home advantage decomposition      │
-│   ├── xg_shot_model — game-state + rebound aware P(goal)    │
-│   └── xg_overperformance_predictor (XGBoost) — binary       │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│                       Data Layer                             │
-│   ├── 224k shots — phase, game_state, cross_side,           │
-│   │   shot_zone, is_cross enrichment                        │
-│   ├── 273k rosters — match_id added at source               │
-│   ├── clinical_games.csv — 20 game tags, 11 story tags,     │
-│   │   phase columns, derby/fatigue flags                     │
-│   └── data/rag_findings/ — 21 structured txt files          │
-│       analyst-grade fact blocks per team/league/season       │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+query
+  ↓
+entity resolution ──────── "Spurs" → Tottenham, "last season" → 2024
+  ↓
+router (Llama 3.2 3B) ──── finding | lookup | analysis | prediction | reject
+  ↓
+  ├── finding     → Chroma retrieval only
+  ├── lookup      → one tool call
+  ├── analysis    → retrieval + tools, synthesised
+  ├── prediction  → feature builder → Model A → evidence ledger
+  └── reject      → out of scope
+  ↓
+responder (Mistral 7B, MLX/LoRA) → answer + evidence + viz directive
+  ↓
+chat panel renders the answer; dashboard canvas renders the viz
 ```
 
-### RAG vs DuckDB — Clean Separation
+**Deterministic edges, not a ReAct loop.** A local 7B doing free-form tool calling on 24GB is slow and unreliable, and every retry compounds. The graph's control flow is typed: the router class and resolved slots select the node path, nodes call tools in Python, and the LLM's only job is synthesis over an assembled context block. The LoRA is trained on analyst voice, not tool syntax.
 
-| Query type | Route |
-|------------|-------|
-| Team season stats, consistency, game tags | RAG |
-| League comparisons, novel findings | RAG |
-| Derby performance, fatigue effect | RAG |
-| Player/shot granular queries | DuckDB |
-| Story tag lookups, flag filters | DuckDB |
-| Match prediction | Model |
-| Visual queries | Boilerplate |
+### Retrieval
 
----
+ChromaDB over `data/rag_findings/` — 1,898 chunks: 132 team blocks, 1,740 player blocks, 26 league blocks. `all-MiniLM-L6-v2`, cosine distance.
 
-## Evaluation Framework
+**Filter first, embed second.** The findings files are templated, so every league's pressing block is near-identical prose differing only in numbers — which sentence embeddings barely encode. Unfiltered similarity across those five returns a 0.02 spread, which is noise. So retrieval resolves the entity first and filters via metadata, and embedding search only runs across the survivors. Four modes:
 
-Three-layer eval stack run pre and post fine-tuning:
+| Question shape | Mode |
+|---|---|
+| Names a player | `player_id` filter, n=1 |
+| Names a team | `team` + `kind=team`, n=1 |
+| Names a league and topic | `league` + `topic`, n=1 |
+| Compares leagues | `topic` only, **all five**, responder compares |
+| No entity | open similarity |
 
-**Layer 1 — RAGAS** (RAG pipeline quality)
-Faithfulness, answer relevancy, context precision, context recall.
+The comparison mode matters: a question ranking leagues can't be answered by retrieving one league's chunk, and similarity can't order them.
 
-**Layer 2 — Router Confusion Matrix** (Llama 3B routing accuracy)
-30 test queries with known correct tool selections. Surfaces exactly where the router fails.
+### Tool surface
 
-**Layer 3 — LLM-as-Judge** (end-to-end response quality)
-Claude scores each agent response 1-5 on factual accuracy, groundedness, and relevance.
-
-Target: 80%+ on all three layers. Delta pre/post fine-tuning in the README on completion.
+~35 named FastAPI endpoints over DuckDB, deliberately narrow rather than a generic query interface — chosen so an agent can call them as tools with enum-validated params. They collapse into eight tool wrappers, because tool-selection accuracy degrades well before 30 options and the router is a 3B model.
 
 ---
 
-## Project Structure
+## Stack
+
+| Layer | Tools |
+|---|---|
+| Scraping | Python, aiohttp, asyncio |
+| Processing | pandas, numpy |
+| Storage | DuckDB (persisted, read-only, thread-local cursors) |
+| Vector store | ChromaDB, all-MiniLM-L6-v2 |
+| Models | XGBoost, scikit-learn |
+| Backend | FastAPI |
+| Frontend | React, Vite, TypeScript, Plotly |
+| Agent | LangGraph, Ollama |
+| Fine-tuning | MLX, LoRA, Mistral 7B |
+| Hardware | MacBook Pro M5 Pro 24GB |
+
+Design system: charcoal `#161513`, rust `#C96A4E`, olive `#8FA36E`, slate `#6E88A8` — five colours, each with one job. Newsreader for prose, IBM Plex Mono for codes and measurements. No rounded cards on grey with shadows, no gradients, no icon-per-metric, no rainbow chart series, no spinners.
+
+---
+
+## Structure
 
 ```
 OnTarget/
-├── src/
-│   ├── scrape_understat.py         # Async league/season scraper (aiohttp)
-│   └── scrape_shots.py             # Per-match shot + roster scraper
-│
+├── src/                        # async scrapers
 ├── notebooks/
-│   ├── 01_cleaning_and_loading.ipynb
-│   ├── 02_xG_analysis.ipynb        # Game classification, story tags,
-│   │                               # consistency ratings, RAG findings
-│   ├── 03_counter_attack.ipynb
-│   ├── 04_pressing_vs_results.ipynb
-│   ├── 05_seasonal_trends.ipynb
-│   └── 06_novel_finding.ipynb
-│
-├── models/
-│   ├── match_outcome_predictor.py
-│   ├── xg_shot_model.py
-│   └── xg_overperformance_predictor.py
-│
-├── charts/
-│   └── boilerplates.py             # 24 chart functions, params dict interface
-│
-├── agent/
-│   ├── rag_pipeline.py
-│   ├── agent.py                    # LangGraph multi-model agent
-│   └── fine_tune/                  # Mistral 7B LoRA (MLX)
-│
-├── dashboard/
-│   └── dashboard.py
-│
+│   ├── xg_analysis.ipynb       # tags, consistency, team RAG blocks
+│   ├── counter_attack.ipynb    # counter proxy, shot enrichment
+│   ├── pressing_vs_results.ipynb
+│   ├── seasonal_trends.ipynb
+│   ├── novel_findings.ipynb
+│   ├── player_analysis.ipynb   # career table, positional baselines, player RAG
+│   └── prediction_models.ipynb # Models A and B
+├── backend/app/
+│   ├── main.py                 # ~35 endpoints
+│   ├── db.py                   # thread-local cursors over one read-only connection
+│   ├── tags.py                 # vocabulary derived from schema at startup
+│   ├── metrics.py              # direction + semantics per metric
+│   └── findings.py             # filtered Chroma retrieval
+├── frontend/src/
+│   ├── pages/Dashboard.tsx
+│   └── components/             # 10 Plotly chart types
+├── scripts/
+│   ├── build_db.py             # CSVs → DuckDB, schema-checked
+│   ├── build_chroma.py         # findings → 1,898 chunks
+│   └── export_teams_enriched.py
 ├── data/
-│   ├── processed/                  # Clean CSVs (tracked in git)
-│   └── rag_findings/               # 21 structured txt files
-│
+│   ├── processed/
+│   └── rag_findings/           # 26 structured txt files
 └── eval/
-    └── eval_questions.json         # 30 questions with known answers
+    └── eval_questions.json
 ```
 
 ---
 
-## Tech Stack
+## Evaluation
 
-| Layer | Tools |
-|-------|-------|
-| Data Collection | Python, aiohttp, asyncio |
-| Data Processing | pandas, numpy |
-| Analysis | pandas, scipy, DuckDB |
-| Visualization | mplsoccer, matplotlib, plotly |
-| Prediction | XGBoost, scikit-learn |
-| Vector Store | ChromaDB, nomic-embed-text |
-| LLM Fine-tuning | MLX, LoRA, Mistral 7B |
-| Agent Orchestration | LangGraph |
-| Local LLM Serving | Ollama |
-| Dashboard | Streamlit |
-| Hardware | MacBook Pro M5 Pro 24GB |
+Three layers, run pre and post fine-tuning:
+
+- **RAGAS** — faithfulness, answer relevancy, context precision and recall
+- **Router confusion matrix** — weighted asymmetrically, since misrouting `analysis` → `lookup` produces a thin answer while the reverse only costs latency
+- **LLM-as-judge** — end-to-end response quality on factual accuracy, groundedness, relevance
+
+The eval questions were generated as a byproduct of the EDA notebooks, which means they're shaped by what's in the findings files and will inflate retrieval scores. Correcting for that needs `lookup` questions the findings can't answer and deliberate `reject` cases.
+
+---
+
+## Status
+
+| Phase | |
+|---|---|
+| Data collection & cleaning | ✅ |
+| EDA — 6 notebooks | ✅ |
+| Prediction models | ✅ |
+| FastAPI + DuckDB backend | ✅ |
+| React dashboard | ✅ |
+| Player analysis layer | ✅ |
+| Chroma retrieval | ✅ |
+| Feature builder + prediction endpoint | 🔨 |
+| Tool layer & entity resolution | ⏳ |
+| Router + LangGraph | ⏳ |
+| Responder fine-tune | ⏳ |
+| Eval framework | ⏳ |
 
 ---
 
@@ -300,45 +242,34 @@ conda create -n OnTarget python=3.11
 conda activate OnTarget
 pip install -r requirements.txt
 
-# scrape data (5 leagues × 5 seasons + shots/rosters)
+# scrape (5 leagues × 5 seasons, plus shots and rosters)
 python src/scrape_understat.py
 python src/scrape_shots.py
 
-# run notebooks in order (01 → 06)
-jupyter notebook
+# run notebooks, then build the stores
+python scripts/build_db.py
+python scripts/build_chroma.py
 
-# launch dashboard
-streamlit run dashboard/dashboard.py
+# backend
+cd backend && python -m uvicorn app.main:app --reload
 
-# start Ollama models (for agent)
-ollama pull llama3.2:3b
-ollama pull mistral:7b
-ollama pull nomic-embed-text
+# frontend
+cd frontend && npm install && npm run dev
 ```
 
----
-
-## Current Status
-
-| Phase | Status |
-|-------|--------|
-| Data Collection | ✅ Complete |
-| Data Cleaning & Engineering | ✅ Complete |
-| EDA — xG Analysis (notebook 02) | ✅ Complete |
-| EDA — Counter Attack (notebook 03) | ⏳ Planned |
-| EDA — Pressing vs Results (notebook 04) | ⏳ Planned |
-| EDA — Seasonal Trends (notebook 05) | ⏳ Planned |
-| EDA — Novel Findings (notebook 06) | ⏳ Planned |
-| Prediction Models | ⏳ Planned |
-| Dashboard + 24 Boilerplates | ⏳ Planned |
-| Agent Layer | ⏳ Planned |
-| Evaluation | ⏳ Planned |
+`build_db.py` deletes and recreates the database file, so the backend needs a manual restart afterwards — `--reload` watches Python files, not the database.
 
 ---
 
-## Demo
+## Notes
 
-*Screen recording coming on completion — 2-3 minutes of the agent answering real football questions, triggering live dashboard filters, and predicting a match with derby and fatigue context.*
+A few things this project is deliberately not:
+
+**Not live.** Data ends in 2024. Predictions are either hypothetical fixtures as-of a season's end, or replays of real historical matches with the result hidden and then revealed — which makes the demo self-validating.
+
+**Not a custom xG model.** xG values are Understat's. What's built on top is game-state context, phase segmentation, zone classification, and the counter-attack proxy.
+
+**Not broad.** Five leagues, five seasons. The trade is depth: game-state adjusted analysis, a three-vocabulary tag system, positional baselines, and season-over-season consistency profiling that a 1000-competition platform has no room for.
 
 ---
 
