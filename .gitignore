@@ -6,3 +6,8 @@ __pycache__/
 data/ontarget.duckdb
 node_modules/
 data/chroma/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/

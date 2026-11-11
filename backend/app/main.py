@@ -1,8 +1,8 @@
-from __future__ import annotations
-
+import threading
 from contextlib import asynccontextmanager
 from functools import lru_cache
 
+import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -10,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .metrics import METRICS, INVERTED_SEMANTICS
 
 from .db import db
+from . import features as F
 from . import tags as tagmod
 
 
@@ -24,10 +25,29 @@ def df_to_records(df):
 
 
 
+_predictor = {"model": None, "teams": None, "error": None}
+_predict_lock = threading.Lock()
+
+
+def _load_predictor():
+    """Model and team frame are built once at startup. A failure here must not
+    take the dashboard endpoints down, so it is recorded and /api/predict
+    returns 503 with the reason."""
+    try:
+        _predictor["model"] = F.load_model()
+        _predictor["teams"] = F.build_team_frame(db())
+        _predictor["error"] = None
+        print(f"[startup] model loaded, team frame {len(_predictor['teams'])} rows")
+    except Exception as e:
+        _predictor["error"] = f"{type(e).__name__}: {e}"
+        print(f"[startup] predictor unavailable: {_predictor['error']}")
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     tagmod.load_tags(db())
     print(f"[startup] {len(tagmod.TAG_COLS)} tag columns detected")
+    _load_predictor()
     yield
 
 
@@ -613,3 +633,56 @@ def team_squad(team_name: str):
 def player_metrics():
     return [{"metric": k, "label": v[0], "higher_is_better": v[1]}
             for k, v in PLAYER_METRICS.items()]
+
+# ---------------------------------------------------------------- prediction
+
+def _clean(v):
+    """numpy scalars to plain Python, NaN/Inf to None, before JSON."""
+    if isinstance(v, dict):
+        return {k: _clean(x) for k, x in v.items()}
+    if isinstance(v, (list, tuple)):
+        return [_clean(x) for x in v]
+    if isinstance(v, (np.floating, float)):
+        return float(v) if np.isfinite(v) else None
+    if isinstance(v, np.integer):
+        return int(v)
+    if isinstance(v, np.bool_):
+        return bool(v)
+    return v
+
+
+@app.get("/api/predict")
+def predict(home: str, away: str, as_of: str | None = None):
+    """Model A (51.0% accuracy, log-loss 1.008) for one fixture.
+
+    as_of defaults to the day after both teams' last played match, i.e. the
+    next hypothetical fixture. Pass an ISO date to replay a historical one.
+    Returns status='insufficient_data' with null probabilities when any feature
+    is missing (early season, or a masked PPDA outlier in the last 5 matches):
+    the model was trained only on complete rows, so it is not asked to guess.
+    """
+    if _predictor["error"] or _predictor["model"] is None:
+        raise HTTPException(503, f"Prediction unavailable: {_predictor['error']}")
+    if home == away:
+        raise HTTPException(400, "home and away must differ")
+    try:
+        when = pd.Timestamp(as_of) if as_of else None
+    except (ValueError, TypeError):
+        raise HTTPException(400, f"as_of must be an ISO date, got {as_of!r}")
+    try:
+        X, ctx = F.build_features(db(), home, away, as_of=when, teams=_predictor["teams"])
+    except ValueError as e:
+        raise HTTPException(404, str(e))
+
+    out = _clean(ctx)
+    out["features"] = {c: _clean(X.iloc[0][c]) for c in F.FEATURE_COLS}
+    if ctx["missing_features"]:
+        return {**out, "status": "insufficient_data",
+                "probabilities": None, "predicted": None}
+
+    with _predict_lock:
+        proba = _predictor["model"].predict_proba(X)[0]
+    return {**out, "status": "ok",
+            "probabilities": {"away_win": float(proba[0]), "draw": float(proba[1]),
+                              "home_win": float(proba[2])},
+            "predicted": F.TARGET_NAMES[int(np.argmax(proba))]}
